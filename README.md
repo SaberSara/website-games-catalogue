@@ -1,28 +1,93 @@
-# Wonderwood — Learning Games Catalogue V4
+# Wonderwood V4 — K–12 learning catalogue
 
-A friendly, colourful, California-standards-informed educational game catalogue for **Kindergarten to Grade 12**.
+Updated **15 October 2026**. This is an editable static website build. GitHub code integration is separate from publishing a live site. Updated using the approved bright hero-banner screenshot and matching illustrated top navigation. Repository integration is tracked separately.
 
-Open `index.html` to try the fully self-contained version. The source is in `src/`, `data/` and `assets/`. The HTML/CSS/JS is responsive, and its child-facing pages have no ads, trackers or accounts built in. Third-party games follow their own policies.
+## Open the website
 
-## What is included
-- The approved bright, **white-centred forest banner** with the fox, owl, wooden signs and multicolour Wonderwood wordmark.
-- Locally illustrated Home, Subjects, Favorites and Parent/Teacher top-navigation icons (no top-nav emojis).
-- K–12 grade groups, eight subjects, topic filters, search, full-card click, favorites and clear browser/mobile-app badges.
-- Compact thumbnail-first game popup with collapsible grown-up notes.
-- Parent/Teacher curriculum view and local editing/import/export.
+Open **`wonderwood-play.html`** in a modern browser. This portable file includes the interface, artwork, curriculum and starter links. It needs no server to browse; external games need internet access. A file previewer may show HTML source instead of running it—open the downloaded file in a browser.
+
+The catalogue makes no remote requests before a user follows an external destination. It has no analytics, advertisements, child accounts or backend. This does **not** describe the policies of third-party games.
+
+## What changed from V3
+
+- Restored the approved **white-centred bright hero banner** with the exact illustrated left and right signage cropped from the supplied visual reference.
+- Replaced only the four top navigation emoji glyphs with **locally stored glossy illustrated images**: home, book, star, people. Emojis remain in other playful areas.
+- Kept the original multicolour Wonderwood logo, K–12 selector, filterable cards, platform badges, compact thumbnail-first game popup, favorites, parent editor, and motion/accessibility rules.
+- The mobile hero uses softened illustration panels so text and grade controls stay readable.
+
+## What changed from V2
+
+- Keep the approved colorful woodland layout, image-led subject tiles, selected playful emojis and practical UI icons. Not every emoji was replaced.
+- Compact game popup: repeated thumbnail, one-line introduction, device/cost/grade tiles, concise publisher-evidence status, collapsed grown-up notes and one clear launch action.
+- Short labels such as “Subjects”, “All games”, “Explore”, “Open” and “App page”. Detailed curriculum and evidence remain available to adults.
+- All **13 California grade levels, K–12**, grouped into K–2, 3–5, 6–8 and 9–12. These are catalogue navigation groups, not universal subject-standard bands.
+- All grades work in search, subjects, topic filters, quick-topic panels, resource editing and JSON validation. Older-grade subject labels use English, History, Wellbeing, PE & Fitness and Computing.
+- A grade-by-grade set of PhET maths/science simulations, Code.org coding activities, Khan Academy practices, and Starfall elementary games added with scoped documentary evidence. These are suggested editorial mappings, not a standards assessment.
+- Retain full-card activation, independent favorites, clear app/browser indicators, hover/press animations, keyboard operation and reduced-motion support.
+
+## Content scope — important
+
+**433 topic shelves** = the previous 98 Kindergarten/Grade 1 clusters + 335 new starter shelves for Grades 2–12. The new shelves are expressly marked **exact-code review pending**. They are not a full California standards audit, complete course, prescribed pacing sequence or state endorsement. High-school mathematics/science shelves use shared course topics rather than inventing a compulsory grade sequence.
+
+**152 resource records** = 118 visible records supported by publisher advertising-policy statements and 34 candidates withheld from child browsing pending adult review. Resources span all 13 grades and cover 225 of the 433 topic shelves with at least one visible item. A topic association is editorial, not a guarantee of California-standards mastery. Some grade/subject/topic combinations remain empty—especially health, movement, and younger history. Records include collections, app variants, simulations and creative projects, not 152 distinct scored games.
+
+The publisher claim for Khan Academy concerns **third-party advertising**; Khan Academy may show labeled sponsor/supporter messages. This distinction is shown in the adult evidence notes. Code.org courses may require teacher setup or accounts; PhET simulations are explorations rather than quizzes. Starfall offers some member-only activities. Read `docs/RESOURCE-COVERAGE.md`.
+
+**No external games were hands-on play-tested for this build.** Documentary evidence is not a safety guarantee. The visible activity popup says when runtime testing has not occurred. No-ads does not mean no analytics, no purchases, no external links or complete accessibility. PhET's privacy policy discloses limited usage analytics. Thematic artwork is not an official screenshot or endorsement.
+
+Read `docs/CURRICULUM.md` and `docs/CURATION.md` before adding or publishing content.
 
 ## Edit and rebuild
-Edit `data/curriculum.json`, `data/games.json`, `src/template.html`, `src/styles.css`, `src/app.js` and `assets/`.
-Run:
+
+The build and data validation use Python's standard library:
+
 ```sh
-python3 tools/validate.py
-python3 tools/build.py
-python3 -m http.server 8000
+python tools/validate.py
+python tools/build.py
+python -m http.server 8000
 ```
-Then open `http://localhost:8000`. Rebuilding creates a normal static index.html that uses local source files and assets. The initial committed index.html is portable and embeds everything; this is why it can run without a web server. A local editor save does **not** commit to GitHub—export games.json, review, update data, rebuild and commit.
 
-## Content status
-433 editorial topic shelves, including starter Grades 2–12 suggestions rather than a verified full standards audit. 28 starter resource records; 14 have scoped publisher no-ad statements; 14 remain pending review. External games have **not** been independently play-tested. No-ad claims do not guarantee absence of analytics, purchases, third-party links or accessibility barriers.
+Use `python3` where appropriate. The optional final command serves the source folder at `http://localhost:8000`; Ctrl+C stops it. No Node packages, API keys or paid service are needed to run the website. The generated files are `index.html` (separate local assets and source files) and `wonderwood-play.html` (portable all-in-one file). Edit `src/` and `data/`, then rebuild rather than independently editing both generated HTML copies.
 
-## Release status
-Source uploaded to this GitHub repository; **no public GitHub Pages site or deployment is configured** by this commit. Test external destinations, grade fit, accessibility and real-device browser behavior before publishing. See `docs/` for scope and verification notes.
+| Location | Purpose |
+| --- | --- |
+| `src/template.html` | Page structure and accessible controls |
+| `src/styles.css` | Woodland design, compact popup, responsive layouts and motion |
+| `src/app.js` | Navigation, filtering, popup, favorites, local editor and validation |
+| `data/curriculum.json` | Grades, subjects, topics, scope notes and source register |
+| `data/games.json` | Destinations, access, cost, suggested topics and review evidence |
+| `assets/` | Local decorative WebP assets reused from the approved V2 build |
+| `previews/` | Browser-rendered V3 screenshots and comparisons |
+| `docs/reference/` | V2 reference captures for the design comparison |
+
+## Manage links
+
+Open **Parent / Teacher → Manage links**. Add or edit a title, official HTTPS destination, device/access type, price, grades, subjects and topics. New or edited links return to **Review queue**. A curator can record an explicit publisher no-ad statement and attest to a hands-on check; the UI does not independently verify that attestation.
+
+Edits and favorites are **local browser drafts only**. Export `games.json` for backup. To publish a local edit, replace `data/games.json` with that export, run validation/build, and deliberately deploy the generated static files. Importing or saving in this editor does not write to GitHub or update anybody else's browser.
+
+The expanded build retains the V3 draft key `wonderwood-catalogue-v3`; favorites retain the V2 key. **Seed revision 2** merges the 124 newly introduced links into valid legacy drafts while preserving existing titles/notes and intentionally removed V2/V3 records. After migration, the local draft is stamped, so intentionally removing a new game stays removed on subsequent loads. A different filename/origin may not share local storage; JSON export/import is still the reliable handover. Migration tests use an in-memory stub, **not actual browser-origin persistence**.
+
+## Verification
+
+**293 interface checks passed**, plus **15 mocked-storage migration checks**. They cover grade/subject paths, compact popup behavior, full-card/keyboard interactions, favorites, imports, edit/review states, reduced motion and responsive overflow. Check counts include repeated grade/subject/viewport cases; they are not 303 independent feature audits.
+
+The browser tests rendered the actual standalone HTML in headless Chromium through `set_content`. Real local/hosted navigation is blocked by this environment's browser policy. Thus external handoffs, hosted/file-origin persistence, actual app installs, user downloads, Safari/Firefox, real touchscreens and assistive-technology use remain untested.
+
+Optional test tooling (not website runtime dependencies):
+
+```sh
+python -m pip install playwright
+# Install/provide Chromium for your own environment, then set CHROMIUM_PATH if needed.
+python tools/test_ui.py
+python tools/test_migration.py
+python tools/capture.py
+```
+
+The capture script defaults to `/usr/bin/chromium`; edit it or use the environment variable supported by the other test scripts when necessary. The reports and precise limitations are in `docs/VERIFICATION.md`, `docs/ui-test-report.json`, `docs/migration-test-report.json` and `design-qa.md`.
+
+## Before public launch
+
+Verify each exact third-party destination on supported devices, complete educator review of the curriculum and grade fit, test real-origin persistence and external handoffs, perform a proper accessibility review, and decide who can publish catalogue changes. Do not treat the local editor as authenticated administration or the popup as a parental-control/security gate.
+
+GitHub integration status and manual deployment details: `docs/INTEGRATION.md`.
