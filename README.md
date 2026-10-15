@@ -1,5 +1,11 @@
 # Wonderwood V4 — K–12 learning catalogue
 
+## GitHub Pages website
+
+**Publishing is configured but not yet activated.** Open [Settings → Pages](https://github.com/SaberSara/website-games-catalogue/settings/pages), choose **GitHub Actions** under **Build and deployment → Source**, then run or rerun [Deploy Wonderwood to GitHub Pages](https://github.com/SaberSara/website-games-catalogue/actions/workflows/deploy-pages.yml) on `main`. Once the deployment is successful, use the actual website URL shown in Pages settings (normally `https://sabersara.github.io/website-games-catalogue/`).
+
+The workflow validates and rebuilds the source, then uploads only the generated web page, runtime CSS/JavaScript and local images; it automatically republishes after pushes to `main`. See [GitHub Pages setup and eligibility](docs/GITHUB-PAGES.md). The site is publicly accessible even if the code repository remains private. GitHub Pages with private repositories requires an eligible paid plan.
+
 Updated **15 October 2026**. This is an editable static website build. GitHub code integration is separate from publishing a live site. Updated using the approved bright hero-banner screenshot and matching illustrated top navigation. Repository integration is tracked separately.
 
 ## Open the website
