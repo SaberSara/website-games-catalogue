@@ -63,15 +63,30 @@ function validData(v) {
     ids.add(g.id); return true;
   });
 }
-const savedDraft = store.get(DRAFT_KEY, null);
-if (validData(savedDraft)) dataset = savedDraft;
-else {
- const legacy = store.get('wonderwood-catalogue-v2', null);
- if (validData(legacy)) {
-  // Preserve legacy edits and intentional removals; add only newly introduced V3 seeds.
-  dataset = {...legacy, games:[...legacy.games, ...original.games.filter(g => g.id.startsWith('phet-') && !legacy.games.some(old => old.id===g.id))]};
- }
+// Seed revision 2 expands 28 V3 catalogue records into curated K–12 entries.
+// Preserve prior user edits and intentional removals from the old seed set.
+// Append ONLY IDs first introduced in this revision; stamp the draft so that
+// later user removal of a newly added game remains intentional.
+const SEED_REVISION = 2;
+const V3_BASELINE_IDS = new Set(["starfall-abc", "starfall-read", "starfall-an", "starfall-at", "starfall-en", "starfall-vowels", "khan-kids", "tym-numbers-ios", "tym-eating-ios", "tym-read-web", "tym-numbers-web", "tym-eating-web", "tym-reading-fun", "mlc-frames", "mlc-pieces", "mlc-shapes", "mlc-clock", "pbs-scribbles", "pbs-animal-home", "pbs-city", "pbs-pink", "scratchjr", "tuxpaint", "phet-equality-explorer-basics", "phet-area-builder", "phet-number-line-integers", "phet-graphing-lines", "phet-build-an-atom"]);
+const V2_BASELINE_IDS = new Set([...V3_BASELINE_IDS].filter(id => !id.startsWith('phet-')));
+function adoptNewSeeds(draft, oldIds) {
+  const seen = new Set(draft.games.map(g=>g.id));
+  const additions = original.games.filter(g=>!oldIds.has(g.id) && !seen.has(g.id));
+  return {...draft, seedRevision:SEED_REVISION, games:[...draft.games, ...additions]};
 }
+const savedDraft = store.get(DRAFT_KEY, null);
+if (validData(savedDraft)) {
+  dataset = savedDraft.seedRevision >= SEED_REVISION ? savedDraft : adoptNewSeeds(savedDraft, V3_BASELINE_IDS);
+  if (dataset !== savedDraft) store.set(DRAFT_KEY, dataset);
+} else {
+  const legacy = store.get('wonderwood-catalogue-v2', null);
+  if (validData(legacy)) {
+    dataset = adoptNewSeeds(legacy, V2_BASELINE_IDS);
+    store.set(DRAFT_KEY, dataset);
+  }
+}
+
 const icons = {
   play:'<path d="m8 4 13 8-13 8Z"/>',
   coin:'<circle cx="12" cy="12" r="9"/><path d="M15 8h-4a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4H9m3-10v12"/>',
