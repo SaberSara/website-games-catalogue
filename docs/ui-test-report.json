@@ -1,0 +1,1189 @@
+{
+  "version": "3",
+  "date": "2026-10-15",
+  "passed": 293,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Expanded K\u201312 catalogue passes browser validation",
+      "result": "passed"
+    },
+    {
+      "check": "13 grade records, K\u201312",
+      "result": "passed"
+    },
+    {
+      "check": "433 topic shelves loaded",
+      "result": "passed"
+    },
+    {
+      "check": "Eight subject buttons preserved",
+      "result": "passed"
+    },
+    {
+      "check": "Four illustrated navigation icons replace top emojis",
+      "result": "passed"
+    },
+    {
+      "check": "Five initial desktop featured cards",
+      "result": "passed"
+    },
+    {
+      "check": "Four grade-group controls",
+      "result": "passed"
+    },
+    {
+      "check": "Shortened All games label",
+      "result": "passed"
+    },
+    {
+      "check": "Mobile app is not mislabeled browser",
+      "result": "passed"
+    },
+    {
+      "check": "Trial is not labeled free",
+      "result": "passed"
+    },
+    {
+      "check": "No nested interactive controls",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: full-card corner opens dialog",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: thumbnail repeated at top",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: three compact metadata tiles",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: grown-up notes collapsed by default",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: no false playtest claim",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: external-link isolation",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: new-tab destination",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: exact official URL retained",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: collapsed popup has fewer than 90 visible words",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: notes open on demand",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: evidence retained in notes",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: action visible with notes expanded",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: Escape closes dialog",
+      "result": "passed"
+    },
+    {
+      "check": "khan-kids: focus returns to source card",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: full-card corner opens dialog",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: thumbnail repeated at top",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: three compact metadata tiles",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: grown-up notes collapsed by default",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: no false playtest claim",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: external-link isolation",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: new-tab destination",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: exact official URL retained",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: collapsed popup has fewer than 90 visible words",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: notes open on demand",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: evidence retained in notes",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: action visible with notes expanded",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: Escape closes dialog",
+      "result": "passed"
+    },
+    {
+      "check": "starfall-abc: focus returns to source card",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: full-card corner opens dialog",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: thumbnail repeated at top",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: three compact metadata tiles",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: grown-up notes collapsed by default",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: no false playtest claim",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: external-link isolation",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: new-tab destination",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: exact official URL retained",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: collapsed popup has fewer than 90 visible words",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: notes open on demand",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: evidence retained in notes",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: action visible with notes expanded",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: Escape closes dialog",
+      "result": "passed"
+    },
+    {
+      "check": "tym-numbers-ios: focus returns to source card",
+      "result": "passed"
+    },
+    {
+      "check": "Enter opens a keyboard-focused card",
+      "result": "passed"
+    },
+    {
+      "check": "Favorite button does not launch details",
+      "result": "passed"
+    },
+    {
+      "check": "Favorite pressed state updates",
+      "result": "passed"
+    },
+    {
+      "check": "Favorites filter works",
+      "result": "passed"
+    },
+    {
+      "check": "Band 0: correct grade controls",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade K/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 1/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 2/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Band 1: correct grade controls",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 3/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 4/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 5/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Band 2: correct grade controls",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 6/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 7/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 8/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Band 3: correct grade controls",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 9/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 10/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 11/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12: selection works",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12: accessible selected state",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12: only mapped resources",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12: at least one starter activity",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12: quick topics have real IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/ela: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/math: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/science: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/hss: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/arts: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/health: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/pe: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12/cs: subject filter",
+      "result": "passed"
+    },
+    {
+      "check": "Older grades use age-appropriate subject labels",
+      "result": "passed"
+    },
+    {
+      "check": "Explore filter includes interactive simulations",
+      "result": "passed"
+    },
+    {
+      "check": "Device filter excludes browser sims from apps",
+      "result": "passed"
+    },
+    {
+      "check": "Unfilled filter has an honest empty state",
+      "result": "passed"
+    },
+    {
+      "check": "All games expands current-grade catalogue",
+      "result": "passed"
+    },
+    {
+      "check": "Search filters current grade by publisher/title",
+      "result": "passed"
+    },
+    {
+      "check": "Clear search works",
+      "result": "passed"
+    },
+    {
+      "check": "Subject shows grade-specific topics",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects unsupported grade",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects unknown topic",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects mismatched topic",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects non-HTTPS URL",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects credentials in URL",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects invalid artwork path",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects unsupported platform",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects missing ad evidence",
+      "result": "passed"
+    },
+    {
+      "check": "Import rejects duplicate IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Adult map exposes all 13 grades",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12 map populated",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12 contains democracy/economics shelves",
+      "result": "passed"
+    },
+    {
+      "check": "New mapping scope disclosed",
+      "result": "passed"
+    },
+    {
+      "check": "Link editor exposes 13 grade checkboxes",
+      "result": "passed"
+    },
+    {
+      "check": "Editor topics respect selected Grade 12 and math",
+      "result": "passed"
+    },
+    {
+      "check": "Grade 12 game saves into review queue",
+      "result": "passed"
+    },
+    {
+      "check": "Unreviewed new record is hidden from child catalogue",
+      "result": "passed"
+    },
+    {
+      "check": "Review form does not inherit compact-game layout",
+      "result": "passed"
+    },
+    {
+      "check": "Approval still requires both evidence and play-check attestations",
+      "result": "passed"
+    },
+    {
+      "check": "Import restores 152-resource supplied dataset",
+      "result": "passed"
+    },
+    {
+      "check": "Export produces valid 152-record JSON payload",
+      "result": "passed"
+    },
+    {
+      "check": "Imported title is HTML-escaped",
+      "result": "passed"
+    },
+    {
+      "check": "320px: no page horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "320px: visible raster assets load",
+      "result": "passed"
+    },
+    {
+      "check": "320px: popup no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "320px: primary popup action visible",
+      "result": "passed"
+    },
+    {
+      "check": "390px: no page horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "390px: visible raster assets load",
+      "result": "passed"
+    },
+    {
+      "check": "390px: popup no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "390px: primary popup action visible",
+      "result": "passed"
+    },
+    {
+      "check": "600px: no page horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "600px: visible raster assets load",
+      "result": "passed"
+    },
+    {
+      "check": "600px: popup no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "600px: primary popup action visible",
+      "result": "passed"
+    },
+    {
+      "check": "768px: no page horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "768px: visible raster assets load",
+      "result": "passed"
+    },
+    {
+      "check": "768px: popup no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "768px: primary popup action visible",
+      "result": "passed"
+    },
+    {
+      "check": "1024px: no page horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "1024px: visible raster assets load",
+      "result": "passed"
+    },
+    {
+      "check": "1024px: popup no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "1024px: primary popup action visible",
+      "result": "passed"
+    },
+    {
+      "check": "1440px: no page horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "1440px: visible raster assets load",
+      "result": "passed"
+    },
+    {
+      "check": "1440px: popup no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "1440px: primary popup action visible",
+      "result": "passed"
+    },
+    {
+      "check": "1920px: no page horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "1920px: visible raster assets load",
+      "result": "passed"
+    },
+    {
+      "check": "1920px: popup no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "check": "1920px: primary popup action visible",
+      "result": "passed"
+    },
+    {
+      "check": "Reduced-motion disables press animation",
+      "result": "passed"
+    },
+    {
+      "check": "Reduced-motion disables control transitions",
+      "result": "passed"
+    },
+    {
+      "check": "Grade button has hover feedback",
+      "result": "passed"
+    },
+    {
+      "check": "No uncaught JavaScript errors during tests",
+      "result": "passed"
+    },
+    {
+      "check": "No network requests from standalone catalogue interactions",
+      "result": "passed"
+    }
+  ],
+  "browser": "Headless Chromium / Playwright, set_content",
+  "consoleErrors": [],
+  "networkRequests": [],
+  "limitations": [
+    "Real navigation blocked by browser policy; hosted/file-origin persistence not tested.",
+    "No external games, app installs, external link handoffs or actual user downloads were tested.",
+    "No real touchscreen, assistive-technology, Safari or Firefox testing.",
+    "Curriculum expansion is a starter editorial map, not a standards-completeness audit."
+  ]
+}
