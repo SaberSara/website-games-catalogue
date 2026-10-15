@@ -1,0 +1,70 @@
+name: Deploy Wonderwood to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and publish the learning catalogue
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate catalogue and build website
+        run: |
+          python tools/validate.py
+          python tools/build.py
+          python - <<'PY'
+          from pathlib import Path
+          html = Path('index.html').read_text(encoding='utf-8')
+          assert '__GAMES__' not in html and '__CURRICULUM__' not in html
+          assert 'src/styles.css' in html and 'src/app.js' in html
+          assert 'assets/wordmark.webp' in html
+          assert Path('src/styles.css').is_file() and Path('src/app.js').is_file()
+          for asset in ('hero-left.webp', 'hero-right.webp', 'nav-home.png', 'nav-grownups.png'):
+              assert (Path('assets') / asset).is_file(), asset
+          print('Static site entry point and key assets verified')
+          PY
+
+      - name: Stage public website files only
+        run: |
+          mkdir -p _site/src _site/assets
+          cp index.html _site/index.html
+          cp src/styles.css src/app.js _site/src/
+          cp -R assets/. _site/assets/
+          touch _site/.nojekyll
+          test -s _site/index.html
+          test -s _site/src/styles.css
+          test -s _site/src/app.js
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
