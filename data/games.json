@@ -1,0 +1,1238 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-15",
+  "policy": "Child preview includes only records with an explicit, scoped publisher no-ad claim. This is documentary review, not hands-on certification. Review queue is grown-up only.",
+  "games": [
+    {
+      "id": "starfall-abc",
+      "title": "Starfall ABCs",
+      "publisher": "Starfall",
+      "url": "https://www.starfall.com/h/abcs/",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "K"
+      ],
+      "topicIds": [
+        "k-print",
+        "k-phonics"
+      ],
+      "kind": "Activity collection",
+      "platform": "browser",
+      "access": "Browser · no account for guest activities",
+      "priceLabel": "Free activity",
+      "description": "Meet the alphabet, one letter at a time.",
+      "art": "letters",
+      "sourceIds": [
+        "starfall-abc",
+        "starfall-privacy"
+      ],
+      "learningSuggestion": "Choose three letters, say their sounds, then find those letters in a book.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "starfall-privacy",
+        "evidenceScope": "Starfall websites and apps",
+        "notes": "The wider Starfall service also offers paid membership content. This record is the public ABC activity."
+      },
+      "featured": true,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "starfall-read",
+      "title": "Starfall Learn to Read",
+      "publisher": "Starfall",
+      "url": "https://www.starfall.com/h/ltr-classic/",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-phonics",
+        "k-read",
+        "1-phonics",
+        "1-fluency"
+      ],
+      "kind": "Activity collection",
+      "platform": "browser",
+      "access": "Browser · guest access",
+      "priceLabel": "Free collection",
+      "description": "Play with sounds and explore little books.",
+      "art": "book",
+      "sourceIds": [
+        "starfall-read",
+        "starfall-privacy"
+      ],
+      "learningSuggestion": "Choose a sound-pattern activity, then its companion text.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "starfall-privacy",
+        "evidenceScope": "Starfall websites and apps",
+        "notes": "Includes both mini-games and books; not every item is a game. Select a suitable reading level."
+      },
+      "featured": true,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "starfall-an",
+      "title": "Make a Word: -an",
+      "publisher": "Starfall",
+      "url": "https://www.starfall.com/h/ltr-sv-a/maw-an/?sn=ltr-classic",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-phonics",
+        "1-phonics"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Browser · guest access",
+      "priceLabel": "Free activity",
+      "description": "Put letters together to make -an words.",
+      "art": "letters",
+      "sourceIds": [
+        "starfall-read",
+        "starfall-privacy"
+      ],
+      "learningSuggestion": "Read each word aloud and explain the sound pattern.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "starfall-privacy",
+        "evidenceScope": "Starfall websites and apps",
+        "notes": "Direct activity URL found on the official Learn to Read page; gameplay is JavaScript-based and was not runtime-tested."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "starfall-at",
+      "title": "Make a Word: -at",
+      "publisher": "Starfall",
+      "url": "https://www.starfall.com/h/ltr-sv-a/maw-at/?sn=ltr-classic",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-phonics",
+        "1-phonics"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Browser · guest access",
+      "priceLabel": "Free activity",
+      "description": "Build and read a family of -at words.",
+      "art": "letters",
+      "sourceIds": [
+        "starfall-read",
+        "starfall-privacy"
+      ],
+      "learningSuggestion": "Read each word aloud and explain the sound pattern.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "starfall-privacy",
+        "evidenceScope": "Starfall websites and apps",
+        "notes": "Direct activity URL found on the official Learn to Read page; gameplay is JavaScript-based and was not runtime-tested."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "starfall-en",
+      "title": "Make a Word: -en",
+      "publisher": "Starfall",
+      "url": "https://www.starfall.com/h/ltr-sv-e/maw-en/?sn=ltr-classic",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-phonics",
+        "1-phonics"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Browser · guest access",
+      "priceLabel": "Free activity",
+      "description": "Explore a short-e word family.",
+      "art": "letters",
+      "sourceIds": [
+        "starfall-read",
+        "starfall-privacy"
+      ],
+      "learningSuggestion": "Read each word aloud and explain the sound pattern.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "starfall-privacy",
+        "evidenceScope": "Starfall websites and apps",
+        "notes": "Direct activity URL found on the official Learn to Read page; gameplay is JavaScript-based and was not runtime-tested."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "starfall-vowels",
+      "title": "Sorting Vowel Teams",
+      "publisher": "Starfall",
+      "url": "https://www.starfall.com/h/ltr-pc-vt/sort-vowelteam/?sn=ltr-classic",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "1"
+      ],
+      "topicIds": [
+        "1-phonics"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Browser · guest access",
+      "priceLabel": "Free activity",
+      "description": "Sort words by their vowel teams.",
+      "art": "letters",
+      "sourceIds": [
+        "starfall-read",
+        "starfall-privacy"
+      ],
+      "learningSuggestion": "Read each word aloud and explain the sound pattern.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "starfall-privacy",
+        "evidenceScope": "Starfall websites and apps",
+        "notes": "Direct activity URL found on the official Learn to Read page; gameplay is JavaScript-based and was not runtime-tested."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "khan-kids",
+      "title": "Khan Academy Kids",
+      "publisher": "Khan Academy",
+      "url": "https://en.khanacademy.org/kids",
+      "subjects": [
+        "ela",
+        "math",
+        "health"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-print",
+        "k-phonics",
+        "k-read",
+        "k-count",
+        "k-join",
+        "k-feelings",
+        "1-phonics",
+        "1-fluency",
+        "1-add"
+      ],
+      "kind": "Learning app",
+      "platform": "app",
+      "access": "Mobile app · iOS / Android / Amazon; supported Chromebooks · grown-up setup",
+      "priceLabel": "Free app",
+      "description": "Join friendly characters for reading and number play.",
+      "art": "friends",
+      "sourceIds": [
+        "khan-kids",
+        "khan-devices"
+      ],
+      "learningSuggestion": "A grown-up chooses a skill and checks the lesson matches today’s objective.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "khan-kids",
+        "evidenceScope": "Free Khan Academy Kids mobile app; school administration products are separate",
+        "notes": "Install the mobile app. This is not a browser mini-game. Exact lesson availability and lesson-to-standard mapping need in-app review; broad topic tags are suggestions."
+      },
+      "featured": true,
+      "devices": [
+        "ios",
+        "android",
+        "amazon",
+        "chromeos"
+      ]
+    },
+    {
+      "id": "tym-numbers-ios",
+      "title": "Teach Monster: Number Skills",
+      "publisher": "Teach Your Monster",
+      "url": "https://apps.apple.com/us/app/math-teach-monster-numbers/id1507984567",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-count",
+        "k-compare",
+        "k-join",
+        "k-bonds",
+        "1-add",
+        "1-strategies",
+        "1-place"
+      ],
+      "kind": "Game adventure",
+      "platform": "app",
+      "access": "iPhone / iPad · grown-up setup",
+      "priceLabel": "Free trial · paid unlock",
+      "description": "Count, combine and discover numbers through play.",
+      "art": "numbers",
+      "sourceIds": [
+        "tym-number-ios",
+        "tym-number"
+      ],
+      "learningSuggestion": "Choose counting within 5 or 10 for Kindergarten; use a matching number range for Grade 1.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "tym-number-ios",
+        "evidenceScope": "Developer description of iOS app; not a blanket browser audit",
+        "notes": "This record is the iOS app: the listing says no ads but has in-app subscription purchases. A free computer version exists and is separately queued for browser review. Avoid multiplication/other extension levels outside K–1 targets."
+      },
+      "featured": true,
+      "devices": [
+        "ios"
+      ]
+    },
+    {
+      "id": "tym-eating-ios",
+      "title": "Teach Monster: Adventurous Eating",
+      "publisher": "Teach Your Monster",
+      "url": "https://apps.apple.com/us/app/teach-your-monster-eating/id1453672052",
+      "subjects": [
+        "health"
+      ],
+      "grades": [
+        "K"
+      ],
+      "topicIds": [
+        "k-food",
+        "k-grow"
+      ],
+      "kind": "Game adventure",
+      "platform": "app",
+      "access": "iPhone / iPad · grown-up setup",
+      "priceLabel": "Free download · paid content",
+      "description": "Explore fruit, vegetables and a little garden.",
+      "art": "garden",
+      "sourceIds": [
+        "tym-eating-ios",
+        "tym-eating"
+      ],
+      "learningSuggestion": "Describe a fruit using words about appearance or texture; real food exploration is optional.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "tym-eating-ios",
+        "evidenceScope": "Developer description of iOS app",
+        "notes": "The iOS listing states no ads and shows in-app purchases. Do not equate no ads with no payment. Respect sensory needs; no pressure to taste foods."
+      },
+      "featured": true,
+      "devices": [
+        "ios"
+      ]
+    },
+    {
+      "id": "tym-read-web",
+      "title": "Teach Your Monster to Read",
+      "publisher": "Teach Your Monster",
+      "url": "https://www.teachyourmonster.org/teach-your-monster-to-read/",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-phonics",
+        "k-read",
+        "1-phonics",
+        "1-fluency"
+      ],
+      "kind": "Game adventure",
+      "platform": "browser",
+      "access": "Browser · adult account and email verification",
+      "priceLabel": "Free on computers",
+      "description": "Teach a little monster to read on an adventure.",
+      "art": "monster",
+      "sourceIds": [
+        "tym-read",
+        "tym-privacy"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Free desktop access is confirmed. Current web-specific no-ad confirmation and a child-session runtime check remain pending; older promotional no-ad claims are insufficient for a fresh audit. Phonics pronunciation/sequence should match local instruction."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "tym-numbers-web",
+      "title": "Number Skills — browser",
+      "publisher": "Teach Your Monster",
+      "url": "https://www.teachyourmonster.org/number-skills/",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-count",
+        "k-bonds",
+        "1-add",
+        "1-place"
+      ],
+      "kind": "Game adventure",
+      "platform": "browser",
+      "access": "Browser · adult account and email verification",
+      "priceLabel": "Free on computers",
+      "description": "Explore a number park through mini-games.",
+      "art": "numbers",
+      "sourceIds": [
+        "tym-number",
+        "tym-number-ios",
+        "tym-privacy"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Free desktop access confirmed. No-ad evidence retrieved is explicit for the iOS app, not a completed browser-session audit. Scope the number range and skip out-of-grade multiplication."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "tym-eating-web",
+      "title": "Adventurous Eating — browser",
+      "publisher": "Teach Your Monster",
+      "url": "https://www.teachyourmonster.org/adventurous-eating/",
+      "subjects": [
+        "health",
+        "science"
+      ],
+      "grades": [
+        "K"
+      ],
+      "topicIds": [
+        "k-food",
+        "k-grow",
+        "k-needs"
+      ],
+      "kind": "Game adventure",
+      "platform": "browser",
+      "access": "Browser · adult account and email verification",
+      "priceLabel": "Free on computers",
+      "description": "Explore food, growing and a sensory adventure.",
+      "art": "garden",
+      "sourceIds": [
+        "tym-eating",
+        "tym-eating-ios"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Browser no-ad check pending. A plant-needs discussion is an editorial extension, not proof that this game fulfils K-LS1-1 investigation requirements."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "tym-reading-fun",
+      "title": "Reading for Fun",
+      "publisher": "Teach Your Monster",
+      "url": "https://www.teachyourmonster.org/reading-for-fun/",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-stories",
+        "1-stories"
+      ],
+      "kind": "Game adventure",
+      "platform": "browser",
+      "access": "Browser · adult account",
+      "priceLabel": "Free on computers",
+      "description": "Explore a world of books and reading quests.",
+      "art": "book",
+      "sourceIds": [
+        "tym-fun",
+        "tym-read",
+        "tym-privacy"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Current no-ad and access flow verification pending. Adult help may be needed for beginning readers."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "mlc-frames",
+      "title": "Number Frames",
+      "publisher": "The Math Learning Center",
+      "url": "https://apps.mathlearningcenter.org/number-frames/",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-count",
+        "k-bonds",
+        "k-teen",
+        "1-strategies"
+      ],
+      "kind": "Creative tool",
+      "platform": "browser",
+      "access": "Browser · no account required",
+      "priceLabel": "Free tool",
+      "description": "Build numbers with counters in five- and ten-frames.",
+      "art": "numbers",
+      "sourceIds": [
+        "mlc-apps",
+        "mlc-privacy"
+      ],
+      "learningSuggestion": "Build 7, then describe how many more make 10.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Open-ended mathematical tool, not a scored mini-game. Free/no required personal information confirmed; explicit blanket no-ad assurance and runtime review still pending. App policy discloses analytics. Sharing features require an adult’s review."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "mlc-pieces",
+      "title": "Number Pieces",
+      "publisher": "The Math Learning Center",
+      "url": "https://apps.mathlearningcenter.org/number-pieces/",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-teen",
+        "1-place",
+        "1-base"
+      ],
+      "kind": "Creative tool",
+      "platform": "browser",
+      "access": "Browser · no account required",
+      "priceLabel": "Free tool",
+      "description": "Build and compare numbers using base-ten pieces.",
+      "art": "blocks",
+      "sourceIds": [
+        "mlc-apps",
+        "mlc-privacy"
+      ],
+      "learningSuggestion": "Show 26 with tens and ones, then make 10 more.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Open-ended mathematical tool, not a scored mini-game. Free/no required personal information confirmed; explicit blanket no-ad assurance and runtime review still pending. App policy discloses analytics. Sharing features require an adult’s review."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "mlc-shapes",
+      "title": "Pattern Shapes",
+      "publisher": "The Math Learning Center",
+      "url": "https://apps.mathlearningcenter.org/pattern-shapes/",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-shapes",
+        "1-shapes"
+      ],
+      "kind": "Creative tool",
+      "platform": "browser",
+      "access": "Browser · no account required",
+      "priceLabel": "Free tool",
+      "description": "Make pictures and explore how shapes fit together.",
+      "art": "shapes",
+      "sourceIds": [
+        "mlc-apps",
+        "mlc-privacy"
+      ],
+      "learningSuggestion": "Compose a larger shape; name its smaller parts.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Open-ended mathematical tool, not a scored mini-game. Free/no required personal information confirmed; explicit blanket no-ad assurance and runtime review still pending. App policy discloses analytics. Sharing features require an adult’s review."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "mlc-clock",
+      "title": "Math Clock",
+      "publisher": "The Math Learning Center",
+      "url": "https://apps.mathlearningcenter.org/math-clock/",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "1"
+      ],
+      "topicIds": [
+        "1-time"
+      ],
+      "kind": "Creative tool",
+      "platform": "browser",
+      "access": "Browser · no account required",
+      "priceLabel": "Free tool",
+      "description": "Move clock hands to explore hours and half-hours.",
+      "art": "clock",
+      "sourceIds": [
+        "mlc-apps",
+        "mlc-privacy"
+      ],
+      "learningSuggestion": "Set 3 o’clock and half past 3; connect each to a daily event.",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Open-ended mathematical tool, not a scored mini-game. Free/no required personal information confirmed; explicit blanket no-ad assurance and runtime review still pending. App policy discloses analytics. Sharing features require an adult’s review."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "pbs-scribbles",
+      "title": "Scribbles and Ink",
+      "publisher": "PBS KIDS",
+      "url": "https://www.pbs.org/parents/shows/scribbles-and-ink",
+      "subjects": [
+        "arts"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-arts-visual",
+        "1-arts-visual"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Publisher information page · direct launch pending",
+      "priceLabel": "Free per publisher",
+      "description": "Draw pictures that become part of an adventure.",
+      "art": "palette",
+      "sourceIds": [
+        "pbs-drawing",
+        "pbs-privacy"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Publisher confirms the activity. Record currently points to the official grown-up information page, not a verified direct game launch. Inspect the exact game for sponsor messages, cross-promotion, links and ads before publication."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "pbs-animal-home",
+      "title": "Arthur: Animal Home Builder",
+      "publisher": "PBS KIDS",
+      "url": "https://www.pbs.org/parents/shows/arthur",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-habitats",
+        "k-engineer",
+        "1-engineer"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Publisher information page · direct launch pending",
+      "priceLabel": "Free per publisher",
+      "description": "Build an animal home with a blueprint.",
+      "art": "house",
+      "sourceIds": [
+        "pbs-arthur",
+        "pbs-privacy"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Publisher confirms the activity. Record currently points to the official grown-up information page, not a verified direct game launch. Inspect the exact game for sponsor messages, cross-promotion, links and ads before publication."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "pbs-city",
+      "title": "City Island Adventure",
+      "publisher": "PBS KIDS",
+      "url": "https://www.pbs.org/parents/shows/city-island",
+      "subjects": [
+        "hss"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-work",
+        "k-maps",
+        "1-citizens",
+        "1-maps"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Publisher information page · direct launch pending",
+      "priceLabel": "Free per publisher",
+      "description": "Explore a community and help its neighbors.",
+      "art": "house",
+      "sourceIds": [
+        "pbs-city",
+        "pbs-privacy"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Publisher confirms the activity. Record currently points to the official grown-up information page, not a verified direct game launch. Inspect the exact game for sponsor messages, cross-promotion, links and ads before publication."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "pbs-pink",
+      "title": "Pinkamazing Family Game",
+      "publisher": "PBS KIDS",
+      "url": "https://www.pbs.org/parents/thrive/pbs-kids-games-to-play-together",
+      "subjects": [
+        "arts",
+        "pe"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-arts-theatre",
+        "1-arts-theatre",
+        "k-pe-move",
+        "1-pe-move"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Publisher information page · direct launch pending",
+      "priceLabel": "Free per publisher",
+      "description": "Make, move and pretend together.",
+      "art": "palette",
+      "sourceIds": [
+        "pbs-together",
+        "pbs-privacy"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Publisher confirms the activity. Record currently points to the official grown-up information page, not a verified direct game launch. Inspect the exact game for sponsor messages, cross-promotion, links and ads before publication."
+      },
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "scratchjr",
+      "title": "ScratchJr",
+      "publisher": "ScratchJr",
+      "url": "https://apps.apple.com/au/app/scratchjr/id895485086",
+      "subjects": [
+        "cs",
+        "arts"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-cs-steps",
+        "1-cs-steps",
+        "k-arts-media",
+        "1-arts-media"
+      ],
+      "kind": "Creative app",
+      "platform": "app",
+      "access": "App · grown-up install",
+      "priceLabel": "Free app",
+      "description": "Make characters move and tell your own story.",
+      "art": "code",
+      "sourceIds": [
+        "scratchjr"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Ages 5–7 in developer description. Creative coding tool, not a ready-made curriculum game. No-ad and privacy review pending; do not confuse with third-party clones."
+      },
+      "featured": false,
+      "devices": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "tuxpaint",
+      "title": "Tux Paint — official desktop",
+      "publisher": "Tux Paint",
+      "url": "https://tuxpaint.org/download/",
+      "subjects": [
+        "arts"
+      ],
+      "grades": [
+        "K",
+        "1"
+      ],
+      "topicIds": [
+        "k-arts-visual",
+        "1-arts-visual"
+      ],
+      "kind": "Creative app",
+      "platform": "app",
+      "access": "Desktop · grown-up install",
+      "priceLabel": "Free open-source app",
+      "description": "Paint, stamp and make your own picture.",
+      "art": "palette",
+      "sourceIds": [
+        "tuxpaint"
+      ],
+      "learningSuggestion": "",
+      "alignmentStatus": "editorial suggested practice; not independently certified or a mastery assessment",
+      "review": {
+        "status": "needs_review",
+        "reviewedOn": "2026-10-14",
+        "method": "Publisher product pages and policies; no hands-on gameplay audit",
+        "runtimeTested": false,
+        "adEvidenceSourceId": null,
+        "evidenceScope": "",
+        "notes": "Use the official desktop distribution only. Publisher warns that an unofficial iOS port contains ads. Desktop runtime/no-ad review remains pending."
+      },
+      "featured": false,
+      "devices": [
+        "desktop"
+      ]
+    },
+    {
+      "id": "phet-equality-explorer-basics",
+      "title": "Equality Explorer: Basics",
+      "publisher": "PhET · University of Colorado Boulder",
+      "url": "https://phet.colorado.edu/en/simulations/equality-explorer-basics",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "2-math-add-and-subtract",
+        "3-math-multiply-and-divide",
+        "4-math-multi-digit-operations",
+        "5-math-patterns-and-expressions"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "devices": [
+        "browser"
+      ],
+      "priceLabel": "Free simulation",
+      "access": "Browser · no student account. Check exact device and controls on the publisher page.",
+      "description": "Balance both sides",
+      "sourceIds": [
+        "phet-equality-explorer-basics",
+        "phet-policy"
+      ],
+      "featured": true,
+      "art": "numbers",
+      "thumbnailAsset": "subject-math.webp",
+      "alignmentStatus": "Suggested introductory or review practice; not full-standard coverage. High-school placement depends on the selected course.",
+      "learningSuggestion": "Explore the simulation with a teacher or grown-up, then explain a prediction and an observation.",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-15",
+        "method": "Publisher product and privacy documentation only",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "phet-policy",
+        "evidenceScope": "Official PhET website and simulations; not third-party hosts or integrations.",
+        "notes": "Publisher states no advertisements. Limited usage analytics are disclosed. Linked publisher pages were researched; the simulation, external handoff, device controls and suggested grade fit have not been hands-on audited. Preview illustration is thematic, not a screenshot."
+      }
+    },
+    {
+      "id": "phet-area-builder",
+      "title": "Area Builder",
+      "publisher": "PhET · University of Colorado Boulder",
+      "url": "https://phet.colorado.edu/en/simulations/area-builder",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "topicIds": [
+        "3-math-area-and-perimeter",
+        "4-math-angles-and-shapes",
+        "5-math-coordinate-grids",
+        "6-math-area-and-volume"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "devices": [
+        "browser"
+      ],
+      "priceLabel": "Free simulation",
+      "access": "Browser · no student account. Check exact device and controls on the publisher page.",
+      "description": "Build shapes. Explore area.",
+      "sourceIds": [
+        "phet-area-builder",
+        "phet-policy"
+      ],
+      "featured": true,
+      "art": "numbers",
+      "thumbnailAsset": "subject-math.webp",
+      "alignmentStatus": "Suggested introductory or review practice; not full-standard coverage. High-school placement depends on the selected course.",
+      "learningSuggestion": "Explore the simulation with a teacher or grown-up, then explain a prediction and an observation.",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-15",
+        "method": "Publisher product and privacy documentation only",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "phet-policy",
+        "evidenceScope": "Official PhET website and simulations; not third-party hosts or integrations.",
+        "notes": "Publisher states no advertisements. Limited usage analytics are disclosed. Linked publisher pages were researched; the simulation, external handoff, device controls and suggested grade fit have not been hands-on audited. Preview illustration is thematic, not a screenshot."
+      }
+    },
+    {
+      "id": "phet-number-line-integers",
+      "title": "Number Line: Integers",
+      "publisher": "PhET · University of Colorado Boulder",
+      "url": "https://phet.colorado.edu/en/simulations/number-line-integers",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "6",
+        "7"
+      ],
+      "topicIds": [
+        "6-math-integers-and-fractions",
+        "7-math-rational-numbers"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "devices": [
+        "browser"
+      ],
+      "priceLabel": "Free simulation",
+      "access": "Browser · no student account. Check exact device and controls on the publisher page.",
+      "description": "Explore positive & negative",
+      "sourceIds": [
+        "phet-number-line-integers",
+        "phet-policy"
+      ],
+      "featured": true,
+      "art": "numbers",
+      "thumbnailAsset": "subject-math.webp",
+      "alignmentStatus": "Suggested introductory or review practice; not full-standard coverage. High-school placement depends on the selected course.",
+      "learningSuggestion": "Explore the simulation with a teacher or grown-up, then explain a prediction and an observation.",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-15",
+        "method": "Publisher product and privacy documentation only",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "phet-policy",
+        "evidenceScope": "Official PhET website and simulations; not third-party hosts or integrations.",
+        "notes": "Publisher states no advertisements. Limited usage analytics are disclosed. Linked publisher pages were researched; the simulation, external handoff, device controls and suggested grade fit have not been hands-on audited. Preview illustration is thematic, not a screenshot."
+      }
+    },
+    {
+      "id": "phet-graphing-lines",
+      "title": "Graphing Lines",
+      "publisher": "PhET · University of Colorado Boulder",
+      "url": "https://phet.colorado.edu/en/simulations/graphing-lines",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "8-math-functions-and-graphs",
+        "9-math-functions-and-graphs",
+        "10-math-functions-and-graphs",
+        "11-math-functions-and-graphs",
+        "12-math-functions-and-graphs"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "devices": [
+        "browser"
+      ],
+      "priceLabel": "Free simulation",
+      "access": "Browser · no student account. Check exact device and controls on the publisher page.",
+      "description": "Play with lines & slopes",
+      "sourceIds": [
+        "phet-graphing-lines",
+        "phet-policy"
+      ],
+      "featured": true,
+      "art": "numbers",
+      "thumbnailAsset": "subject-coding.webp",
+      "alignmentStatus": "Suggested introductory or review practice; not full-standard coverage. High-school placement depends on the selected course.",
+      "learningSuggestion": "Explore the simulation with a teacher or grown-up, then explain a prediction and an observation.",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-15",
+        "method": "Publisher product and privacy documentation only",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "phet-policy",
+        "evidenceScope": "Official PhET website and simulations; not third-party hosts or integrations.",
+        "notes": "Publisher states no advertisements. Limited usage analytics are disclosed. Linked publisher pages were researched; the simulation, external handoff, device controls and suggested grade fit have not been hands-on audited. Preview illustration is thematic, not a screenshot."
+      }
+    },
+    {
+      "id": "phet-build-an-atom",
+      "title": "Build an Atom",
+      "publisher": "PhET · University of Colorado Boulder",
+      "url": "https://phet.colorado.edu/en/simulations/build-an-atom",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "7",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "7-science-matter-and-reactions",
+        "9-science-matter-and-atoms",
+        "10-science-matter-and-atoms",
+        "11-science-matter-and-atoms",
+        "12-science-matter-and-atoms"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "devices": [
+        "browser"
+      ],
+      "priceLabel": "Free simulation",
+      "access": "Browser · no student account. Check exact device and controls on the publisher page.",
+      "description": "Explore atomic structure",
+      "sourceIds": [
+        "phet-build-an-atom",
+        "phet-policy"
+      ],
+      "featured": true,
+      "art": "science",
+      "thumbnailAsset": "subject-science.webp",
+      "alignmentStatus": "Suggested introductory or review practice; not full-standard coverage. High-school placement depends on the selected course.",
+      "learningSuggestion": "Explore the simulation with a teacher or grown-up, then explain a prediction and an observation.",
+      "review": {
+        "status": "publisher_claim_reviewed",
+        "reviewedOn": "2026-10-15",
+        "method": "Publisher product and privacy documentation only",
+        "runtimeTested": false,
+        "adEvidenceSourceId": "phet-policy",
+        "evidenceScope": "Official PhET website and simulations; not third-party hosts or integrations.",
+        "notes": "Publisher states no advertisements. Limited usage analytics are disclosed. Linked publisher pages were researched; the simulation, external handoff, device controls and suggested grade fit have not been hands-on audited. Preview illustration is thematic, not a screenshot."
+      }
+    }
+  ]
+}

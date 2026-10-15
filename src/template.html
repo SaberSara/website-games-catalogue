@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Wonderwood: playful learning adventures for California Kindergarten through Grade 12. An editable, standards-informed game catalogue.">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#fffaf1">
+<title>Wonderwood · Little games. Big discoveries.</title>
+<link rel="icon" href="assets/owl.webp" type="image/webp">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to learning games</a>
+<header class="topbar">
+  <div class="nav wrap">
+    <button class="brand" data-nav="explore" aria-label="Wonderwood home"><img src="assets/brand.webp" alt="Wonderwood — Learning Games Catalogue" width="340" height="116"></button>
+    <form class="search" id="search-form" role="search"><span data-icon="search"></span><label class="sr-only" for="search">Search games, topics or subjects</label><input id="search" type="search" placeholder="Search games…" maxlength="120" autocomplete="off"><button class="search-clear" id="clear-search" type="button" aria-label="Clear search" hidden><span data-icon="close"></span></button></form>
+    <nav class="navlinks" aria-label="Main navigation">
+      <button class="navlink selected" data-nav="explore" aria-current="page"><img class="nav-art" src="assets/nav-home.png" alt="" aria-hidden="true" width="42" height="42"><span>Home</span></button>
+      <button class="navlink" data-nav="subjects"><img class="nav-art" src="assets/nav-subjects.png" alt="" aria-hidden="true" width="42" height="42"><span>Subjects</span></button>
+      <button class="navlink" data-nav="favorites"><img class="nav-art" src="assets/nav-favorites.png" alt="" aria-hidden="true" width="42" height="42"><span>Favorites<span class="fav-count" id="fav-count" hidden></span></span></button>
+      <button class="navlink parent-nav" data-nav="parent"><img class="nav-art" src="assets/nav-grownups.png" alt="" aria-hidden="true" width="42" height="42"><span>Parent / Teacher</span></button>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div id="child-view">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-scenery hero-left" aria-hidden="true"></div><div class="hero-scenery hero-right" aria-hidden="true"></div>
+    <div class="hero-cloud cloud-one" aria-hidden="true"></div><div class="hero-cloud cloud-two" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <h1 id="hero-title">Welcome to <span class="sr-only">Wonderwood</span><img class="hero-logo" src="assets/wordmark.webp" alt="" width="514" height="102"></h1>
+      <p>Little games. <strong>Big discoveries.</strong></p>
+      <div class="grade-select" aria-label="Grade selection"><div class="grade-bands" id="grade-bands" role="group" aria-label="School grade groups"></div><div class="grade-picker" id="grade-buttons" role="group" aria-label="Choose your grade"></div></div>
+    </div>
+    <svg class="hero-wave" viewBox="0 0 1440 45" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20 Q180 -6 340 18 T720 22 T1100 15 T1440 19 V45 H0Z" fill="currentColor"/></svg>
+  </section>
+  <div class="wrap child-content">
+    <section id="subject-section" aria-labelledby="subject-title">
+      <div class="section-heading"><h2 id="subject-title"><span aria-hidden="true">✨</span> Subjects</h2><button class="textbutton" id="all-subjects">All subjects <span data-icon="arrow"></span></button></div>
+      <nav class="subject-list" id="subjects" aria-label="Choose a subject"></nav>
+    </section>
+    <section class="browse-section" id="browse" aria-labelledby="browse-title">
+      <div class="section-heading browse-heading"><h2><span aria-hidden="true" id="browse-emoji">⭐</span> <span id="browse-title">Featured games</span></h2><button class="textbutton" id="view-all">All games <span data-icon="arrow"></span></button></div>
+      <div class="filterbar"><div class="filters" role="group" aria-label="Activity type"><button class="chip active" data-type="all" aria-pressed="true">All</button><button class="chip" data-type="mini" aria-pressed="false">Mini-games</button><button class="chip" data-type="adventure" aria-pressed="false">Adventures</button><button class="chip" data-type="explore" aria-pressed="false">Explore</button></div><div class="device-filter"><label class="sr-only" for="device-filter">Filter by play platform</label><span data-icon="devices"></span><select id="device-filter"><option value="all">Any device</option><option value="browser">Browser</option><option value="app">Apps</option><option value="desktop">Desktop apps</option></select></div></div>
+      <div class="topic-chips" id="topics" role="group" aria-label="Choose a topic" hidden></div>
+      <div class="results-bar"><p id="results-count" role="status" aria-live="polite"></p><button class="textbutton" id="reset-filters" hidden>Clear filters <span data-icon="close"></span></button></div>
+      <div class="games-grid" id="games"></div>
+    </section>
+    <section id="year-section" aria-labelledby="year-title">
+      <div class="section-heading"><h2 id="year-title"><span aria-hidden="true">🌱</span> Explore more</h2></div>
+      <div class="year-panels" id="year-panels"></div>
+    </section>
+    <aside class="grownup-strip"><span aria-hidden="true">🦉</span><div><strong>Grown-ups</strong><p>Curriculum & your library.</p></div><button class="textbutton" data-nav="parent">Open <span data-icon="arrow"></span></button></aside>
+  </div>
+</div>
+<section id="parent-view" class="wrap" hidden aria-label="Parent and teacher workspace">
+  <div class="parent-header"><div><span class="eyebrow">Grown-ups</span><h1>Your learning library</h1><p>California K–12 · Curriculum & game reviews</p></div><button class="outline" data-nav="explore"><span data-icon="arrow-left"></span> Games</button></div>
+  <nav class="adult-tabs" aria-label="Parent and teacher sections"><button class="active" data-tab="curriculum" aria-current="page">Curriculum</button><button data-tab="review">Review queue</button><button data-tab="manage">Manage links</button><button data-tab="sources">Sources</button></nav>
+  <div id="parent-content"></div>
+</section>
+</main>
+<footer class="footer wrap"><p class="footer-motto"><span aria-hidden="true">🍃</span> Curious minds <span aria-hidden="true">♥</span> Kinder hearts <span aria-hidden="true">🌱</span> Brighter tomorrows</p><div class="footer-bottom"><span id="footer-grade">Kindergarten</span><span id="footer-subject">All subjects</span><button class="textbutton" data-nav="parent" data-parent-tab="sources">About</button><span class="build-label">LOCAL BUILD · V4</span></div></footer>
+<dialog id="details" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p class="notice">Please enable JavaScript to browse the catalogue. The source package also includes the curriculum and game links as JSON.</p></noscript>
+<script id="curriculum-data" type="application/json">__CURRICULUM__</script>
+<script id="games-data" type="application/json">__GAMES__</script>
+<script src="src/app.js" defer></script>
+</body>
+</html>
