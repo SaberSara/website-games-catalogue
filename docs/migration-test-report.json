@@ -1,0 +1,68 @@
+{
+  "version": "3",
+  "passed": 15,
+  "failed": 0,
+  "scope": "In-memory mocked storage logic only; not real persistence",
+  "checks": [
+    {
+      "check": "Legacy V2 edited title preserved",
+      "result": "passed"
+    },
+    {
+      "check": "Legacy intentional deletion preserved",
+      "result": "passed"
+    },
+    {
+      "check": "All PhET seed additions available in migrated draft",
+      "result": "passed"
+    },
+    {
+      "check": "K\u201312 seeds appended to legacy draft",
+      "result": "passed"
+    },
+    {
+      "check": "Migrated draft stamped with current seed revision",
+      "result": "passed"
+    },
+    {
+      "check": "No duplicate IDs in merged draft",
+      "result": "passed"
+    },
+    {
+      "check": "Favorites key remains compatible",
+      "result": "passed"
+    },
+    {
+      "check": "Save writes merged data to the V3 key",
+      "result": "passed"
+    },
+    {
+      "check": "Valid V3 draft takes precedence over legacy",
+      "result": "passed"
+    },
+    {
+      "check": "V3 baseline removals preserved, new seeds appended",
+      "result": "passed"
+    },
+    {
+      "check": "V3 intentional deletion is respected",
+      "result": "passed"
+    },
+    {
+      "check": "New simulations present in migrated V3 draft",
+      "result": "passed"
+    },
+    {
+      "check": "Deleting new seed after migration remains intentional",
+      "result": "passed"
+    },
+    {
+      "check": "Invalid V3 draft falls back to valid legacy",
+      "result": "passed"
+    },
+    {
+      "check": "Invalid saved drafts fall back to current seed data",
+      "result": "passed"
+    }
+  ]
+}
