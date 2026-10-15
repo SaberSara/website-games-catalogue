@@ -40,55 +40,100 @@ fieldset.field legend{padding:0 5px;color:var(--ink)}
 @media(prefers-reduced-motion:reduce){.popup-launch:hover,.game-dialog .popup-close:hover{transform:none}.notes-chevron>.icon{transition:none}.popup-launch{transition:none}}
 
 
-/* Wonderwood V4: screenshot-matched bright banner and illustrated nav buttons. */
+/* Wonderwood hero restoration — approved full illustration, no screenshot slices.
+   The source art has transparent inner edges for naturally blended scenery.
+   Preserve its complete illustrated signs, fox and owl at every breakpoint. */
 .nav-art{display:block;width:37px;height:37px;max-width:100%;object-fit:contain;filter:drop-shadow(0 1px 1px #172d4740);transition:transform .24s var(--ease),filter .24s var(--ease);pointer-events:none}
 .navlink:hover .nav-art{transform:translateY(-3px) rotate(-5deg) scale(1.1);filter:drop-shadow(0 4px 4px #152e4640)}
 .navlink:active .nav-art{transform:translateY(1px) scale(.91)}
 .navlink.selected .nav-art{filter:drop-shadow(0 2px 2px #16395425)}
 .navlink{gap:1px;min-height:74px}
-/* The central white stage, bright illustrated signs and exact wordmark
-   come from the banner the user approved on 15 October. */
-.hero{background:#fff;min-height:377px}
+.hero{
+  min-height:392px;
+  background:
+    radial-gradient(ellipse 47% 79% at 50% 37%,#f7ffffeb 0%,#e5faffbf 46%,#e3fbff00 100%),
+    linear-gradient(180deg,#a3e5f8 0%,#bdeef8 57%,#9fd6a5 100%);
+}
 .hero-cloud{display:none}
-.hero-wave{display:none}
-.hero-scenery{top:22px;bottom:0;width:32.4%;background-size:100% 100%;background-repeat:no-repeat;opacity:1;filter:none}
-.hero-left{background-image:url('../assets/hero-left-v4.webp');left:0}
-.hero-right{background-image:url('../assets/hero-right-v4.webp');right:0}
-.hero-copy{position:relative;z-index:1;padding-top:29px;padding-bottom:40px;max-width:65%;width:610px}
-.hero-logo{width:500px;max-width:88%;margin-top:3px;margin-bottom:10px;filter:drop-shadow(0 1px 1px #fff8)}
+.hero-wave{display:block;height:33px}
+.hero-scenery{
+  top:22px;bottom:0;width:auto;
+  aspect-ratio:395 / 321;
+  background-size:100% 100%;background-repeat:no-repeat;
+  opacity:1;filter:saturate(1.10) contrast(1.03);
+  pointer-events:none;
+}
+.hero-left{left:0;background-image:url('../assets/hero-left.webp')}
+.hero-right{right:0;aspect-ratio:366 / 323;background-image:url('../assets/hero-right.webp')}
+.hero-copy{position:relative;z-index:1;padding:28px 0 51px;max-width:66%;width:610px}
+.hero-copy::before{
+  content:'';position:absolute;inset:0 -7%;z-index:-1;pointer-events:none;
+  background:radial-gradient(ellipse 50% 63% at 50% 42%,#f8ffffb3 0%,#f2ffff55 62%,transparent 100%);
+}
+.hero-logo{
+  width:500px;max-width:90%;margin:3px auto 9px;
+  mix-blend-mode:normal;mask-image:none;-webkit-mask-image:none;
+  filter:drop-shadow(0 1px 1px #ffffff73);
+}
 .hero-copy>p{font-size:16px;margin-bottom:16px}
-.grade-bands{background:transparent;border-color:transparent;margin-bottom:14px}
+.grade-bands{background:#ffffffe0;border-color:#ffffff89;margin-bottom:13px}
 .band-chip.active{background:#2670b6;box-shadow:0 2px 4px #2d62ad2a}
 .grade-picker .grade-button{font-weight:800}
-.grade-picker .grade-tone-0{background:#fff8a9;box-shadow:0 4px 0 #e5d935;color:#493706}
-.grade-picker .grade-tone-1{background:#a5fb84;box-shadow:0 4px 0 #4fe35c;color:#1d692c}
-.grade-picker .grade-tone-2{background:#fff7ff;box-shadow:0 4px 0 #d7a7f6;color:#492582}
+.grade-picker .grade-tone-0{background:#fff28c;box-shadow:0 4px 0 #e5c535;color:#493706}
+.grade-picker .grade-tone-1{background:#a5ef78;box-shadow:0 4px 0 #4cb84c;color:#1d692c}
+.grade-picker .grade-tone-2{background:#fff0fe;box-shadow:0 4px 0 #d7a7f6;color:#492582}
 .grade-picker .grade-tone-3{background:#ffe0c7;box-shadow:0 4px 0 #eea772;color:#5b3314}
-@media(min-width:1600px){.hero{min-height:401px}.hero-scenery{width:32.4%}}
+@media(min-width:1191px){
+ /* Reference proportions: art ends before the grade row, never slices the fox. */
+ .hero-scenery{top:22px;bottom:auto;height:338px}
+ .grade-select{max-width:525px}
+ .grade-picker{gap:9px}
+ .grade-picker .grade-button{font-size:16px;min-height:68px;padding:11px 9px;gap:7px}
+ .grade-picker .grade-emoji{font-size:25px}
+}
+@media(min-width:1600px){
+ .hero{min-height:418px}
+ .hero-copy{padding-top:38px}
+ .hero-scenery{height:370px}
+}
 @media(max-width:1190px){
- .hero{min-height:368px}
- .hero-scenery{width:32.4%;top:22px;left:0}
- .hero-right{left:auto;right:0}
- .hero-copy{max-width:68%;width:590px}
+ .hero{min-height:383px}
+ .hero-scenery{top:auto;bottom:0;height:calc(100% - 34px)}
+ .hero-copy{max-width:69%;width:585px;padding-top:26px}
  .hero-logo{width:475px}
 }
+@media(min-width:961px) and (max-width:1190px){
+ /* Keep the complete woodland portraits above the interactive grade row. */
+ .hero{min-height:414px}
+ .hero-scenery{top:22px;bottom:auto;height:265px}
+ .hero-copy{max-width:69%;width:590px;padding-bottom:51px}
+}
 @media(max-width:960px){
- .hero{min-height:340px}
- .hero-scenery{opacity:.63;filter:none;width:31.5%;top:22px}
- .hero-left{left:0}.hero-right{right:0}
- .hero-copy{width:540px;max-width:77%;padding-top:27px;padding-bottom:30px}
- .hero-logo{width:420px}
+ .hero{min-height:500px}
+ .hero-scenery{top:auto;bottom:0;height:160px;width:auto;opacity:1}
+ .hero-copy{width:590px;max-width:calc(100% - 24px);padding-top:25px;padding-bottom:184px}
+ .hero-copy::before{background:radial-gradient(ellipse 65% 63% at 50% 35%,#faffffbe 0%,transparent 100%)}
+ .hero-logo{width:470px}
  .nav-art{width:34px;height:34px}
 }
+@media(min-width:601px) and (max-width:700px){
+ .subject-list{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+ .subject{min-width:0;font-size:12px;padding:12px 5px;gap:5px}
+ .subject-glyph{height:39px}
+ .subject-glyph img{height:38px;max-width:43px}
+}
 @media(max-width:600px){
- .hero{background:linear-gradient(180deg,#fffefb,#f7fcff);min-height:317px}
- .hero-scenery{width:31%;background-size:auto 100%;opacity:.20;top:20px;filter:none}
- .hero-left{left:-18%}.hero-right{right:-18%}
- .hero-copy{width:100%;max-width:100%;padding-top:20px;padding-bottom:30px}
- .hero-logo{max-width:290px}
+ .hero{min-height:417px;margin-top:0;padding-top:0}
+ .hero-scenery{top:auto;bottom:0;height:139px;width:auto;opacity:1;filter:saturate(1.1) contrast(1.03)}
+ .hero-left{left:-10px}.hero-right{right:-8px}
+ .hero-copy{width:100%;max-width:100%;padding:23px 12px 140px}
+ .hero-copy::before{inset:0 -2%;background:radial-gradient(ellipse 75% 55% at 50% 30%,#f5ffffd9 0%,transparent 100%)}
+ .hero-logo{width:330px;max-width:88%;margin-top:4px}
  .hero-copy>p{font-size:13px;margin-bottom:12px}
+ .grade-bands{gap:2px;padding:3px;margin-bottom:13px}
  .nav-art{width:30px;height:30px}
  .navlink{min-height:62px}
+ .hero-wave{height:22px}
 }
 @media(prefers-reduced-motion:reduce){
  .nav-art,.navlink:hover .nav-art,.navlink:active .nav-art{transition:none;transform:none;filter:none}
