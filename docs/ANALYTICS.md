@@ -11,19 +11,19 @@ Wonderwood is a site for children, so its analytics are restricted to **aggregat
 
 These live numbers are available **inside your private Cloudflare dashboard**. Wonderwood's Parent/Teacher → **📊 Analytics** explains the categories and opens that dashboard. The page does not show fake zeroes or publicly expose private data. Cloudflare Web Analytics does not provide a public read-only stats API for our static site. To show real numbers directly on Wonderwood in the future, a separate secure server-side aggregate endpoint would be needed.
 
-## Connect Cloudflare to the existing GitHub Pages site
+## Activated on Wonderwood
 
-1. Sign in or register at [dash.cloudflare.com](https://dash.cloudflare.com/).
-2. Go to **Web Analytics → Add a site**.
-3. Enter the hostname **`sabersara.github.io`** (do not include `https://` or `/website-games-catalogue/`). This website is hosted on GitHub Pages, not proxied through Cloudflare; you **do not** need to change DNS or hosting.
-4. From the new site's **Manage site**, copy the **site token from the JavaScript beacon snippet** (the value of `token` in `data-cf-beacon`). **Do not copy an API secret or account token**.
-5. In GitHub, open [repository Settings → Secrets and variables → Actions → Variables](https://github.com/SaberSara/website-games-catalogue/settings/variables/actions), and add a **repository variable** named `CF_WEB_ANALYTICS_TOKEN` with the site's beacon token. This browser token is intentionally public, unlike API credentials.
-6. Open [Actions → Deploy Wonderwood to GitHub Pages](https://github.com/SaberSara/website-games-catalogue/actions/workflows/deploy-pages.yml), select **Run workflow** on `main` (or commit a normal change to trigger deployment).
-7. Visit **https://sabersara.github.io/website-games-catalogue/** and open the website yourself; allow a few minutes, then check **Cloudflare → Web Analytics** for the new visit and performance statistics. Analytics starts from activation, not retroactively.
+The site owner supplied the Cloudflare Web Analytics site beacon token on 18 October 2026. The [GitHub Pages deployment workflow](../.github/workflows/deploy-pages.yml) now has this **public site token** as a fallback, so deploying `main` inserts exactly one Cloudflare beacon. The optional GitHub Actions repository variable `CF_WEB_ANALYTICS_TOKEN`, if set, takes precedence. The beacon token is intentionally visible in website HTML; it is **not** an API key.
+
+1. Visit [Wonderwood](https://sabersara.github.io/website-games-catalogue/) after a successful deployment, using a browser that allows the Cloudflare beacon.
+2. Open [Cloudflare Web Analytics](https://dash.cloudflare.com/) for the `sabersara.github.io` hostname; reports may take several minutes to appear and are **not retroactive**.
+3. To rotate the public beacon token, set a new `CF_WEB_ANALYTICS_TOKEN` Actions variable in [repository variables](https://github.com/SaberSara/website-games-catalogue/settings/variables/actions), or change the workflow fallback. [Deploy again](https://github.com/SaberSara/website-games-catalogue/actions/workflows/deploy-pages.yml).
+
+If the Cloudflare site's hostname differs from `sabersara.github.io`, use **Manage site** in Cloudflare Web Analytics to correct it. No DNS changes are required for GitHub Pages.
 
 ## Privacy safeguards
 
-- When the variable is absent, **no analytics script or network requests** are added by Wonderwood.
+- The deployment currently uses a public site-token fallback even if the Actions variable is absent; the beacon can be disabled by removing both the fallback and the optional variable, then redeploying.
 - When present, the script loads **only** over HTTPS on `sabersara.github.io` at `/website-games-catalogue/`. Local HTML previews, offline portable copies and other GitHub Pages projects do **not** report traffic.
 - No **cookies**, tracking localStorage, fingerprinting, names, logins, search text, age/grade selections, game clicks, favorite actions, video views or individual learning progress are logged by our analytics integration.
 - No advertising trackers, social pixels or Google Analytics.
@@ -33,7 +33,7 @@ These live numbers are available **inside your private Cloudflare dashboard**. W
 
 ## Uninstall
 
-Delete the `CF_WEB_ANALYTICS_TOKEN` repository Actions variable and rerun `Deploy Wonderwood to GitHub Pages`. Future pages will contain no Cloudflare script, but already-collected aggregate data remains in the Cloudflare account subject to its retention controls.
+Remove the public token fallback from `.github/workflows/deploy-pages.yml` **and** delete any `CF_WEB_ANALYTICS_TOKEN` Actions variable, then rerun `Deploy Wonderwood to GitHub Pages`. Future builds will omit the beacon, but previously collected aggregate data remains in Cloudflare subject to its retention controls.
 
 ## Technical details
 
