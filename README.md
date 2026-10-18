@@ -108,4 +108,4 @@ GitHub integration status and manual deployment details: `docs/INTEGRATION.md`.
 
 ## Visitors and analytics
 
-Open **Parent / Teacher → 📊 Analytics** for a privacy-focused traffic overview and a link to your Cloudflare dashboard. Configure the optional GitHub Actions variable `CF_WEB_ANALYTICS_TOKEN` to begin collecting site-wide counts after deployment. Without the site token, tracking stays disabled; no placeholder visitor numbers are displayed. See [analytics instructions](docs/ANALYTICS.md).
+Open **Parent / Teacher → 📊 Analytics** for a privacy-focused traffic overview and a link to your Cloudflare dashboard. The public Cloudflare site token is configured in the GitHub Pages deployment workflow (an optional Actions variable `CF_WEB_ANALYTICS_TOKEN` can override it). The beacon reports aggregate visits and performance **only on the deployed Wonderwood site**, not offline previews. Visitor totals remain private to Cloudflare; no placeholder numbers are shown. See [analytics instructions and opt-out](docs/ANALYTICS.md).
