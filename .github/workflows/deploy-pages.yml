@@ -32,7 +32,8 @@ jobs:
 
       - name: Validate catalogue and build website
         env:
-          CF_WEB_ANALYTICS_TOKEN: ${{ vars.CF_WEB_ANALYTICS_TOKEN }}
+          # Cloudflare site beacon ID is public; a GitHub Actions variable may override it.
+          CF_WEB_ANALYTICS_TOKEN: ${{ vars.CF_WEB_ANALYTICS_TOKEN || '4182287dc1234725a9bfa4f8408375a7' }}
         run: |
           python tools/validate.py
           python tools/build.py
@@ -45,6 +46,9 @@ jobs:
           assert Path('src/styles.css').is_file() and Path('src/app.js').is_file()
           for asset in ('hero-left.webp', 'hero-right.webp', 'nav-home.png', 'nav-grownups.png'):
               assert (Path('assets') / asset).is_file(), asset
+          analytics_on = '<meta name="wonderwood-analytics" content="configured">' in html
+          assert html.count('static.cloudflareinsights.com/beacon.min.js') == int(analytics_on)
+          print('Cloudflare Web Analytics:', 'configured' if analytics_on else 'disabled')
           print('Static site entry point and key assets verified')
           PY
 
