@@ -73,6 +73,19 @@ with sync_playwright() as pw:
    p.evaluate('state.subject="all";renderChild()')
  p.evaluate("state.grade='9';state.subject='all';state.type='all';renderChild();window.scrollTo(0,0)");p.wait_for_timeout(150);p.screenshot(path=str(O/'grade9.png'),full_page=True)
  ck('History' in p.locator('#subjects').inner_text(),'Older grades use age-appropriate subject labels')
+ ck(p.evaluate("approved().some(g=>g.review.status==='teacher_verified')"),'Teacher-verified Hub resources appear in child catalogue')
+ ck(p.evaluate("dataset.games.filter(g=>g.review.status==='teacher_verified').length")==70,'70 imported teacher selections')
+ ck(p.evaluate("!dataset.games.some(g=>/ahmadischool|ahmadi academy/i.test(g.url+' '+g.title))"),'Excluded academy is not imported')
+ click(p,'#view-all') if p.locator('#view-all').is_visible() else None
+ ck(p.evaluate("approved().some(g=>g.id==='hub-01-school-uniforms-research'&&g.grades.includes('9'))"),'Grade 9 assessment imported')
+ p.evaluate("state.grade='9';state.subject='ela';state.showAll=true;renderGames()")
+ ck(p.locator('[data-game="hub-01-school-uniforms-research"] .source-thumbnail').count()==1,'Original Learning Hub source thumbnail shown')
+ click(p,'[data-open="hub-01-school-uniforms-research"]')
+ ck('Teacher verified' in p.locator('.popup-review').inner_text(),'Teacher verification label remains separate from advertising evidence')
+ ck('Ads not independently checked' in p.locator('.popup-review').inner_text(),'Unverified advertising is disclosed')
+ ck(p.locator('.popup-art .source-thumbnail').count()==1,'Hub source thumbnail repeats in popup')
+ p.keyboard.press('Escape')
+ p.evaluate("state.grade='9';state.subject='all';state.showAll=false;renderGames()")
  click(p,'[data-type="explore"]');ck(p.locator('.game-card').count()>=2,'Explore filter includes interactive simulations')
  p.locator('#device-filter').select_option('app');ck(p.locator('.game-card').count()==0,'Device filter excludes browser sims from apps');ck(p.locator('.empty').count()==1,'Unfilled filter has an honest empty state')
  home(p);click(p,'#view-all');ck(p.locator('.game-card').count()==p.evaluate("approved().filter(g=>g.grades.includes('K')).length"),'All games expands current-grade catalogue')
@@ -113,10 +126,10 @@ with sync_playwright() as pw:
  # Actual JSON import input, without persisting it outside this session.
  payload=json.dumps(p.evaluate('original')).encode()
  p.locator('#import-file').set_input_files({'name':'games.json','mimeType':'application/json','buffer':payload});p.wait_for_timeout(150)
- ck(p.evaluate('dataset.games.length')==152,'Import restores 152-resource supplied dataset')
+ ck(p.evaluate('dataset.games.length')==222,'Import restores 222-resource supplied dataset')
  # Export payload handling; do not claim an actual user download was tested.
- export_ok=p.evaluate("""async()=>{let result;const create=URL.createObjectURL,revoke=URL.revokeObjectURL,clk=HTMLAnchorElement.prototype.click;URL.createObjectURL=b=>{result=b;return 'blob:test'};URL.revokeObjectURL=()=>{};HTMLAnchorElement.prototype.click=function(){};try{downloadJSON(dataset,'games.json');return JSON.parse(await result.text()).games.length===152}finally{URL.createObjectURL=create;URL.revokeObjectURL=revoke;HTMLAnchorElement.prototype.click=clk}}""")
- ck(export_ok,'Export produces valid 152-record JSON payload')
+ export_ok=p.evaluate("""async()=>{let result;const create=URL.createObjectURL,revoke=URL.revokeObjectURL,clk=HTMLAnchorElement.prototype.click;URL.createObjectURL=b=>{result=b;return 'blob:test'};URL.revokeObjectURL=()=>{};HTMLAnchorElement.prototype.click=function(){};try{downloadJSON(dataset,'games.json');return JSON.parse(await result.text()).games.length===222}finally{URL.createObjectURL=create;URL.revokeObjectURL=revoke;HTMLAnchorElement.prototype.click=clk}}""")
+ ck(export_ok,'Export produces valid 222-record JSON payload')
  # Imported text is rendered as text, not executed markup.
  p.evaluate("dataset.games[0].title='<img src=x onerror=alert(1)>';state.grade='K';switchView('explore',false)")
  ck(p.locator('.card-title img').count()==0,'Imported title is HTML-escaped');p.evaluate('dataset=structuredClone(original)');home(p)

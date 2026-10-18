@@ -29,7 +29,7 @@ with sync_playwright() as pw:
     check(not p.evaluate("dataset.games.some(g=>g.id==='starfall-abc')"),'Legacy intentional deletion preserved')
     check(p.evaluate("dataset.games.filter(g=>g.id.startsWith('phet-')).length")>=5,'All PhET seed additions available in migrated draft')
     check(p.evaluate("dataset.games.some(g=>g.id==='codeorg-coursec')"),'K–12 seeds appended to legacy draft')
-    check(p.evaluate("dataset.seedRevision===2"),'Migrated draft stamped with current seed revision')
+    check(p.evaluate("dataset.seedRevision===3"),'Migrated draft stamped with current seed revision')
     check(p.evaluate('new Set(dataset.games.map(g=>g.id)).size===dataset.games.length'),'No duplicate IDs in merged draft')
     check(p.evaluate("favorites.includes('khan-kids')"),'Favorites key remains compatible')
     p.evaluate('saveDraft()')
@@ -51,7 +51,22 @@ with sync_playwright() as pw:
     check(p.evaluate('dataset.games[0].title')=='My saved V2 title','Invalid V3 draft falls back to valid legacy')
     p.close()
     p=load(browser,{'wonderwood-catalogue-v3':{'schemaVersion':99},'wonderwood-catalogue-v2':{'schemaVersion':99}})
-    check(p.evaluate('dataset.games.length')==152,'Invalid saved drafts fall back to current seed data')
+    check(p.evaluate('dataset.games.length')==222,'Invalid saved drafts fall back to current seed data')
+    p.close()
+    rev2=copy.deepcopy(original)
+    rev2['seedRevision']=2
+    rev2['games']=[g for g in rev2['games'] if not g['id'].startswith('hub-') and g['id']!='phet-function-builder']
+    rev2['games'][0]['title']='Saved teacher title'
+    p=load(browser,{'wonderwood-catalogue-v3':rev2})
+    check(p.evaluate('dataset.seedRevision')==3,'Revision 2 drafts migrate to revision 3')
+    check(p.evaluate("dataset.games.filter(g=>g.id.startsWith('hub-')).length")==70,'Hub additions appear in existing valid drafts')
+    check(not p.evaluate("dataset.games.some(g=>g.id==='phet-function-builder')"),'Revision 2 intentional deletion is not resurrected')
+    check(p.evaluate('dataset.games[0].title')=='Saved teacher title','Revision 2 saved title remains unchanged')
+    p.evaluate('dataset.games=dataset.games.filter(g=>g.id!=="hub-01-school-uniforms-research");saveDraft()')
+    saved_v3=json.loads(p.evaluate("window.__storage['wonderwood-catalogue-v3']"))
+    p.close()
+    p=load(browser,{'wonderwood-catalogue-v3':saved_v3})
+    check(not p.evaluate("dataset.games.some(g=>g.id==='hub-01-school-uniforms-research')"),'Intentional deletion of a Hub seed remains deleted')
     p.close();browser.close()
 report={'version':'3','passed':len(checks),'failed':0,'scope':'In-memory mocked storage logic only; not real persistence','checks':checks}
 (ROOT/'docs/migration-test-report.json').write_text(json.dumps(report,indent=2)+'\n')

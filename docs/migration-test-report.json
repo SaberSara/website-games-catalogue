@@ -1,6 +1,6 @@
 {
   "version": "3",
-  "passed": 15,
+  "passed": 20,
   "failed": 0,
   "scope": "In-memory mocked storage logic only; not real persistence",
   "checks": [
@@ -62,6 +62,26 @@
     },
     {
       "check": "Invalid saved drafts fall back to current seed data",
+      "result": "passed"
+    },
+    {
+      "check": "Revision 2 drafts migrate to revision 3",
+      "result": "passed"
+    },
+    {
+      "check": "Hub additions appear in existing valid drafts",
+      "result": "passed"
+    },
+    {
+      "check": "Revision 2 intentional deletion is not resurrected",
+      "result": "passed"
+    },
+    {
+      "check": "Revision 2 saved title remains unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Intentional deletion of a Hub seed remains deleted",
       "result": "passed"
     }
   ]

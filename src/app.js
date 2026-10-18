@@ -4,6 +4,8 @@
 const curriculum = JSON.parse(document.getElementById('curriculum-data').textContent);
 const original = JSON.parse(document.getElementById('games-data').textContent);
 const PUB = 'publisher_claim_reviewed';
+const TEACHER = 'teacher_verified';
+const visibleReview = g => g.review.status === PUB || g.review.status === TEACHER;
 const DRAFT_KEY = 'wonderwood-catalogue-v3';
 const GRADE_IDS = curriculum.grades.map(g => g.id);
 const GRADE_BANDS = [['K','1','2'],['3','4','5'],['6','7','8'],['9','10','11','12']];
@@ -53,10 +55,11 @@ function validData(v) {
         !Array.isArray(g.subjects) || !g.subjects.length || g.subjects.some(x => !curriculum.subjects.some(s => s.id === x)) ||
         !Array.isArray(g.topicIds) || g.topicIds.some(id => !curriculum.topics.some(t => t.id === id && g.grades.includes(t.grade) && g.subjects.includes(t.subject))) ||
         !Array.isArray(g.sourceIds) || g.sourceIds.some(id => typeof id !== 'string' || !Object.hasOwn(curriculum.sourceRegister, id)) ||
-        !g.review || ![PUB,'needs_review'].includes(g.review.status) || typeof g.review.runtimeTested !== 'boolean') return false;
+        !g.review || ![PUB, TEACHER,'needs_review'].includes(g.review.status) || typeof g.review.runtimeTested !== 'boolean') return false;
     if (g.devices !== undefined && (!Array.isArray(g.devices) || g.devices.some(x => !['browser','ios','android','amazon','chromeos','desktop','mobile','unknown'].includes(x)))) return false;
     if (g.review.adEvidenceUrl && !safeURL(g.review.adEvidenceUrl)) return false;
     if (g.review.status === PUB && !safeURL(g.review.adEvidenceUrl) && !Object.hasOwn(curriculum.sourceRegister, g.review.adEvidenceSourceId || '')) return false;
+    if (g.review.status === TEACHER && g.teacherVerified !== true) return false;
     if (g.thumbnailAsset !== undefined && (!shortText(g.thumbnailAsset,100) || !/^[a-z0-9-]+\.webp$/.test(g.thumbnailAsset))) return false;
     if (g.review.notes !== undefined && !shortText(g.review.notes, 5000)) return false;
     if (g.learningSuggestion !== undefined && !shortText(g.learningSuggestion, 1500)) return false;
@@ -67,9 +70,12 @@ function validData(v) {
 // Preserve prior user edits and intentional removals from the old seed set.
 // Append ONLY IDs first introduced in this revision; stamp the draft so that
 // later user removal of a newly added game remains intentional.
-const SEED_REVISION = 2;
+const SEED_REVISION = 3;
 const V3_BASELINE_IDS = new Set(["starfall-abc", "starfall-read", "starfall-an", "starfall-at", "starfall-en", "starfall-vowels", "khan-kids", "tym-numbers-ios", "tym-eating-ios", "tym-read-web", "tym-numbers-web", "tym-eating-web", "tym-reading-fun", "mlc-frames", "mlc-pieces", "mlc-shapes", "mlc-clock", "pbs-scribbles", "pbs-animal-home", "pbs-city", "pbs-pink", "scratchjr", "tuxpaint", "phet-equality-explorer-basics", "phet-area-builder", "phet-number-line-integers", "phet-graphing-lines", "phet-build-an-atom"]);
 const V2_BASELINE_IDS = new Set([...V3_BASELINE_IDS].filter(id => !id.startsWith('phet-')));
+// Revision 3 imports teacher-reviewed Hub links without resurrecting existing K–12
+// resources the local curator deliberately removed in revision 2.
+const REV2_BASELINE_IDS = new Set(original.games.filter(g => !g.id.startsWith('hub-')).map(g => g.id));
 function adoptNewSeeds(draft, oldIds) {
   const seen = new Set(draft.games.map(g=>g.id));
   const additions = original.games.filter(g=>!oldIds.has(g.id) && !seen.has(g.id));
@@ -77,7 +83,7 @@ function adoptNewSeeds(draft, oldIds) {
 }
 const savedDraft = store.get(DRAFT_KEY, null);
 if (validData(savedDraft)) {
-  dataset = savedDraft.seedRevision >= SEED_REVISION ? savedDraft : adoptNewSeeds(savedDraft, V3_BASELINE_IDS);
+  dataset = savedDraft.seedRevision >= SEED_REVISION ? savedDraft : adoptNewSeeds(savedDraft, savedDraft.seedRevision >= 2 ? REV2_BASELINE_IDS : V3_BASELINE_IDS);
   if (dataset !== savedDraft) store.set(DRAFT_KEY, dataset);
 } else {
   const legacy = store.get('wonderwood-catalogue-v2', null);
@@ -124,7 +130,7 @@ function srcLinks(ids) {
     return safeURL(s.url) ? `<a class="mini-source" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>` : '';
   }).join('');
 }
-function approved() { return dataset.games.filter(g => g.review.status === PUB); }
+function approved() { return dataset.games.filter(visibleReview); }
 const SUBJECT_STYLE = {
   ela:['reading','#ffab55','#ff8734','#e77424','#43230b','📖'],
   math:['math','#7bcfff','#3dacf2','#2792d6','#103b62','🔢'],
@@ -174,9 +180,10 @@ function filtered() {
     (state.view !== 'favorites' || favorites.includes(g.id)) &&
     (state.topic === 'all' || g.topicIds.includes(state.topic)) &&
     (state.device === 'all' || state.device === 'browser' && g.platform === 'browser' || state.device === 'app' && g.platform === 'app' || state.device === 'desktop' && g.devices?.includes('desktop')) &&
-    (state.type === 'all' || state.type === 'mini' && g.kind === 'Mini-game' || state.type === 'adventure' && ['Game adventure','Learning app'].includes(g.kind) || state.type === 'explore' && ['Interactive simulation','Creative tool','Creative app','Activity collection'].includes(g.kind)) &&
+    (state.type === 'all' || state.type === 'mini' && g.kind === 'Mini-game' || state.type === 'adventure' && ['Game adventure','Learning app'].includes(g.kind) || state.type === 'explore' && ['Interactive simulation','Creative tool','Creative app','Activity collection','Reading resource','Research resource','Video'].includes(g.kind)) &&
     (!q || [g.title, g.description, g.publisher, ...g.subjects.map(s => curriculum.subjects.find(x => x.id === s)?.name || ''), ...g.topicIds.map(t => curriculum.topics.find(x => x.id === t)?.title || '')].join(' ').toLowerCase().includes(q))
   ).sort((a,b) => {
+    if (a.hubOrder && b.hubOrder) return a.hubOrder - b.hubOrder;
     const order = ['khan-kids','starfall-abc','tym-numbers-ios','starfall-read','tym-eating-ios'];
     return (order.includes(a.id) ? order.indexOf(a.id) : 99) - (order.includes(b.id) ? order.indexOf(b.id) : 99);
   });
@@ -184,6 +191,7 @@ function filtered() {
 /* Illustrations are decorations taken from the approved concept, not game screenshots. */
 function gameArt(g) {
   const asset = g.thumbnailAsset || PRETTY[g.id]?.[2];
+  if (g.review.status === TEACHER && g.thumbnailAsset) return `<img class="source-thumbnail" src="${assetURL(asset)}" width="250" height="137" alt="${esc(g.title)} thumbnail from the Learning Hub" loading="lazy">`;
   if (g.thumbnailAsset) return `<img class="thematic-thumbnail" src="${assetURL(asset)}" width="250" height="137" alt="" loading="lazy">`;
   if (asset) return `<img src="${assetURL(asset)}" width="250" height="137" alt="" loading="lazy">`;
   const which = g.id === 'tym-eating-ios' ? 'food' : g.id === 'starfall-read' ? 'book' : 'letters';
@@ -210,7 +218,7 @@ function card(g) {
     <button class="card-hit" data-open="${g.id}" aria-label="${esc(g.title)}. ${esc(p.tooltip)} ${esc(g.priceLabel)}. View details.">
       <span class="card-image">${gameArt(g)}</span>
       <span class="platform-badge ${p.cls}" title="${esc(p.tooltip)}">${p.icons.map(x => icon(x)).join('')}<span>${p.label}</span></span>
-      <span class="card-copy"><span class="card-title-line"><span class="card-title">${esc(title)}</span><span class="card-arrow">${icon('chevron')}</span></span><span class="card-desc">${esc(desc)}</span><span class="card-tags"><span class="tag">${grade}</span><span class="tag ${costClass}">${esc(cost)}</span></span></span>
+      <span class="card-copy"><span class="card-title-line"><span class="card-title">${esc(title)}</span><span class="card-arrow">${icon('chevron')}</span></span><span class="card-desc">${esc(desc)}</span><span class="card-tags"><span class="tag">${grade}</span><span class="tag ${costClass}">${esc(cost)}</span>${g.review.status===TEACHER?`<span class="tag teacher-tag" title="Teacher-verified selection; advertising not independently checked">${icon('shield')} Teacher</span>`:''}</span></span>
     </button>
     <button class="save ${saved ? 'saved' : ''}" data-save="${g.id}" aria-label="${saved ? 'Remove from' : 'Add to'} favorites: ${esc(g.title)}" aria-pressed="${saved}">${icon('star')}</button>
   </article>`;
@@ -274,7 +282,7 @@ function standardIds(g) { return [...new Set(g.topicIds.flatMap(id => curriculum
 function evidenceLink(g) { return safeURL(g.review.adEvidenceUrl) || safeURL(curriculum.sourceRegister[g.review.adEvidenceSourceId]?.url); }
 function openDetails(id) {
  const g=dataset.games.find(g=>g.id===id); if(!g)return;
- const isPub=g.review.status===PUB, p=platformInfo(g), [cost,costClass]=priceInfo(g), evidence=evidenceLink(g);
+ const isPub=g.review.status===PUB, isTeacher=g.review.status===TEACHER, p=platformInfo(g), [cost,costClass]=priceInfo(g), evidence=evidenceLink(g);
  const title=PRETTY[g.id]?.[0] || g.title;
  const desc=PRETTY[g.id]?.[1] || g.description;
  const grade=gradeSummary(g.grades);
@@ -288,21 +296,29 @@ function openDetails(id) {
    <div class="meta-item meta-cost ${costClass}">${icon('coin')}<strong>${esc(cost)}</strong><small>${g.platform==='app'?'Check app pricing':'Publisher version'}</small></div>
    <div class="meta-item meta-grade">${icon('cap')}<strong>${esc(grade)}</strong><small>Suggested level</small></div>
   </div>
-  <div class="popup-review">${icon(isPub?'shield':'info')}<span><strong>${isPub?'No ads · publisher claim':'Review pending'}</strong><small>${g.review.runtimeTested?'Local play-check recorded':'Not play-tested'}</small></span></div>
+  <div class="popup-review ${isTeacher?'popup-review-teacher':''}">${icon(isPub||isTeacher?'shield':'info')}<span><strong>${isPub?'No ads · publisher claim':isTeacher?'Teacher verified':'Review pending'}</strong><small>${isTeacher?'Ads not independently checked':g.review.runtimeTested?'Local play-check recorded':'Not play-tested'}</small></span></div>
   <details class="popup-notes"><summary>${icon('info')} Grown-up notes <span class="notes-chevron">${icon('chevron')}</span></summary>
-   <div class="popup-notes-body"><p><b>Device.</b> ${esc(g.access)}</p><p><b>Cost.</b> ${esc(g.priceLabel)}</p><p><b>Review.</b> ${esc(g.review.notes||'Review needed.')} A publisher claim is not a safety certification.</p><p><b>Learning.</b> ${esc(g.learningSuggestion||'Explore with a grown-up.')} ${esc(g.alignmentStatus||'Suggested practice only.')}</p><p class="codes">${esc(standardIds(g).join(' · '))||'Exact standard mapping pending.'}</p><p><b>Evidence scope.</b> ${esc(g.review.evidenceScope||'Pending')}<br>Reviewed: ${esc(g.review.reviewedOn||'Not yet')}. Links and terms may change.</p><p>The thumbnail is a decorative illustration, not a game screenshot.</p>${evidence?`<a class="mini-source" href="${esc(evidence)}" target="_blank" rel="noopener noreferrer">Advertising policy ${icon('external')}</a>`:''}${srcLinks(g.sourceIds)}</div>
+   <div class="popup-notes-body"><p><b>Device.</b> ${esc(g.access)}</p><p><b>Cost.</b> ${esc(g.priceLabel)}</p><p><b>Review.</b> ${esc(g.review.notes||'Review needed.')} A publisher claim is not a safety certification.</p><p><b>Learning.</b> ${esc(g.learningSuggestion||'Explore with a grown-up.')} ${esc(g.alignmentStatus||'Suggested practice only.')}</p><p class="codes">${esc(standardIds(g).join(' · '))||'Exact standard mapping pending.'}</p><p><b>Evidence scope.</b> ${esc(g.review.evidenceScope||'Pending')}<br>Reviewed: ${esc(g.review.reviewedOn||'Not yet')}. Links and terms may change.</p><p>${isTeacher?'Thumbnail supplied with the Learning Hub.': 'The thumbnail is a decorative illustration, not a game screenshot.'}</p>${evidence?`<a class="mini-source" href="${esc(evidence)}" target="_blank" rel="noopener noreferrer">Advertising policy ${icon('external')}</a>`:''}${srcLinks(g.sourceIds)}</div>
   </details>
  </div>
  <div class="popup-footer">
-  ${state.view==='parent'&&!isPub?`<button class="outline" data-review="${g.id}">Review record</button>`:''}
-  <a class="primary popup-launch" href="${esc(g.url)}" target="_blank" rel="noopener noreferrer">${icon(g.platform==='app'?'phone':'play')}${g.platform==='app'?'App page':isPub?(g.kind==='Interactive simulation'?'Explore':'Play game'):'Review link'}${icon('external')}</a>
+  ${state.view==='parent'&&!isPub&&!isTeacher?`<button class="outline" data-review="${g.id}">Review record</button>`:''}
+  <a class="primary popup-launch" href="${esc(g.url)}" target="_blank" rel="noopener noreferrer">${icon(g.platform==='app'?'phone':'play')}${g.platform==='app'?'App page':(isPub||isTeacher)?(g.kind==='Video'?'Watch video':g.kind==='Interactive simulation'?'Explore':g.kind==='Mini-game'?'Play game':'Open resource'):'Review link'}${icon('external')}</a>
   <small class="external-caption">${esc(new URL(g.url).hostname)} · New tab</small>
  </div>`;
  if(!dialog.open)dialog.showModal();
  dialog.scrollTop=0;document.body.classList.add('modal-open');
 }
-function parentMap(){let a=approved(),q=dataset.games.filter(g=>g.review.status!==PUB);return `<div class="notice"><b>This is an editorial catalogue map, not the full California standards text.</b> K/1 selected mappings are retained. Grades 2–12 have starter topic shelves; exact codes and full coverage need review. High-school course shelves are not fixed grade requirements.</div><div class="stats"><div class="stat"><strong>${curriculum.topics.length}</strong>topic shelves · K–12</div><div class="stat"><strong>${a.length}</strong>publisher no-ad claims</div><div class="stat"><strong>${q.length}</strong>awaiting review</div></div><div class="parent-tools"><label class="sr-only" for="parent-grade">Curriculum grade</label><select id="parent-grade">${GRADE_IDS.map(g=>`<option value="${g}" ${state.grade===g?'selected':''}>${gradeLabel(g)}</option>`).join('')}</select><label class="sr-only" for="parent-subject">Curriculum subject</label><select id="parent-subject"><option value="all">All subjects</option>${curriculum.subjects.map(s=>`<option value="${s.id}" ${state.parentSubject===s.id?'selected':''}>${s.name}</option>`).join('')}</select><button class="outline" id="export-curriculum">Export map</button></div>`+curriculum.subjects.filter(s=>state.parentSubject==='all'||s.id===state.parentSubject).map(s=>`<section class="topic-group"><h2>${icon(s.icon)}${s.name}<span>${esc(s.framework)}</span></h2>${curriculum.topics.filter(t=>t.subject===s.id&&t.grade===state.grade).map(t=>{let apps=a.filter(g=>g.topicIds.includes(t.id)),pending=q.filter(g=>g.topicIds.includes(t.id));return `<div class="topic-row"><div><h3>${esc(t.title)}</h3><p>${esc(t.goal)}</p><div class="codes">${t.standardIds.length?esc(t.standardIds.join(' · ')):esc(t.mappingLevel)}</div><details><summary style="font-size:11px;min-height:29px">Activity & sources</summary><p>${esc(t.offscreenFollowup)}</p>${srcLinks(t.sourceIds)}</details></div><div class="coverage"><span class="tag ${apps.length?'':'wait'}">${apps.length?apps.length+' activities':'No reviewed link'}</span>${apps.map(g=>`<br><button class="textbutton" style="min-height:31px;font-size:11px;text-align:left" data-open="${g.id}">${esc(g.title)} ↗</button>`).join('')}${pending.length?`<p>${pending.length} candidate${pending.length===1?'':'s'} in the review queue</p>`:''}</div></div>`}).join('')}</section>`).join('')+`<section class="topic-group"><h2>Across the learning day</h2>${curriculum.supportTracks.map(t=>`<div class="topic-row"><div><h3>${esc(t.title)}</h3><p>${esc(t.note)}</p>${srcLinks(t.sourceIds)}</div></div>`).join('')}<div class="topic-row"><div><h3>Mathematical practices</h3><p>${curriculum.mathPractices.map((p,i)=>`${i+1}. ${esc(p)}`).join('; ')}.</p></div></div></section>`}
-function reviewList(){return `<div class="notice"><b>Hidden from the child-facing catalogue.</b> Free access or a trusted brand does not prove the exact game is ad-free. Check the launch URL, advertisements/sponsor messages, purchases, external links, reading load, controls and curriculum match before publishing.</div>`+dataset.games.filter(g=>g.review.status!==PUB).map(g=>`<div class="review-row"><div><h3>${esc(g.title)}</h3><p>${esc(g.publisher)} · ${esc(g.kind)} · ${esc(g.priceLabel)}</p><p style="margin-top:7px">${esc(g.review.notes)}</p></div><button class="textbutton" data-open="${g.id}">Review ${icon('arrow')}</button></div>`).join('')}
+function parentMap(){let a=approved(),q=dataset.games.filter(g=>g.review.status==='needs_review'),teach=dataset.games.filter(g=>g.review.status===TEACHER);return `<div class="notice"><b>This is an editorial catalogue map, not the full California standards text.</b> K/1 selected mappings are retained. Grades 2–12 have starter topic shelves; exact codes and full coverage need review. High-school course shelves are not fixed grade requirements.</div><div class="stats"><div class="stat"><strong>${curriculum.topics.length}</strong>topic shelves · K–12</div><div class="stat"><strong>${dataset.games.filter(g=>g.review.status===PUB).length}</strong>publisher no-ad claims</div><div class="stat"><strong>${teach.length}</strong>teacher picks · ad check pending</div><div class="stat"><strong>${q.length}</strong>hidden candidates</div></div><div class="parent-tools"><label class="sr-only" for="parent-grade">Curriculum grade</label><select id="parent-grade">${GRADE_IDS.map(g=>`<option value="${g}" ${state.grade===g?'selected':''}>${gradeLabel(g)}</option>`).join('')}</select><label class="sr-only" for="parent-subject">Curriculum subject</label><select id="parent-subject"><option value="all">All subjects</option>${curriculum.subjects.map(s=>`<option value="${s.id}" ${state.parentSubject===s.id?'selected':''}>${s.name}</option>`).join('')}</select><button class="outline" id="export-curriculum">Export map</button></div>`+curriculum.subjects.filter(s=>state.parentSubject==='all'||s.id===state.parentSubject).map(s=>`<section class="topic-group"><h2>${icon(s.icon)}${s.name}<span>${esc(s.framework)}</span></h2>${curriculum.topics.filter(t=>t.subject===s.id&&t.grade===state.grade).map(t=>{let apps=a.filter(g=>g.topicIds.includes(t.id)),pending=q.filter(g=>g.topicIds.includes(t.id));return `<div class="topic-row"><div><h3>${esc(t.title)}</h3><p>${esc(t.goal)}</p><div class="codes">${t.standardIds.length?esc(t.standardIds.join(' · ')):esc(t.mappingLevel)}</div><details><summary style="font-size:11px;min-height:29px">Activity & sources</summary><p>${esc(t.offscreenFollowup)}</p>${srcLinks(t.sourceIds)}</details></div><div class="coverage"><span class="tag ${apps.length?'':'wait'}">${apps.length?apps.length+' activities':'No reviewed link'}</span>${apps.map(g=>`<br><button class="textbutton" style="min-height:31px;font-size:11px;text-align:left" data-open="${g.id}">${esc(g.title)} ↗</button>`).join('')}${pending.length?`<p>${pending.length} candidate${pending.length===1?'':'s'} in the review queue</p>`:''}</div></div>`}).join('')}</section>`).join('')+`<section class="topic-group"><h2>Across the learning day</h2>${curriculum.supportTracks.map(t=>`<div class="topic-row"><div><h3>${esc(t.title)}</h3><p>${esc(t.note)}</p>${srcLinks(t.sourceIds)}</div></div>`).join('')}<div class="topic-row"><div><h3>Mathematical practices</h3><p>${curriculum.mathPractices.map((p,i)=>`${i+1}. ${esc(p)}`).join('; ')}.</p></div></div></section>`}
+function reviewList(){
+ const pending=dataset.games.filter(g=>g.review.status==='needs_review');
+ const teacher=dataset.games.filter(g=>g.review.status===TEACHER);
+ return `<div class="notice"><b>Separate checks.</b> Hidden candidates await an adult's review. Hub selections are visible because the owner reports teacher verification, but their advertising, logins and external destinations have not been independently checked. Teacher verification does not mean ad-free.</div>`+
+ `<h2 class="review-heading">Hidden candidates · ${pending.length}</h2>`+
+ pending.map(g=>`<div class="review-row"><div><h3>${esc(g.title)}</h3><p>${esc(g.publisher)} · ${esc(g.kind)} · ${esc(g.priceLabel)}</p><p style="margin-top:7px">${esc(g.review.notes)}</p></div><button class="textbutton" data-open="${g.id}">Review ${icon('arrow')}</button></div>`).join('')+
+ `<h2 class="review-heading">Teacher picks · ${teacher.length} (ad check pending)</h2>`+
+ teacher.map(g=>`<div class="review-row"><div><h3>${esc(g.title)}</h3><p>${esc(g.hubSection||'Learning Hub')} · ${esc(g.gradeEvidence||'Editorial grade suggestion')}</p></div><button class="textbutton" data-open="${g.id}">Details ${icon('arrow')}</button></div>`).join('');
+}
 function manage() {
   const e = dataset.games.find(g => g.id === state.editId);
   return `<p class="manage-intro"><b>Your local catalogue draft.</b> Add or update a game, then export <code>games.json</code>. Edits stay in this browser; they do not publish to GitHub. New and edited links return to the review queue.</p>
@@ -322,18 +338,18 @@ function manage() {
     <label class="field full">Curator notes<textarea name="notes" maxlength="1500">${esc(e?.review.notes || 'Check advertising, purchases, device support and learning fit before approval.')}</textarea></label>
     </div><div class="form-actions"><button class="primary" type="submit">${e ? 'Save for review' : 'Save for review'}</button>${e ? '<button class="textbutton" id="cancel-edit" type="button">Cancel editing</button>' : ''}</div><p class="local-message">The grown-up area is not password-protected. Local editing is not an authenticated publishing system.</p></form>
     <h2 style="margin:28px 0 14px;font-size:23px">Your catalogue · ${dataset.games.length} entries</h2>
-    ${dataset.games.map(g => `<div class="review-row"><div><h3>${esc(g.title)}</h3><p>${esc(g.publisher)} · ${g.review.status === PUB ? 'Publisher no-ad claim recorded' : 'Review pending'} · ${platformInfo(g).label}</p></div><div class="row-actions"><button class="textbutton" data-open="${g.id}">Details</button><button class="outline" data-edit="${g.id}">Edit</button>${g.review.status !== PUB ? `<button class="outline" data-review="${g.id}">Review</button>` : ''}<button class="textbutton danger-button" data-delete="${g.id}" aria-label="Remove ${esc(g.title)} from local catalogue">Remove</button></div></div>`).join('')}`;
+    ${dataset.games.map(g => `<div class="review-row"><div><h3>${esc(g.title)}</h3><p>${esc(g.publisher)} · ${g.review.status === PUB ? 'Publisher no-ad claim recorded' : g.review.status === TEACHER ? 'Teacher verified · ad status unchecked' : 'Review pending'} · ${platformInfo(g).label}</p></div><div class="row-actions"><button class="textbutton" data-open="${g.id}">Details</button><button class="outline" data-edit="${g.id}">Edit</button>${g.review.status !== PUB && g.review.status !== TEACHER ? `<button class="outline" data-review="${g.id}">Review</button>` : ''}<button class="textbutton danger-button" data-delete="${g.id}" aria-label="Remove ${esc(g.title)} from local catalogue">Remove</button></div></div>`).join('')}`;
 }
 function topicOptions(selected, grades, subjects) {
   return curriculum.topics.filter(t => grades.includes(t.grade) && subjects.includes(t.subject)).map(t => `<option value="${t.id}" ${selected.includes(t.id) ? 'selected' : ''}>${t.grade === 'K' ? 'KG' : 'G'+t.grade} · ${esc(t.title)}</option>`).join('');
 }
 function sourcePage() {
-  return `<div class="notice"><b>This is a working catalogue, not a safety certification or complete course.</b> Child-facing records have scoped publisher no-ad claims; this is documentary evidence only. External games have not been hands-on tested in this build; remaining candidates stay in the review queue.</div><section class="editor"><h2>About this little library</h2>
+  return `<div class="notice"><b>This is a working catalogue, not a safety certification or complete course.</b> Some activities have publisher no-ad evidence. Imported Learning Hub links have user-reported teacher verification, with advertising and live destination checks still pending. External activities have not been independently play-tested.</div><section class="editor"><h2>About this little library</h2>
     <div class="source-block"><h3>The curriculum</h3><p class="manage-intro">The supplied map has ${curriculum.topics.length} editorial topic clusters across California Kindergarten through Grade 12, not a complete verbatim standards database or state-approved course. Standards references and off-screen follow-ups are retained from the original research. California Grade 1 is not the same level as UK Year 1. Arts, PE and some support areas need more detailed mapping. Games support practice; they do not establish mastery.</p></div>
     <div class="source-block"><h3>What device icons mean</h3><p class="manage-intro">A globe means the linked resource opens in a browser. Phone and tablet icons mean an app installation, not browser play. The iPhone / iPad badge applies only to that specific app record. App compatibility may include additional supported devices; the official listing has the final requirements. An advertising policy for an app is not automatically evidence for its browser version.</p></div>
-    <div class="source-block"><h3>Evidence, not badges of certainty</h3><p class="manage-intro">The child cards do not use “parent checked” or blanket “safe” badges. Publisher no-ad statements are available in each game’s details, with their source, date and scope. No-ad does not mean no purchases, analytics, accounts, sponsor messages, or external links. Recheck the exact destination before a child uses it. The local review form records a curator’s check, not an independent audit.</p></div>
+    <div class="source-block"><h3>Evidence, not badges of certainty</h3><p class="manage-intro">The child cards never use blanket “safe” or “ad-free” badges for teacher-selected links. Publisher no-ad statements and teacher-verified selections are labeled separately, with their source, date and scope. No-ad does not mean no purchases, analytics, accounts, sponsor messages, or external links. Recheck the exact destination before a child uses it. The local review form records a curator’s check, not an independent audit.</p></div>
     <div class="source-block"><h3>Privacy & editing</h3><p class="manage-intro">Wonderwood itself loads no advertisements, analytics, remote fonts or third-party embeds. Favorites and editable drafts use this browser’s local storage; no child names or accounts are collected. Export JSON before clearing site data or changing devices. The Parent/Teacher area is not authentication. Edits and approval are local only; there is no GitHub sync or deployment.</p></div>
-    <div class="source-block"><h3>Artwork & accessibility</h3><p class="manage-intro">Woodland artwork comes from the approved design concept. The game thumbnails are decorative illustrations, not actual game screenshots, official publisher branding or endorsements. All core controls are real HTML buttons. There are keyboard focus indicators, native dialogs, reduced-motion support and no autoplay sound. Real screen-reader and touch-device review remains necessary.</p></div>
+    <div class="source-block"><h3>Artwork & accessibility</h3><p class="manage-intro">Woodland artwork comes from the approved design concept. Wonderwood originals use decorative game illustrations. Imported Hub activities display their supplied source thumbnails; these are not endorsements or independently verified screenshots. All core controls are real HTML buttons. There are keyboard focus indicators, native dialogs, reduced-motion support and no autoplay sound. Real screen-reader and touch-device review remains necessary.</p></div>
     <div class="source-block"><h3>Source register</h3>${Object.values(curriculum.sourceRegister).map(s => `<div class="source-item"><strong>${esc(s.title)}</strong>${safeURL(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.url)}</a>` : ''}</div>`).join('')}</div></section>`;
 }
 function renderParent() {

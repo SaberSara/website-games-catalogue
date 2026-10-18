@@ -1,9 +1,11 @@
 {
-  "records": 152,
+  "records": 222,
   "approved": 118,
   "pending": 34,
+  "teacherVerified": 70,
+  "visible": 188,
   "grades": 13,
-  "topicsWithVisibleResource": 225,
+  "topicsWithVisibleResource": 263,
   "topicCount": 433,
   "perGrade": {
     "K": {
@@ -16,130 +18,146 @@
       }
     },
     "1": {
-      "visible": 15,
+      "visible": 18,
       "subjectActivityCounts": {
         "ela": 6,
         "math": 6,
         "health": 1,
-        "science": 2,
-        "cs": 2
+        "science": 4,
+        "cs": 2,
+        "hss": 1
       }
     },
     "2": {
-      "visible": 18,
+      "visible": 30,
       "subjectActivityCounts": {
-        "ela": 2,
-        "math": 11,
-        "health": 1,
-        "science": 2,
+        "ela": 3,
+        "math": 12,
+        "health": 2,
+        "science": 12,
         "cs": 4,
-        "arts": 2
+        "arts": 2,
+        "hss": 1
       }
     },
     "3": {
-      "visible": 27,
+      "visible": 51,
       "subjectActivityCounts": {
-        "math": 17,
-        "science": 4,
+        "math": 18,
+        "science": 26,
         "cs": 5,
         "arts": 3,
-        "ela": 1
+        "ela": 3,
+        "health": 2,
+        "hss": 1
       }
     },
     "4": {
-      "visible": 31,
+      "visible": 61,
       "subjectActivityCounts": {
-        "math": 15,
-        "science": 10,
+        "math": 16,
+        "science": 37,
         "cs": 5,
         "arts": 3,
-        "ela": 1
+        "ela": 5,
+        "health": 2,
+        "hss": 3
       }
     },
     "5": {
-      "visible": 29,
+      "visible": 70,
       "subjectActivityCounts": {
-        "math": 15,
-        "science": 8,
+        "math": 16,
+        "science": 45,
         "cs": 5,
         "arts": 3,
-        "ela": 1
+        "ela": 8,
+        "health": 2,
+        "hss": 4
       }
     },
     "6": {
-      "visible": 31,
+      "visible": 74,
       "subjectActivityCounts": {
-        "math": 18,
-        "science": 6,
-        "cs": 4,
+        "math": 19,
+        "science": 44,
+        "cs": 5,
         "arts": 4,
-        "ela": 1,
-        "hss": 1
+        "ela": 10,
+        "hss": 5,
+        "health": 1
       }
     },
     "7": {
-      "visible": 33,
+      "visible": 77,
       "subjectActivityCounts": {
         "math": 18,
-        "science": 8,
-        "cs": 4,
+        "science": 44,
+        "cs": 6,
         "arts": 4,
-        "ela": 1,
-        "hss": 1
+        "ela": 10,
+        "hss": 6,
+        "health": 4
       }
     },
     "8": {
-      "visible": 38,
+      "visible": 78,
       "subjectActivityCounts": {
         "math": 13,
-        "science": 18,
-        "cs": 4,
+        "science": 50,
+        "cs": 6,
         "arts": 4,
-        "ela": 1,
-        "hss": 1
+        "ela": 9,
+        "hss": 6,
+        "health": 4
       }
     },
     "9": {
-      "visible": 53,
+      "visible": 92,
       "subjectActivityCounts": {
         "math": 14,
-        "science": 32,
-        "cs": 4,
+        "science": 58,
+        "cs": 8,
         "arts": 3,
-        "ela": 2
+        "ela": 15,
+        "health": 5,
+        "hss": 4
       }
     },
     "10": {
-      "visible": 49,
+      "visible": 76,
       "subjectActivityCounts": {
         "math": 12,
-        "science": 29,
-        "cs": 4,
+        "science": 47,
+        "cs": 7,
         "arts": 3,
-        "ela": 2,
-        "hss": 1
+        "ela": 10,
+        "hss": 3,
+        "health": 5
       }
     },
     "11": {
-      "visible": 43,
+      "visible": 56,
       "subjectActivityCounts": {
         "math": 11,
-        "science": 26,
-        "cs": 3,
+        "science": 32,
+        "cs": 6,
         "arts": 3,
-        "ela": 1,
-        "hss": 1
+        "ela": 7,
+        "hss": 1,
+        "health": 3
       }
     },
     "12": {
-      "visible": 43,
+      "visible": 56,
       "subjectActivityCounts": {
         "math": 11,
-        "science": 26,
-        "cs": 3,
+        "science": 32,
+        "cs": 6,
         "arts": 3,
-        "ela": 1,
-        "hss": 1
+        "ela": 7,
+        "hss": 1,
+        "health": 3
       }
     }
   }

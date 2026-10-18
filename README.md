@@ -8,6 +8,14 @@ The workflow validates and rebuilds the source, then uploads only the generated 
 
 Updated **15 October 2026**. This is an editable static website build. GitHub code integration is separate from publishing a live site. Updated using the approved bright hero-banner screenshot and matching illustrated top navigation. Repository integration is tracked separately.
 
+## Teacher-curated Learning Hub import — 18 October 2026
+
+A ZIP supplied by the project owner provided **71 activity cards**: **70 unique links**, including two videos that open their credited YouTube sources. The one repeated Solar System Explorer link was deduplicated. All **70 original thumbnails** are stored locally as optimised WebP files. The Academy promotional destination was excluded. Resources retain source order and original lesson tags, with grade/subject placements identified as editorial where the source did not give an exact grade.
+
+Teacher verification is **user-attested**, not an independent advertisement, gameplay or availability audit. The new popup labels teacher verification separately from unchecked advertising status.
+
+The resulting catalogue has **222 entries**, with **188 shown** in child browsing (118 publisher no-ad claims + 70 teacher-verified selections) and 34 hidden candidates. See [the curation explanation](docs/LEARNING-HUB-IMPORT.md) and [the extracted source mapping](docs/HUB-IMPORT-MANIFEST.json). Updates pushed to main will rebuild GitHub Pages when Pages is enabled.
+
 ## Open the website
 
 Open **`wonderwood-play.html`** in a modern browser. This portable file includes the interface, artwork, curriculum and starter links. It needs no server to browse; external games need internet access. A file previewer may show HTML source instead of running it—open the downloaded file in a browser.
@@ -35,7 +43,7 @@ The catalogue makes no remote requests before a user follows an external destina
 
 **433 topic shelves** = the previous 98 Kindergarten/Grade 1 clusters + 335 new starter shelves for Grades 2–12. The new shelves are expressly marked **exact-code review pending**. They are not a full California standards audit, complete course, prescribed pacing sequence or state endorsement. High-school mathematics/science shelves use shared course topics rather than inventing a compulsory grade sequence.
 
-**152 resource records** = 118 visible records supported by publisher advertising-policy statements and 34 candidates withheld from child browsing pending adult review. Resources span all 13 grades and cover 225 of the 433 topic shelves with at least one visible item. A topic association is editorial, not a guarantee of California-standards mastery. Some grade/subject/topic combinations remain empty—especially health, movement, and younger history. Records include collections, app variants, simulations and creative projects, not 152 distinct scored games.
+**222 resource records** = 118 records with publisher no-ad claims and 34 candidates withheld from child browsing pending adult review. Resources span all 13 grades and cover 263 of the 433 topic shelves with at least one visible item. A topic association is editorial, not a guarantee of California-standards mastery. Some grade/subject/topic combinations remain empty—especially health, movement, and younger history. Records include collections, app variants, simulations and creative projects, not 152 distinct scored games.
 
 The publisher claim for Khan Academy concerns **third-party advertising**; Khan Academy may show labeled sponsor/supporter messages. This distinction is shown in the adult evidence notes. Code.org courses may require teacher setup or accounts; PhET simulations are explorations rather than quizzes. Starfall offers some member-only activities. Read `docs/RESOURCE-COVERAGE.md`.
 

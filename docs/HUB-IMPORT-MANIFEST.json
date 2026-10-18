@@ -1,0 +1,1487 @@
+{
+  "importedOn": "2026-10-18",
+  "source": "User-supplied ZIP of AROPL Kids Learning Hub",
+  "hubURL": "https://aropl-kids-learning-hub.vercel.app/",
+  "sourceCardCount": 71,
+  "uniqueImported": 70,
+  "duplicateSourceCards": 1,
+  "alreadyInWonderwood": 0,
+  "omitted": "The Ahmadi Academy link, logo, page branding, two stored MP4 files, original game code. Videos use creator YouTube links; two hosted games use their hub routes.",
+  "records": [
+    {
+      "order": 1,
+      "sourceSection": "Assessments",
+      "title": "School Uniforms & Research",
+      "originalUrl": "https://www.ssph-journal.org/journals/public-health-reviews/articles/10.3389/phrs.2021.1604212/full",
+      "url": "https://www.ssph-journal.org/journals/public-health-reviews/articles/10.3389/phrs.2021.1604212/full",
+      "sourceThumbnail": "images/school-uniforms-research.png",
+      "savedThumbnail": "hub-01-school-uniforms-research.webp",
+      "originalLesson": "Grade 9 · Q2 · L45 · ELA (Option A)",
+      "suggestedGrades": [
+        "9"
+      ],
+      "suggestedSubjects": [
+        "ela"
+      ],
+      "gradeEvidence": "Source explicitly names Grade 9"
+    },
+    {
+      "order": 2,
+      "sourceSection": "Assessments",
+      "title": "School Uniforms & Achievement",
+      "originalUrl": "https://journalistsresource.org/education/school-uniforms-research-achievement/",
+      "url": "https://journalistsresource.org/education/school-uniforms-research-achievement/",
+      "sourceThumbnail": "images/school-uniforms-education.jpg",
+      "savedThumbnail": "hub-02-school-uniforms-achievement.webp",
+      "originalLesson": "Grade 9 · Q2 · L45 · ELA (Option A)",
+      "suggestedGrades": [
+        "9"
+      ],
+      "suggestedSubjects": [
+        "ela"
+      ],
+      "gradeEvidence": "Source explicitly names Grade 9"
+    },
+    {
+      "order": 3,
+      "sourceSection": "Assessments",
+      "title": "Youth Social Media Advisory (PDF)",
+      "originalUrl": "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf",
+      "url": "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf",
+      "sourceThumbnail": "images/social-media-advisory.png",
+      "savedThumbnail": "hub-03-youth-social-media-advisory-pdf.webp",
+      "originalLesson": "Grade 9 · Q2 · L45 · ELA (Option B)",
+      "suggestedGrades": [
+        "9"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "health"
+      ],
+      "gradeEvidence": "Source explicitly names Grade 9"
+    },
+    {
+      "order": 4,
+      "sourceSection": "Assessments",
+      "title": "Teens, Social Media & Tech",
+      "originalUrl": "https://www.pewresearch.org/internet/2023/12/11/teens-social-media-and-technology-2023/",
+      "url": "https://www.pewresearch.org/internet/2023/12/11/teens-social-media-and-technology-2023/",
+      "sourceThumbnail": "images/pew-teens-social-media.png",
+      "savedThumbnail": "hub-04-teens-social-media-tech.webp",
+      "originalLesson": "Grade 9 · Q2 · L45 · ELA (Option B)",
+      "suggestedGrades": [
+        "9"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "cs"
+      ],
+      "gradeEvidence": "Source explicitly names Grade 9"
+    },
+    {
+      "order": 5,
+      "sourceSection": "Assessments",
+      "title": "IPCC AR6 Synthesis Report",
+      "originalUrl": "https://www.ipcc.ch/report/ar6/syr/",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "sourceThumbnail": "images/ipcc-ar6.png",
+      "savedThumbnail": "hub-05-ipcc-ar6-synthesis-report.webp",
+      "originalLesson": "Grade 9 · Q2 · L45 · ELA (Option C)",
+      "suggestedGrades": [
+        "9"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "science"
+      ],
+      "gradeEvidence": "Source explicitly names Grade 9"
+    },
+    {
+      "order": 6,
+      "sourceSection": "Assessments",
+      "title": "Greenhouse Gas Pricing Policies",
+      "originalUrl": "https://www.oecd.org/en/publications/2024/11/pricing-greenhouse-gas-emissions-2024_173c47f4.html",
+      "url": "https://www.oecd.org/en/publications/2024/11/pricing-greenhouse-gas-emissions-2024_173c47f4.html",
+      "sourceThumbnail": "images/oecd-greenhouse-gas.png",
+      "savedThumbnail": "hub-06-greenhouse-gas-pricing-policies.webp",
+      "originalLesson": "Grade 9 · Q2 · L45 · ELA (Option C)",
+      "suggestedGrades": [
+        "9"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "hss"
+      ],
+      "gradeEvidence": "Source explicitly names Grade 9"
+    },
+    {
+      "order": 7,
+      "sourceSection": "Math",
+      "title": "Math Smash 3D (V2)",
+      "originalUrl": "/games/math-smash-3d-v20260125/index.html",
+      "url": "https://aropl-kids-learning-hub.vercel.app/games/math-smash-3d-v20260125/index.html",
+      "sourceThumbnail": "images/math-smash-3d.png",
+      "savedThumbnail": "hub-07-math-smash-3d-v2.webp",
+      "originalLesson": "No specified lesson(s)",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "suggestedSubjects": [
+        "math"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 8,
+      "sourceSection": "English",
+      "title": "Kids Environment Health",
+      "originalUrl": "https://www.niehs.nih.gov/health/kids/",
+      "url": "https://www.niehs.nih.gov/health/kids/",
+      "sourceThumbnail": "images/environment-health.jpg",
+      "savedThumbnail": "hub-08-kids-environment-health.webp",
+      "originalLesson": "Q3 · Lesson 25",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "science",
+        "health"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 9,
+      "sourceSection": "English",
+      "title": "Smithsonian Learning Lab",
+      "originalUrl": "https://learninglab.si.edu/",
+      "url": "https://learninglab.si.edu/",
+      "sourceThumbnail": "images/smithsonian.png",
+      "savedThumbnail": "hub-09-smithsonian-learning-lab.webp",
+      "originalLesson": "Q3 · Lesson 25",
+      "suggestedGrades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "hss"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 10,
+      "sourceSection": "English",
+      "title": "NASA Kids Science",
+      "originalUrl": "https://science.nasa.gov/kids/",
+      "url": "https://science.nasa.gov/kids/",
+      "sourceThumbnail": "images/nasa-kids.png",
+      "savedThumbnail": "hub-10-nasa-kids-science.webp",
+      "originalLesson": "Q3 · Lesson 25",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 11,
+      "sourceSection": "English",
+      "title": "National Geographic Education",
+      "originalUrl": "https://education.nationalgeographic.org/",
+      "url": "https://education.nationalgeographic.org/",
+      "sourceThumbnail": "images/natgeo-education.png",
+      "savedThumbnail": "hub-11-national-geographic-education.webp",
+      "originalLesson": "Q3 · Lesson 25",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "hss"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 12,
+      "sourceSection": "English",
+      "title": "National Geographic Kids",
+      "originalUrl": "https://www.natgeokids.com/uk/",
+      "url": "https://www.natgeokids.com/uk/",
+      "sourceThumbnail": "images/natgeo-kids.png",
+      "savedThumbnail": "hub-12-national-geographic-kids.webp",
+      "originalLesson": "Q3 · Lesson 25",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 13,
+      "sourceSection": "English",
+      "title": "Human Rights: Water & Sanitation",
+      "originalUrl": "https://www.unwater.org/water-facts/human-rights-water-and-sanitation",
+      "url": "https://www.unwater.org/water-facts/human-rights-water-and-sanitation",
+      "sourceThumbnail": "images/human-rights-water.png",
+      "savedThumbnail": "hub-13-human-rights-water-sanitation.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "hss"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 14,
+      "sourceSection": "English",
+      "title": "Water Facts (USBR)",
+      "originalUrl": "https://www.usbr.gov/mp/arwec/water-facts-ww-water-sup.html",
+      "url": "https://www.usbr.gov/mp/arwec/water-facts-ww-water-sup.html",
+      "sourceThumbnail": "images/usbr-water-facts.png",
+      "savedThumbnail": "hub-14-water-facts-usbr.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 15,
+      "sourceSection": "English",
+      "title": "How Long Without Drinking Water",
+      "originalUrl": "https://www.embracerelief.org/how-long-can-you-survive-without-drinking-water/",
+      "url": "https://www.embracerelief.org/how-long-can-you-survive-without-drinking-water/",
+      "sourceThumbnail": "images/survive-without-water.jpg",
+      "savedThumbnail": "hub-15-how-long-without-drinking-water.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "health"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 16,
+      "sourceSection": "English",
+      "title": "The Science of Fear",
+      "originalUrl": "https://www.open.edu/openlearn/health-sports-psychology/psychology/the-science-fear",
+      "url": "https://www.open.edu/openlearn/health-sports-psychology/psychology/the-science-fear",
+      "sourceThumbnail": "images/science-of-fear.jpg",
+      "savedThumbnail": "hub-16-the-science-of-fear.webp",
+      "originalLesson": "Q2 · Lesson 36 · The Science of Fear (research topic)",
+      "suggestedGrades": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "health"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 17,
+      "sourceSection": "English",
+      "title": "Science of Migration",
+      "originalUrl": "https://www.sciencenewstoday.org/the-science-of-migration-how-animals-cross-continents",
+      "url": "https://www.sciencenewstoday.org/the-science-of-migration-how-animals-cross-continents",
+      "sourceThumbnail": "images/migration-science.jpg",
+      "savedThumbnail": "hub-17-science-of-migration.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 18,
+      "sourceSection": "English",
+      "title": "Animal Migration",
+      "originalUrl": "https://education.nationalgeographic.org/resource/migration/",
+      "url": "https://education.nationalgeographic.org/resource/migration/",
+      "sourceThumbnail": "images/migration-ng.jpg",
+      "savedThumbnail": "hub-18-animal-migration.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 19,
+      "sourceSection": "English",
+      "title": "Why Ocean Exploration Matters",
+      "originalUrl": "https://oceanexplorer.noaa.gov/why-exploration-matters/",
+      "url": "https://oceanexplorer.noaa.gov/why-exploration-matters/",
+      "sourceThumbnail": "images/ocean-exploration-matters.png",
+      "savedThumbnail": "hub-19-why-ocean-exploration-matters.webp",
+      "originalLesson": "Q2 · Lesson 36 · Ocean Exploration",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 20,
+      "sourceSection": "English",
+      "title": "Peer-Reviewed Research Article",
+      "originalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2527715/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2527715/",
+      "sourceThumbnail": "images/pmc-article.jpg",
+      "savedThumbnail": "hub-20-peer-reviewed-research-article.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 21,
+      "sourceSection": "English",
+      "title": "Characteristics of an Effective Team",
+      "originalUrl": "https://online.hbs.edu/blog/post/characteristics-of-an-effective-team",
+      "url": "https://online.hbs.edu/blog/post/characteristics-of-an-effective-team",
+      "sourceThumbnail": "images/effective-team.png",
+      "savedThumbnail": "hub-21-characteristics-of-an-effective-team.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "health",
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 22,
+      "sourceSection": "English",
+      "title": "The Science of Teamwork",
+      "originalUrl": "https://leadx.org/articles/the-science-of-teamwork/",
+      "url": "https://leadx.org/articles/the-science-of-teamwork/",
+      "sourceThumbnail": "images/science-of-teamwork.jpg",
+      "savedThumbnail": "hub-22-the-science-of-teamwork.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "health",
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 23,
+      "sourceSection": "English",
+      "title": "Media Literacy Education (PDF)",
+      "originalUrl": "https://files.eric.ed.gov/fulltext/EJ1178721.pdf",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1178721.pdf",
+      "sourceThumbnail": "images/media-literacy-research.png",
+      "savedThumbnail": "hub-23-media-literacy-education-pdf.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "cs"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 24,
+      "sourceSection": "English",
+      "title": "Media & Health Research",
+      "originalUrl": "https://academic.oup.com/heapro/article/40/2/daaf023/8100645",
+      "url": "https://academic.oup.com/heapro/article/40/2/daaf023/8100645",
+      "sourceThumbnail": "images/health-promotion-research.jpg",
+      "savedThumbnail": "hub-24-media-health-research.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "health",
+        "ela"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 25,
+      "sourceSection": "English",
+      "title": "Global Digital Safety",
+      "originalUrl": "https://initiatives.weforum.org/global-coalition-for-digital-safety/",
+      "url": "https://initiatives.weforum.org/global-coalition-for-digital-safety/",
+      "sourceThumbnail": "images/global-digital-safety.png",
+      "savedThumbnail": "hub-25-global-digital-safety.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "cs"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 26,
+      "sourceSection": "English",
+      "title": "Media Literacy & Misinformation",
+      "originalUrl": "https://www.apa.org/monitor/2024/09/media-literacy-misinformation",
+      "url": "https://www.apa.org/monitor/2024/09/media-literacy-misinformation",
+      "sourceThumbnail": "images/media-literacy-misinformation.png",
+      "savedThumbnail": "hub-26-media-literacy-misinformation.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "ela",
+        "cs"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 27,
+      "sourceSection": "Science",
+      "title": "Case Study: Pack of Wolves",
+      "originalUrl": "https://kids.nationalgeographic.com/animals/mammals/facts/gray-wolf",
+      "url": "https://kids.nationalgeographic.com/animals/mammals/facts/gray-wolf",
+      "sourceThumbnail": "images/wolves-ngkids.jpg",
+      "savedThumbnail": "hub-27-case-study-pack-of-wolves.webp",
+      "originalLesson": "Q3 · Lesson 28 · Pack of Wolves",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 28,
+      "sourceSection": "Science",
+      "title": "Lightning",
+      "originalUrl": "https://education.nationalgeographic.org/resource/lightning/",
+      "url": "https://education.nationalgeographic.org/resource/lightning/",
+      "sourceThumbnail": "images/lightning-ng.jpg",
+      "savedThumbnail": "hub-28-lightning.webp",
+      "originalLesson": "Q3 · Lesson 10 · Lightning",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 29,
+      "sourceSection": "Science",
+      "title": "Tornadoes",
+      "originalUrl": "https://kids.nationalgeographic.com/science/article/tornado",
+      "url": "https://kids.nationalgeographic.com/science/article/tornado",
+      "sourceThumbnail": "images/tornado-ngkids.jpg",
+      "savedThumbnail": "hub-29-tornadoes.webp",
+      "originalLesson": "Q3 · Lesson 7 · Tornadoes",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 30,
+      "sourceSection": "Science",
+      "title": "Floods",
+      "originalUrl": "https://kids.nationalgeographic.com/science/article/flood",
+      "url": "https://kids.nationalgeographic.com/science/article/flood",
+      "sourceThumbnail": "images/floods-ngkids.jpg",
+      "savedThumbnail": "hub-30-floods.webp",
+      "originalLesson": "Q3 · Lesson 2 · Floods",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 31,
+      "sourceSection": "Science",
+      "title": "Temperate Forest Habitats",
+      "originalUrl": "https://kids.nationalgeographic.com/nature/habitats/article/temperate-forest",
+      "url": "https://kids.nationalgeographic.com/nature/habitats/article/temperate-forest",
+      "sourceThumbnail": "images/temperate-forest.png",
+      "savedThumbnail": "hub-31-temperate-forest-habitats.webp",
+      "originalLesson": "Q2 · Lesson 41 · Temperature Climate",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 32,
+      "sourceSection": "Science",
+      "title": "Rainforests",
+      "originalUrl": "https://kids.nationalgeographic.com/nature/habitats/article/rain-forest",
+      "url": "https://kids.nationalgeographic.com/nature/habitats/article/rain-forest",
+      "sourceThumbnail": "images/rainforests.jpg",
+      "savedThumbnail": "hub-32-rainforests.webp",
+      "originalLesson": "Q2 · Lesson 39 · Rainforests",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 33,
+      "sourceSection": "Science",
+      "title": "Greenland Glaciers & Geography",
+      "originalUrl": "https://kids.nationalgeographic.com/geography/countries/article/greenland",
+      "url": "https://kids.nationalgeographic.com/geography/countries/article/greenland",
+      "sourceThumbnail": "images/greenland-glaciers.png",
+      "savedThumbnail": "hub-33-greenland-glaciers-geography.webp",
+      "originalLesson": "Q2 · Lesson 36 · Greenland Glaciers",
+      "suggestedGrades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "hss"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 34,
+      "sourceSection": "Science",
+      "title": "Deserts",
+      "originalUrl": "https://cteec.org/region-desert/",
+      "url": "https://cteec.org/region-desert/",
+      "sourceThumbnail": "images/deserts-region.jpg",
+      "savedThumbnail": "hub-34-deserts.webp",
+      "originalLesson": "Q2 · Lesson 32 · Deserts",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 35,
+      "sourceSection": "Science",
+      "title": "Spring Traditions Around the World",
+      "originalUrl": "https://blog.icesusa.org/spring-traditions-around-the-world",
+      "url": "https://blog.icesusa.org/spring-traditions-around-the-world",
+      "sourceThumbnail": "images/spring-traditions-around-the-world.jpg",
+      "savedThumbnail": "hub-35-spring-traditions-around-the-world.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "suggestedSubjects": [
+        "hss"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 36,
+      "sourceSection": "Science",
+      "title": "Non-Renewable Energy",
+      "originalUrl": "https://education.nationalgeographic.org/resource/non-renewable-energy/",
+      "url": "https://education.nationalgeographic.org/resource/non-renewable-energy/",
+      "sourceThumbnail": "images/non-renewable-energy-ng.jpg",
+      "savedThumbnail": "hub-36-non-renewable-energy.webp",
+      "originalLesson": "Q3 · Lesson 20 · Non-Renewable Energy",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 37,
+      "sourceSection": "Science",
+      "title": "Tsunamis",
+      "originalUrl": "https://education.nationalgeographic.org/resource/rare-video-japan-tsunami/",
+      "url": "https://education.nationalgeographic.org/resource/rare-video-japan-tsunami/",
+      "sourceThumbnail": "images/tsunami-ng.jpg",
+      "savedThumbnail": "hub-37-tsunamis.webp",
+      "originalLesson": "Q3 · Lesson 8 · Tsunamis",
+      "suggestedGrades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 38,
+      "sourceSection": "Science",
+      "title": "Earthquake Map Research",
+      "originalUrl": "https://www.arcgis.com/apps/instant/atlas/index.html?appid=0cd1cdee853c413a84bfe4b9a6931f0d&webmap=95188602f74c4197a39c8f7205589c8c",
+      "url": "https://www.arcgis.com/apps/instant/atlas/index.html?appid=0cd1cdee853c413a84bfe4b9a6931f0d&webmap=95188602f74c4197a39c8f7205589c8c",
+      "sourceThumbnail": "images/earthquake-map-research.png",
+      "savedThumbnail": "hub-38-earthquake-map-research.webp",
+      "originalLesson": "Q2 · Lesson 29 · Earthquake Map Research",
+      "suggestedGrades": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "hss"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 39,
+      "sourceSection": "Science",
+      "title": "Solar System Explorer",
+      "originalUrl": "/games/solar-system-explorer-v1/index.html",
+      "url": "https://aropl-kids-learning-hub.vercel.app/games/solar-system-explorer-v1/index.html",
+      "sourceThumbnail": "images/solar-system-explorer.png",
+      "savedThumbnail": "hub-39-solar-system-explorer.webp",
+      "originalLesson": "Interactive Simulation",
+      "suggestedGrades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        39,
+        56
+      ]
+    },
+    {
+      "order": 40,
+      "sourceSection": "Science",
+      "title": "Orbit",
+      "originalUrl": "https://education.nationalgeographic.org/resource/orbit/",
+      "url": "https://education.nationalgeographic.org/resource/orbit/",
+      "sourceThumbnail": "images/orbit-ng.jpg",
+      "savedThumbnail": "hub-40-orbit.webp",
+      "originalLesson": "Q3 · Lesson 6 · Orbit",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 41,
+      "sourceSection": "Science",
+      "title": "The Sun",
+      "originalUrl": "https://education.nationalgeographic.org/resource/sun-101/",
+      "url": "https://education.nationalgeographic.org/resource/sun-101/",
+      "sourceThumbnail": "images/sun-101.jfif",
+      "savedThumbnail": "hub-41-the-sun.webp",
+      "originalLesson": "Q3 · Lesson 2 · The Sun",
+      "suggestedGrades": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 42,
+      "sourceSection": "Science",
+      "title": "Incredible Animal Instincts",
+      "originalUrl": "https://www.ifaw.org/journal/incredible-animal-instincts",
+      "url": "https://www.ifaw.org/journal/incredible-animal-instincts",
+      "sourceThumbnail": "images/incredible-animal-instincts.jpg",
+      "savedThumbnail": "hub-42-incredible-animal-instincts.webp",
+      "originalLesson": "Q2 · Lesson 41 · Animal Behavior",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 43,
+      "sourceSection": "Science",
+      "title": "Decomposers",
+      "originalUrl": "https://education.nationalgeographic.org/resource/decomposers/",
+      "url": "https://education.nationalgeographic.org/resource/decomposers/",
+      "sourceThumbnail": "images/decomposers.jpg",
+      "savedThumbnail": "hub-43-decomposers.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 44,
+      "sourceSection": "Science",
+      "title": "Food Web",
+      "originalUrl": "https://education.nationalgeographic.org/resource/food-web/",
+      "url": "https://education.nationalgeographic.org/resource/food-web/",
+      "sourceThumbnail": "images/food-web.jpg",
+      "savedThumbnail": "hub-44-food-web.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 45,
+      "sourceSection": "Science",
+      "title": "Mutations",
+      "originalUrl": "https://education.nationalgeographic.org/resource/mutation/",
+      "url": "https://education.nationalgeographic.org/resource/mutation/",
+      "sourceThumbnail": "images/mutation-ng.jpg",
+      "savedThumbnail": "hub-45-mutations.webp",
+      "originalLesson": "Q3 · Lesson 20 · Mutations",
+      "suggestedGrades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 46,
+      "sourceSection": "Science",
+      "title": "Animal Behavior and Offspring Success",
+      "originalUrl": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/10%3A_Animals/10.08%3A_Reproductive_Behavior_of_Animals",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/10%3A_Animals/10.08%3A_Reproductive_Behavior_of_Animals",
+      "sourceThumbnail": "images/animal-behavior-offspring.1",
+      "savedThumbnail": "hub-46-animal-behavior-and-offspring-success.webp",
+      "originalLesson": "Q3 · Lesson 6 · Animal Behavior and Offspring Success",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 47,
+      "sourceSection": "Science",
+      "title": "Asexual & Sexual Reproduction",
+      "originalUrl": "https://education.nationalgeographic.org/resource/plant-and-animal-reproduction/",
+      "url": "https://education.nationalgeographic.org/resource/plant-and-animal-reproduction/",
+      "sourceThumbnail": "images/plant-animal-reproduction.jpg",
+      "savedThumbnail": "hub-47-asexual-sexual-reproduction.webp",
+      "originalLesson": "Q3 · Lesson 2 · Asexual and Sexual Reproduction",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 48,
+      "sourceSection": "Science",
+      "title": "History of the Cell",
+      "originalUrl": "https://education.nationalgeographic.org/resource/history-cell-discovering-cell/",
+      "url": "https://education.nationalgeographic.org/resource/history-cell-discovering-cell/",
+      "sourceThumbnail": "images/history-of-cell.jpg",
+      "savedThumbnail": "hub-48-history-of-the-cell.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 49,
+      "sourceSection": "Science",
+      "title": "Cell Theory",
+      "originalUrl": "https://education.nationalgeographic.org/resource/cell-theory/",
+      "url": "https://education.nationalgeographic.org/resource/cell-theory/",
+      "sourceThumbnail": "images/cell-theory-ng.jpg",
+      "savedThumbnail": "hub-49-cell-theory.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 50,
+      "sourceSection": "Science",
+      "title": "Climate & Food",
+      "originalUrl": "https://www.epa.gov/climateimpacts/climate-change-impacts-agriculture-and-food-supply",
+      "url": "https://www.epa.gov/climateimpacts/climate-change-impacts-agriculture-and-food-supply",
+      "sourceThumbnail": "images/epa-agriculture.jpg",
+      "savedThumbnail": "hub-50-climate-food.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 51,
+      "sourceSection": "Science",
+      "title": "Properties: Density (PhET)",
+      "originalUrl": "https://phet.colorado.edu/sims/html/density/latest/density_all.html",
+      "url": "https://phet.colorado.edu/sims/html/density/latest/density_all.html",
+      "sourceThumbnail": "images/phet-density-sim.png",
+      "savedThumbnail": "hub-51-properties-density-phet.webp",
+      "originalLesson": "Q2 · Lesson 31 · Properties: Density",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 52,
+      "sourceSection": "Science",
+      "title": "Chemical Mixtures",
+      "originalUrl": "https://www.ducksters.com/science/chemistry/chemical_mixtures.php",
+      "url": "https://www.ducksters.com/science/chemistry/chemical_mixtures.php",
+      "sourceThumbnail": "images/chemical-mixtures.png",
+      "savedThumbnail": "hub-52-chemical-mixtures.webp",
+      "originalLesson": "Q2 · Lesson 25 · Type of mixtures",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 53,
+      "sourceSection": "Science",
+      "title": "What Is Reforestation?",
+      "originalUrl": "https://www.responsiblewood.org.au/what-is-reforestation-and-what-are-its-benefits/",
+      "url": "https://www.responsiblewood.org.au/what-is-reforestation-and-what-are-its-benefits/",
+      "sourceThumbnail": "images/reforestation.png",
+      "savedThumbnail": "hub-53-what-is-reforestation.webp",
+      "originalLesson": "Not specified",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 54,
+      "sourceSection": "Science",
+      "title": "Saving Baja’s Biodiversity",
+      "originalUrl": "https://www.nationalgeographic.com/environment/slideshow/paid-content-saving-bajas-iconic-biodiversity",
+      "url": "https://www.nationalgeographic.com/environment/slideshow/paid-content-saving-bajas-iconic-biodiversity",
+      "sourceThumbnail": "images/baja-biodiversity.jpg",
+      "savedThumbnail": "hub-54-saving-bajas-biodiversity.webp",
+      "originalLesson": "Not specified",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 55,
+      "sourceSection": "Science",
+      "title": "Biodiversity",
+      "originalUrl": "https://education.nationalgeographic.org/resource/biodiversity/",
+      "url": "https://education.nationalgeographic.org/resource/biodiversity/",
+      "sourceThumbnail": "images/biodiversity.jpg",
+      "savedThumbnail": "hub-55-biodiversity.webp",
+      "originalLesson": "Not specified",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 57,
+      "sourceSection": "Science",
+      "title": "How Sound Moves",
+      "originalUrl": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/Understanding_Sound_(Abbot)/03%3A_Traveling_waves/3.01%3A_How_sound_moves",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/Understanding_Sound_(Abbot)/03%3A_Traveling_waves/3.01%3A_How_sound_moves",
+      "sourceThumbnail": "images/how-sound-moves.png",
+      "savedThumbnail": "hub-57-how-sound-moves.webp",
+      "originalLesson": "Q2 · Lesson 29 · How Sound Moves",
+      "suggestedGrades": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 58,
+      "sourceSection": "Science",
+      "title": "Wave on a String (Play)",
+      "originalUrl": "https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_all.html",
+      "url": "https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_all.html",
+      "sourceThumbnail": "images/phet-wave-on-a-string.png",
+      "savedThumbnail": "hub-58-wave-on-a-string-play.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 59,
+      "sourceSection": "Science",
+      "title": "Build a Molecule (Info)",
+      "originalUrl": "https://phet.colorado.edu/en/simulations/build-a-molecule",
+      "url": "https://phet.colorado.edu/en/simulations/build-a-molecule",
+      "sourceThumbnail": "images/phet-build-a-molecule.png",
+      "savedThumbnail": "hub-59-build-a-molecule-info.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 60,
+      "sourceSection": "Science",
+      "title": "Build a Molecule (Play)",
+      "originalUrl": "https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html",
+      "url": "https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html",
+      "sourceThumbnail": "images/phet-build-a-molecule-play.png",
+      "savedThumbnail": "hub-60-build-a-molecule-play.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 61,
+      "sourceSection": "Science",
+      "title": "Magnets & Electromagnets (Simulation)",
+      "originalUrl": "https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_all.html",
+      "url": "https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_all.html",
+      "sourceThumbnail": "images/phet-electromagnets.png",
+      "savedThumbnail": "hub-61-magnets-electromagnets-simulation.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 62,
+      "sourceSection": "Science",
+      "title": "Science 5 | Factors that Affect the Strength of Electromagnets",
+      "originalUrl": "video.html?title=Science%205%20%7C%20Factors%20that%20Affect%20the%20Strength%20of%20Electromagnets&src=videos/electromagnets.mp4&credit=Joshua%20Alejo&creditLink=https://www.youtube.com/watch?v=rR9R1vNobkc",
+      "url": "https://www.youtube.com/watch?v=rR9R1vNobkc",
+      "sourceThumbnail": "images/electromagnets-video.jpg",
+      "savedThumbnail": "hub-62-science-5-factors-that-affect-the-strength-of-electromagnets.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "5"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Source explicitly names Science 5"
+    },
+    {
+      "order": 63,
+      "sourceSection": "Science",
+      "title": "How Lightning Is Created",
+      "originalUrl": "https://www.noaa.gov/jetstream/lightning/how-lightning-is-created",
+      "url": "https://www.noaa.gov/jetstream/lightning/how-lightning-is-created",
+      "sourceThumbnail": "images/lightning-creation.png",
+      "savedThumbnail": "hub-63-how-lightning-is-created.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 64,
+      "sourceSection": "Science",
+      "title": "Lightning Safety Tips",
+      "originalUrl": "https://www.weather.gov/safety/lightning-tips",
+      "url": "https://www.weather.gov/safety/lightning-tips",
+      "sourceThumbnail": "images/lightning-tips.jpg",
+      "savedThumbnail": "hub-64-lightning-safety-tips.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "suggestedSubjects": [
+        "science",
+        "health"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 65,
+      "sourceSection": "Science",
+      "title": "Maglev Technology",
+      "originalUrl": "https://21sci-tech.com/articles/Summer03/maglev2.html",
+      "url": "https://21sci-tech.com/articles/Summer03/maglev2.html",
+      "sourceThumbnail": "images/maglev.jpg",
+      "savedThumbnail": "hub-65-maglev-technology.webp",
+      "originalLesson": "",
+      "suggestedGrades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 66,
+      "sourceSection": "Science",
+      "title": "DNA Replication - 3D",
+      "originalUrl": "video.html?title=DNA%20Replication%20-%203D&src=videos/DNA-replication-3D.mp4&credit=yourgenome&creditLink=https://www.youtube.com/watch?v=TNKWgcFPHqw",
+      "url": "https://www.youtube.com/watch?v=TNKWgcFPHqw",
+      "sourceThumbnail": "images/dna-replication.jpg",
+      "savedThumbnail": "hub-66-dna-replication-3d.webp",
+      "originalLesson": "Grade 9 · Q3 · Lesson 12 · DNA Replication",
+      "suggestedGrades": [
+        "9"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Source explicitly names Grade 9"
+    },
+    {
+      "order": 67,
+      "sourceSection": "Science",
+      "title": "Interaction of Organ Systems",
+      "originalUrl": "https://courses.lumenlearning.com/suny-hvcc-healthpsychology/chapter/interaction-of-organ-systems/",
+      "url": "https://courses.lumenlearning.com/suny-hvcc-healthpsychology/chapter/interaction-of-organ-systems/",
+      "sourceThumbnail": "images/interaction-organ-systems.jpg",
+      "savedThumbnail": "hub-67-interaction-of-organ-systems.webp",
+      "originalLesson": "Q2 · Day 25 · Interaction of Organ System",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 68,
+      "sourceSection": "Science",
+      "title": "Biozone Hub",
+      "originalUrl": "https://www.biozonehub.com",
+      "url": "https://www.biozonehub.com",
+      "sourceThumbnail": "images/biozonehub.jpeg",
+      "savedThumbnail": "hub-68-biozone-hub.webp",
+      "originalLesson": "Not specified",
+      "suggestedGrades": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 69,
+      "sourceSection": "Science",
+      "title": "Cell Biology History",
+      "originalUrl": "https://bitesizebio.com/166/history-of-cell-biology/",
+      "url": "https://bitesizebio.com/166/history-of-cell-biology/",
+      "sourceThumbnail": "images/cell-history.jfif",
+      "savedThumbnail": "hub-69-cell-biology-history.webp",
+      "originalLesson": "Not specified",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 70,
+      "sourceSection": "Science",
+      "title": "Cell Theory",
+      "originalUrl": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology_(Boundless)/04:_Cell_Structure/4.03:_Studying_Cells_-_Cell_Theory",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology_(Boundless)/04:_Cell_Structure/4.03:_Studying_Cells_-_Cell_Theory",
+      "sourceThumbnail": "images/cell-theory.png",
+      "savedThumbnail": "hub-70-cell-theory.webp",
+      "originalLesson": "Not specified",
+      "suggestedGrades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    },
+    {
+      "order": 71,
+      "sourceSection": "Science",
+      "title": "Molecular Geometry (PhET)",
+      "originalUrl": "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html",
+      "url": "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html",
+      "sourceThumbnail": "images/phet-molecule-shapes.png",
+      "savedThumbnail": "hub-71-molecular-geometry-phet.webp",
+      "originalLesson": "Q2 · Lesson 31 · Molecular Geometry",
+      "suggestedGrades": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "suggestedSubjects": [
+        "science"
+      ],
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card"
+    }
+  ]
+}

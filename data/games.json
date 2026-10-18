@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedOn": "2026-10-15",
+  "reviewedOn": "2026-10-18",
   "policy": "Child preview includes only games with a scoped publisher no-third-party-ads or no-ad policy. Khan Academy may show labeled sponsorships. This is publisher documentation, not runtime ad certification. Unsure links remain adult-only.",
   "games": [
     {
@@ -6978,7 +6978,3927 @@
       "devices": [
         "browser"
       ]
+    },
+    {
+      "id": "hub-01-school-uniforms-research",
+      "title": "School Uniforms & Research",
+      "publisher": "ssph-journal.org",
+      "url": "https://www.ssph-journal.org/journals/public-health-reviews/articles/10.3389/phrs.2021.1604212/full",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "9"
+      ],
+      "topicIds": [
+        "9-ela-informational-reading",
+        "9-ela-writing-and-revision"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "An academic review exploring impacts of school uniforms on student outcomes and health.",
+      "art": "reading",
+      "thumbnailAsset": "hub-01-school-uniforms-research.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Assessments; source card #1. Original lesson label: Grade 9 · Q2 · L45 · ELA (Option A). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Assessments",
+      "hubOrder": 1,
+      "hubLesson": "Grade 9 · Q2 · L45 · ELA (Option A)",
+      "gradeEvidence": "Source explicitly names Grade 9",
+      "sourcePositions": [
+        1
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-02-school-uniforms-achievement",
+      "title": "School Uniforms & Achievement",
+      "publisher": "journalistsresource.org",
+      "url": "https://journalistsresource.org/education/school-uniforms-research-achievement/",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "9"
+      ],
+      "topicIds": [
+        "9-ela-informational-reading",
+        "9-ela-writing-and-revision"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Research summary examining effects of school uniforms on academic performance.",
+      "art": "reading",
+      "thumbnailAsset": "hub-02-school-uniforms-achievement.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Assessments; source card #2. Original lesson label: Grade 9 · Q2 · L45 · ELA (Option A). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Assessments",
+      "hubOrder": 2,
+      "hubLesson": "Grade 9 · Q2 · L45 · ELA (Option A)",
+      "gradeEvidence": "Source explicitly names Grade 9",
+      "sourcePositions": [
+        2
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-03-youth-social-media-advisory-pdf",
+      "title": "Youth Social Media Advisory (PDF)",
+      "publisher": "hhs.gov",
+      "url": "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf",
+      "subjects": [
+        "ela",
+        "health"
+      ],
+      "grades": [
+        "9"
+      ],
+      "topicIds": [
+        "9-ela-informational-reading",
+        "9-health-wellbeing-and-choices"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "A federal advisory on youth mental health and social media use.",
+      "art": "reading",
+      "thumbnailAsset": "hub-03-youth-social-media-advisory-pdf.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Assessments; source card #3. Original lesson label: Grade 9 · Q2 · L45 · ELA (Option B). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Assessments",
+      "hubOrder": 3,
+      "hubLesson": "Grade 9 · Q2 · L45 · ELA (Option B)",
+      "gradeEvidence": "Source explicitly names Grade 9",
+      "sourcePositions": [
+        3
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-04-teens-social-media-tech",
+      "title": "Teens, Social Media & Tech",
+      "publisher": "pewresearch.org",
+      "url": "https://www.pewresearch.org/internet/2023/12/11/teens-social-media-and-technology-2023/",
+      "subjects": [
+        "ela",
+        "cs"
+      ],
+      "grades": [
+        "9"
+      ],
+      "topicIds": [
+        "9-ela-informational-reading",
+        "9-cs-computing-and-society"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Latest Pew Research coverage on how teens interact with social platforms and tech.",
+      "art": "reading",
+      "thumbnailAsset": "hub-04-teens-social-media-tech.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Assessments; source card #4. Original lesson label: Grade 9 · Q2 · L45 · ELA (Option B). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Assessments",
+      "hubOrder": 4,
+      "hubLesson": "Grade 9 · Q2 · L45 · ELA (Option B)",
+      "gradeEvidence": "Source explicitly names Grade 9",
+      "sourcePositions": [
+        4
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-05-ipcc-ar6-synthesis-report",
+      "title": "IPCC AR6 Synthesis Report",
+      "publisher": "ipcc.ch",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "subjects": [
+        "ela",
+        "science"
+      ],
+      "grades": [
+        "9"
+      ],
+      "topicIds": [
+        "9-ela-informational-reading"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "An authoritative climate science synthesis covering global change and policy context.",
+      "art": "reading",
+      "thumbnailAsset": "hub-05-ipcc-ar6-synthesis-report.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Assessments; source card #5. Original lesson label: Grade 9 · Q2 · L45 · ELA (Option C). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Assessments",
+      "hubOrder": 5,
+      "hubLesson": "Grade 9 · Q2 · L45 · ELA (Option C)",
+      "gradeEvidence": "Source explicitly names Grade 9",
+      "sourcePositions": [
+        5
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-06-greenhouse-gas-pricing-policies",
+      "title": "Greenhouse Gas Pricing Policies",
+      "publisher": "oecd.org",
+      "url": "https://www.oecd.org/en/publications/2024/11/pricing-greenhouse-gas-emissions-2024_173c47f4.html",
+      "subjects": [
+        "ela",
+        "hss"
+      ],
+      "grades": [
+        "9"
+      ],
+      "topicIds": [
+        "9-ela-informational-reading"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Overview of OECD approaches to pricing greenhouse gas emissions as an environmental strategy.",
+      "art": "reading",
+      "thumbnailAsset": "hub-06-greenhouse-gas-pricing-policies.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Assessments; source card #6. Original lesson label: Grade 9 · Q2 · L45 · ELA (Option C). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Assessments",
+      "hubOrder": 6,
+      "hubLesson": "Grade 9 · Q2 · L45 · ELA (Option C)",
+      "gradeEvidence": "Source explicitly names Grade 9",
+      "sourcePositions": [
+        6
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-07-math-smash-3d-v2",
+      "title": "Math Smash 3D (V2)",
+      "publisher": "aropl-kids-learning-hub.vercel.app",
+      "url": "https://aropl-kids-learning-hub.vercel.app/games/math-smash-3d-v20260125/index.html",
+      "subjects": [
+        "math"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "topicIds": [
+        "2-math-place-value-to-1000",
+        "2-math-equal-groups",
+        "3-math-multiply-and-divide",
+        "3-math-place-value-and-rounding",
+        "4-math-multi-digit-operations",
+        "5-math-place-value-and-decimals",
+        "5-math-fraction-operations"
+      ],
+      "kind": "Mini-game",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Quick maths games for number bonds, times tables, and more",
+      "art": "math",
+      "thumbnailAsset": "hub-07-math-smash-3d-v2.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Math; source card #7. Original lesson label: No specified lesson(s). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Math",
+      "hubOrder": 7,
+      "hubLesson": "No specified lesson(s)",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        7
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-08-kids-environment-health",
+      "title": "Kids Environment Health",
+      "publisher": "niehs.nih.gov",
+      "url": "https://www.niehs.nih.gov/health/kids/",
+      "subjects": [
+        "ela",
+        "science",
+        "health"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "topicIds": [
+        "3-ela-informational-reading",
+        "3-health-health-skills",
+        "4-ela-informational-reading",
+        "4-health-health-skills",
+        "5-ela-informational-reading",
+        "5-health-health-skills",
+        "6-ela-informational-reading",
+        "6-science-human-impacts",
+        "6-health-health-skills"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how the environment affects health through fun activities and lessons.",
+      "art": "reading",
+      "thumbnailAsset": "hub-08-kids-environment-health.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #8. Original lesson label: Q3 · Lesson 25. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 8,
+      "hubLesson": "Q3 · Lesson 25",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        8
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-09-smithsonian-learning-lab",
+      "title": "Smithsonian Learning Lab",
+      "publisher": "learninglab.si.edu",
+      "url": "https://learninglab.si.edu/",
+      "subjects": [
+        "ela",
+        "hss"
+      ],
+      "grades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "4-ela-informational-reading",
+        "4-hss-california-geography",
+        "5-ela-informational-reading",
+        "6-ela-informational-reading",
+        "7-ela-informational-reading",
+        "8-ela-informational-reading"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore curated collections of history, science, and culture resources.",
+      "art": "reading",
+      "thumbnailAsset": "hub-09-smithsonian-learning-lab.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #9. Original lesson label: Q3 · Lesson 25. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 9,
+      "hubLesson": "Q3 · Lesson 25",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        9
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-10-nasa-kids-science",
+      "title": "NASA Kids Science",
+      "publisher": "science.nasa.gov",
+      "url": "https://science.nasa.gov/kids/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "topicIds": [
+        "5-science-earth-systems",
+        "5-science-space-and-gravity"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn about space, planets, and science through NASA’s kid-friendly content.",
+      "art": "science",
+      "thumbnailAsset": "hub-10-nasa-kids-science.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #10. Original lesson label: Q3 · Lesson 25. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 10,
+      "hubLesson": "Q3 · Lesson 25",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        10
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-11-national-geographic-education",
+      "title": "National Geographic Education",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/",
+      "subjects": [
+        "ela",
+        "hss"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "topicIds": [
+        "5-ela-informational-reading",
+        "6-ela-informational-reading",
+        "7-ela-informational-reading",
+        "8-ela-informational-reading",
+        "9-ela-informational-reading",
+        "9-hss-geography-elective"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Access educational resources, maps, and lessons on science and geography.",
+      "art": "reading",
+      "thumbnailAsset": "hub-11-national-geographic-education.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #11. Original lesson label: Q3 · Lesson 25. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 11,
+      "hubLesson": "Q3 · Lesson 25",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        11
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-12-national-geographic-kids",
+      "title": "National Geographic Kids",
+      "publisher": "natgeokids.com",
+      "url": "https://www.natgeokids.com/uk/",
+      "subjects": [
+        "science",
+        "ela"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "topicIds": [
+        "2-ela-informational-reading",
+        "2-science-plants-and-habitats",
+        "3-ela-informational-reading",
+        "3-science-ecosystems-and-change",
+        "4-ela-informational-reading",
+        "5-ela-informational-reading",
+        "5-science-energy-in-ecosystems",
+        "6-ela-informational-reading"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore science, animals, space, and geography through fun articles and videos.",
+      "art": "science",
+      "thumbnailAsset": "hub-12-national-geographic-kids.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #12. Original lesson label: Q3 · Lesson 25. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 12,
+      "hubLesson": "Q3 · Lesson 25",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        12
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-13-human-rights-water-sanitation",
+      "title": "Human Rights: Water & Sanitation",
+      "publisher": "unwater.org",
+      "url": "https://www.unwater.org/water-facts/human-rights-water-and-sanitation",
+      "subjects": [
+        "ela",
+        "hss"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "6-ela-informational-reading",
+        "7-ela-informational-reading",
+        "8-ela-informational-reading",
+        "9-ela-informational-reading",
+        "10-ela-informational-reading"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Understand global water rights and access to sanitation",
+      "art": "reading",
+      "thumbnailAsset": "hub-13-human-rights-water-sanitation.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #13. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 13,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        13
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-14-water-facts-usbr",
+      "title": "Water Facts (USBR)",
+      "publisher": "usbr.gov",
+      "url": "https://www.usbr.gov/mp/arwec/water-facts-ww-water-sup.html",
+      "subjects": [
+        "science",
+        "ela"
+      ],
+      "grades": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "topicIds": [
+        "4-ela-informational-reading",
+        "5-ela-informational-reading",
+        "5-science-earth-systems",
+        "6-ela-informational-reading",
+        "7-ela-informational-reading"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore essential facts about water supply and usage",
+      "art": "science",
+      "thumbnailAsset": "hub-14-water-facts-usbr.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #14. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 14,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        14
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-15-how-long-without-drinking-water",
+      "title": "How Long Without Drinking Water",
+      "publisher": "embracerelief.org",
+      "url": "https://www.embracerelief.org/how-long-can-you-survive-without-drinking-water/",
+      "subjects": [
+        "health"
+      ],
+      "grades": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "7-health-wellbeing-and-choices",
+        "7-health-health-skills",
+        "8-health-wellbeing-and-choices",
+        "8-health-health-skills",
+        "9-health-wellbeing-and-choices",
+        "9-health-health-skills",
+        "10-health-wellbeing-and-choices",
+        "10-health-health-skills"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how long the human body can survive without water",
+      "art": "health",
+      "thumbnailAsset": "hub-15-how-long-without-drinking-water.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #15. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 15,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        15
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-16-the-science-of-fear",
+      "title": "The Science of Fear",
+      "publisher": "open.edu",
+      "url": "https://www.open.edu/openlearn/health-sports-psychology/psychology/the-science-fear",
+      "subjects": [
+        "science",
+        "health"
+      ],
+      "grades": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "7-health-wellbeing-and-choices",
+        "8-health-wellbeing-and-choices",
+        "9-health-wellbeing-and-choices",
+        "10-health-wellbeing-and-choices"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore how fear works in the brain and body — scientific insights into human emotion.",
+      "art": "science",
+      "thumbnailAsset": "hub-16-the-science-of-fear.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #16. Original lesson label: Q2 · Lesson 36 · The Science of Fear (research topic). Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 16,
+      "hubLesson": "Q2 · Lesson 36 · The Science of Fear (research topic)",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        16
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-17-science-of-migration",
+      "title": "Science of Migration",
+      "publisher": "sciencenewstoday.org",
+      "url": "https://www.sciencenewstoday.org/the-science-of-migration-how-animals-cross-continents",
+      "subjects": [
+        "science",
+        "ela"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "5-ela-informational-reading",
+        "5-science-energy-in-ecosystems",
+        "6-ela-informational-reading",
+        "7-ela-informational-reading",
+        "7-science-ecosystems-and-energy",
+        "8-ela-informational-reading"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore how animals cross continents and the science behind it",
+      "art": "science",
+      "thumbnailAsset": "hub-17-science-of-migration.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #17. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 17,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        17
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-18-animal-migration",
+      "title": "Animal Migration",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/migration/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "topicIds": [
+        "3-science-life-cycles-and-traits",
+        "3-science-ecosystems-and-change",
+        "5-science-energy-in-ecosystems",
+        "7-science-ecosystems-and-energy"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn why and how animals migrate long distances",
+      "art": "science",
+      "thumbnailAsset": "hub-18-animal-migration.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #18. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 18,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        18
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-19-why-ocean-exploration-matters",
+      "title": "Why Ocean Exploration Matters",
+      "publisher": "oceanexplorer.noaa.gov",
+      "url": "https://oceanexplorer.noaa.gov/why-exploration-matters/",
+      "subjects": [
+        "science",
+        "ela"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "5-ela-informational-reading",
+        "5-science-earth-systems",
+        "6-ela-informational-reading",
+        "7-ela-informational-reading",
+        "8-ela-informational-reading",
+        "9-ela-informational-reading",
+        "10-ela-informational-reading"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover the science and importance of exploring our oceans and marine environments.",
+      "art": "science",
+      "thumbnailAsset": "hub-19-why-ocean-exploration-matters.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #19. Original lesson label: Q2 · Lesson 36 · Ocean Exploration. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 19,
+      "hubLesson": "Q2 · Lesson 36 · Ocean Exploration",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        19
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-20-peer-reviewed-research-article",
+      "title": "Peer-Reviewed Research Article",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2527715/",
+      "subjects": [
+        "ela"
+      ],
+      "grades": [
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "10-ela-informational-reading",
+        "10-ela-writing-and-revision",
+        "11-ela-informational-reading",
+        "11-ela-writing-and-revision",
+        "12-ela-informational-reading",
+        "12-ela-writing-and-revision"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore scientific research from PMC on biological findings",
+      "art": "reading",
+      "thumbnailAsset": "hub-20-peer-reviewed-research-article.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #20. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 20,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        20
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-21-characteristics-of-an-effective-team",
+      "title": "Characteristics of an Effective Team",
+      "publisher": "online.hbs.edu",
+      "url": "https://online.hbs.edu/blog/post/characteristics-of-an-effective-team",
+      "subjects": [
+        "health",
+        "ela"
+      ],
+      "grades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "7-ela-informational-reading",
+        "7-ela-speaking-and-listening",
+        "7-health-health-skills",
+        "8-ela-informational-reading",
+        "8-ela-speaking-and-listening",
+        "8-health-health-skills",
+        "9-ela-informational-reading",
+        "9-ela-speaking-and-listening",
+        "9-health-health-skills",
+        "10-ela-informational-reading",
+        "10-ela-speaking-and-listening",
+        "10-health-health-skills",
+        "11-ela-informational-reading",
+        "11-ela-speaking-and-listening",
+        "11-health-health-skills",
+        "12-ela-informational-reading",
+        "12-ela-speaking-and-listening",
+        "12-health-health-skills"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn what makes teams successful and how they work together",
+      "art": "health",
+      "thumbnailAsset": "hub-21-characteristics-of-an-effective-team.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #21. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 21,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        21
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-22-the-science-of-teamwork",
+      "title": "The Science of Teamwork",
+      "publisher": "leadx.org",
+      "url": "https://leadx.org/articles/the-science-of-teamwork/",
+      "subjects": [
+        "health",
+        "ela"
+      ],
+      "grades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "7-ela-informational-reading",
+        "7-ela-speaking-and-listening",
+        "7-health-health-skills",
+        "8-ela-informational-reading",
+        "8-ela-speaking-and-listening",
+        "8-health-health-skills",
+        "9-ela-informational-reading",
+        "9-ela-speaking-and-listening",
+        "9-health-health-skills",
+        "10-ela-informational-reading",
+        "10-ela-speaking-and-listening",
+        "10-health-health-skills",
+        "11-ela-informational-reading",
+        "11-ela-speaking-and-listening",
+        "11-health-health-skills",
+        "12-ela-informational-reading",
+        "12-ela-speaking-and-listening",
+        "12-health-health-skills"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how teamwork works from a scientific perspective",
+      "art": "health",
+      "thumbnailAsset": "hub-22-the-science-of-teamwork.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #22. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 22,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        22
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-23-media-literacy-education-pdf",
+      "title": "Media Literacy Education (PDF)",
+      "publisher": "files.eric.ed.gov",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1178721.pdf",
+      "subjects": [
+        "ela",
+        "cs"
+      ],
+      "grades": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "9-ela-informational-reading",
+        "9-cs-computing-and-society",
+        "10-ela-informational-reading",
+        "10-cs-computing-and-society",
+        "11-ela-informational-reading",
+        "11-cs-computing-and-society",
+        "12-ela-informational-reading",
+        "12-cs-computing-and-society"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Research on teaching critical thinking and media literacy",
+      "art": "reading",
+      "thumbnailAsset": "hub-23-media-literacy-education-pdf.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #23. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 23,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        23
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-24-media-health-research",
+      "title": "Media & Health Research",
+      "publisher": "academic.oup.com",
+      "url": "https://academic.oup.com/heapro/article/40/2/daaf023/8100645",
+      "subjects": [
+        "health",
+        "ela"
+      ],
+      "grades": [
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "10-ela-informational-reading",
+        "10-health-health-skills",
+        "11-ela-informational-reading",
+        "11-health-health-skills",
+        "12-ela-informational-reading",
+        "12-health-health-skills"
+      ],
+      "kind": "Research resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore academic research on media, health, and behaviour",
+      "art": "health",
+      "thumbnailAsset": "hub-24-media-health-research.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #24. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 24,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        24
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-25-global-digital-safety",
+      "title": "Global Digital Safety",
+      "publisher": "initiatives.weforum.org",
+      "url": "https://initiatives.weforum.org/global-coalition-for-digital-safety/",
+      "subjects": [
+        "cs"
+      ],
+      "grades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "7-cs-computing-and-society",
+        "8-cs-computing-and-society",
+        "9-cs-computing-and-society",
+        "10-cs-computing-and-society",
+        "11-cs-computing-and-society",
+        "12-cs-computing-and-society"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how organizations work to keep the internet safe",
+      "art": "coding",
+      "thumbnailAsset": "hub-25-global-digital-safety.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #25. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 25,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        25
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-26-media-literacy-misinformation",
+      "title": "Media Literacy & Misinformation",
+      "publisher": "apa.org",
+      "url": "https://www.apa.org/monitor/2024/09/media-literacy-misinformation",
+      "subjects": [
+        "ela",
+        "cs"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "6-ela-informational-reading",
+        "6-cs-computing-and-society",
+        "7-ela-informational-reading",
+        "7-cs-computing-and-society",
+        "8-ela-informational-reading",
+        "8-cs-computing-and-society",
+        "9-ela-informational-reading",
+        "9-cs-computing-and-society",
+        "10-ela-informational-reading",
+        "10-cs-computing-and-society",
+        "11-ela-informational-reading",
+        "11-cs-computing-and-society",
+        "12-ela-informational-reading",
+        "12-cs-computing-and-society"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Understand how to spot misinformation and think critically about media",
+      "art": "reading",
+      "thumbnailAsset": "hub-26-media-literacy-misinformation.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #26. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "English",
+      "hubOrder": 26,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        26
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-27-case-study-pack-of-wolves",
+      "title": "Case Study: Pack of Wolves",
+      "publisher": "kids.nationalgeographic.com",
+      "url": "https://kids.nationalgeographic.com/animals/mammals/facts/gray-wolf",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "3-science-life-cycles-and-traits",
+        "3-science-ecosystems-and-change",
+        "5-science-energy-in-ecosystems"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how wolves live in packs, work together, and survive in the wild.",
+      "art": "science",
+      "thumbnailAsset": "hub-27-case-study-pack-of-wolves.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #27. Original lesson label: Q3 · Lesson 28 · Pack of Wolves. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 27,
+      "hubLesson": "Q3 · Lesson 28 · Pack of Wolves",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        27
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-28-lightning",
+      "title": "Lightning",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/lightning/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "topicIds": [
+        "3-science-weather-and-climate",
+        "6-science-weather-and-climate",
+        "7-science-resources-and-hazards"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn what lightning is, how it forms in storms, and important safety tips to stay safe during thunderstorms.",
+      "art": "science",
+      "thumbnailAsset": "hub-28-lightning.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #28. Original lesson label: Q3 · Lesson 10 · Lightning. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 28,
+      "hubLesson": "Q3 · Lesson 10 · Lightning",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        28
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-29-tornadoes",
+      "title": "Tornadoes",
+      "publisher": "kids.nationalgeographic.com",
+      "url": "https://kids.nationalgeographic.com/science/article/tornado",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "3-science-weather-and-climate",
+        "4-science-earth-changes"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn what tornadoes are, how they form, and how people stay safe during these powerful storms.",
+      "art": "science",
+      "thumbnailAsset": "hub-29-tornadoes.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #29. Original lesson label: Q3 · Lesson 7 · Tornadoes. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 29,
+      "hubLesson": "Q3 · Lesson 7 · Tornadoes",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        29
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-30-floods",
+      "title": "Floods",
+      "publisher": "kids.nationalgeographic.com",
+      "url": "https://kids.nationalgeographic.com/science/article/flood",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "3-science-weather-and-climate",
+        "4-science-earth-changes"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn what floods are, what causes them, and how people stay safe during heavy rain.",
+      "art": "science",
+      "thumbnailAsset": "hub-30-floods.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #30. Original lesson label: Q3 · Lesson 2 · Floods. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 30,
+      "hubLesson": "Q3 · Lesson 2 · Floods",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        30
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-31-temperate-forest-habitats",
+      "title": "Temperate Forest Habitats",
+      "publisher": "kids.nationalgeographic.com",
+      "url": "https://kids.nationalgeographic.com/nature/habitats/article/temperate-forest",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "topicIds": [
+        "3-science-ecosystems-and-change",
+        "3-science-weather-and-climate",
+        "5-science-energy-in-ecosystems",
+        "6-science-weather-and-climate",
+        "7-science-ecosystems-and-energy"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore how temperate forests support plant and animal life in unique ecosystems.",
+      "art": "science",
+      "thumbnailAsset": "hub-31-temperate-forest-habitats.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #31. Original lesson label: Q2 · Lesson 41 · Temperature Climate. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 31,
+      "hubLesson": "Q2 · Lesson 41 · Temperature Climate",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        31
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-32-rainforests",
+      "title": "Rainforests",
+      "publisher": "kids.nationalgeographic.com",
+      "url": "https://kids.nationalgeographic.com/nature/habitats/article/rain-forest",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "topicIds": [
+        "3-science-ecosystems-and-change",
+        "3-science-weather-and-climate",
+        "5-science-energy-in-ecosystems",
+        "6-science-weather-and-climate",
+        "7-science-ecosystems-and-energy"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore the vibrant world of rainforests, their wildlife, and why they’re important to Earth.",
+      "art": "science",
+      "thumbnailAsset": "hub-32-rainforests.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #32. Original lesson label: Q2 · Lesson 39 · Rainforests. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 32,
+      "hubLesson": "Q2 · Lesson 39 · Rainforests",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        32
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-33-greenland-glaciers-geography",
+      "title": "Greenland Glaciers & Geography",
+      "publisher": "kids.nationalgeographic.com",
+      "url": "https://kids.nationalgeographic.com/geography/countries/article/greenland",
+      "subjects": [
+        "science",
+        "hss"
+      ],
+      "grades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "4-science-earth-changes",
+        "4-hss-california-geography",
+        "5-science-earth-systems"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn about Greenland’s massive ice sheet, glaciers, and what makes this icy land unique.",
+      "art": "science",
+      "thumbnailAsset": "hub-33-greenland-glaciers-geography.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #33. Original lesson label: Q2 · Lesson 36 · Greenland Glaciers. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 33,
+      "hubLesson": "Q2 · Lesson 36 · Greenland Glaciers",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        33
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-34-deserts",
+      "title": "Deserts",
+      "publisher": "cteec.org",
+      "url": "https://cteec.org/region-desert/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "3-science-ecosystems-and-change",
+        "3-science-weather-and-climate",
+        "5-science-energy-in-ecosystems"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore what deserts are like, how they form, and the life that survives in them.",
+      "art": "science",
+      "thumbnailAsset": "hub-34-deserts.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #34. Original lesson label: Q2 · Lesson 32 · Deserts. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 34,
+      "hubLesson": "Q2 · Lesson 32 · Deserts",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        34
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-35-spring-traditions-around-the-world",
+      "title": "Spring Traditions Around the World",
+      "publisher": "blog.icesusa.org",
+      "url": "https://blog.icesusa.org/spring-traditions-around-the-world",
+      "subjects": [
+        "hss"
+      ],
+      "grades": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "1-symbols",
+        "3-hss-community-histories"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover how different cultures celebrate spring",
+      "art": "world",
+      "thumbnailAsset": "hub-35-spring-traditions-around-the-world.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #35. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 35,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        35
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-36-non-renewable-energy",
+      "title": "Non-Renewable Energy",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/non-renewable-energy/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "5-science-energy-in-ecosystems",
+        "6-science-thermal-energy",
+        "6-science-human-impacts",
+        "7-science-ecosystems-and-energy",
+        "7-science-resources-and-hazards",
+        "8-science-energy-and-waves",
+        "9-science-forces-and-energy",
+        "10-science-forces-and-energy"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover what non-renewable energy is, how it is used, and why it is limited.",
+      "art": "science",
+      "thumbnailAsset": "hub-36-non-renewable-energy.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #36. Original lesson label: Q3 · Lesson 20 · Non-Renewable Energy. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 36,
+      "hubLesson": "Q3 · Lesson 20 · Non-Renewable Energy",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        36
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-37-tsunamis",
+      "title": "Tsunamis",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/rare-video-japan-tsunami/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "4-science-earth-changes",
+        "7-science-earth-processes",
+        "7-science-resources-and-hazards"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Watch and learn how tsunamis form, what causes these powerful ocean waves, and how they impact coastal areas.",
+      "art": "science",
+      "thumbnailAsset": "hub-37-tsunamis.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #37. Original lesson label: Q3 · Lesson 8 · Tsunamis. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 37,
+      "hubLesson": "Q3 · Lesson 8 · Tsunamis",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        37
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-38-earthquake-map-research",
+      "title": "Earthquake Map Research",
+      "publisher": "arcgis.com",
+      "url": "https://www.arcgis.com/apps/instant/atlas/index.html?appid=0cd1cdee853c413a84bfe4b9a6931f0d&webmap=95188602f74c4197a39c8f7205589c8c",
+      "subjects": [
+        "science",
+        "hss"
+      ],
+      "grades": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "7-science-earth-processes",
+        "7-science-resources-and-hazards",
+        "9-hss-geography-elective"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Investigate earthquakes using interactive maps and explore seismic activity around the world.",
+      "art": "science",
+      "thumbnailAsset": "hub-38-earthquake-map-research.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #38. Original lesson label: Q2 · Lesson 29 · Earthquake Map Research. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 38,
+      "hubLesson": "Q2 · Lesson 29 · Earthquake Map Research",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        38
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-39-solar-system-explorer",
+      "title": "Solar System Explorer",
+      "publisher": "aropl-kids-learning-hub.vercel.app",
+      "url": "https://aropl-kids-learning-hub.vercel.app/games/solar-system-explorer-v1/index.html",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "5-science-space-and-gravity",
+        "8-science-earth-and-space"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore the planets, moons, and orbits of our solar system in an interactive space simulation.",
+      "art": "science",
+      "thumbnailAsset": "hub-39-solar-system-explorer.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #39. Original lesson label: Interactive Simulation. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 39,
+      "hubLesson": "Interactive Simulation",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        39,
+        56
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-40-orbit",
+      "title": "Orbit",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/orbit/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "topicIds": [
+        "5-science-space-and-gravity",
+        "8-science-earth-and-space",
+        "9-science-earth-and-space"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn what an orbit is and how planets, moons, and satellites move around objects in space.",
+      "art": "science",
+      "thumbnailAsset": "hub-40-orbit.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #40. Original lesson label: Q3 · Lesson 6 · Orbit. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 40,
+      "hubLesson": "Q3 · Lesson 6 · Orbit",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        40
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-41-the-sun",
+      "title": "The Sun",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/sun-101/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "topicIds": [
+        "1-sky",
+        "5-science-earth-systems",
+        "5-science-space-and-gravity"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how the Sun powers weather, seasons, and life on Earth.",
+      "art": "science",
+      "thumbnailAsset": "hub-41-the-sun.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #41. Original lesson label: Q3 · Lesson 2 · The Sun. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 41,
+      "hubLesson": "Q3 · Lesson 2 · The Sun",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        41
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-42-incredible-animal-instincts",
+      "title": "Incredible Animal Instincts",
+      "publisher": "ifaw.org",
+      "url": "https://www.ifaw.org/journal/incredible-animal-instincts",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "topicIds": [
+        "3-science-life-cycles-and-traits",
+        "3-science-ecosystems-and-change",
+        "5-science-energy-in-ecosystems",
+        "6-science-traits-and-reproduction"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how animals use instinct to survive, adapt, and thrive in their environments.",
+      "art": "science",
+      "thumbnailAsset": "hub-42-incredible-animal-instincts.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #42. Original lesson label: Q2 · Lesson 41 · Animal Behavior. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 42,
+      "hubLesson": "Q2 · Lesson 41 · Animal Behavior",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        42
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-43-decomposers",
+      "title": "Decomposers",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/decomposers/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "topicIds": [
+        "3-science-ecosystems-and-change",
+        "4-science-energy-and-motion",
+        "5-science-energy-in-ecosystems",
+        "6-science-thermal-energy",
+        "7-science-ecosystems-and-energy"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover how decomposers recycle nutrients in ecosystems",
+      "art": "science",
+      "thumbnailAsset": "hub-43-decomposers.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #43. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 43,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        43
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-44-food-web",
+      "title": "Food Web",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/food-web/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "3-science-ecosystems-and-change",
+        "4-science-energy-and-motion",
+        "5-science-energy-in-ecosystems",
+        "6-science-thermal-energy",
+        "7-science-ecosystems-and-energy",
+        "8-science-energy-and-waves"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how plants and animals depend on each other",
+      "art": "science",
+      "thumbnailAsset": "hub-44-food-web.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #44. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 44,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        44
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-45-mutations",
+      "title": "Mutations",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/mutation/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "8-science-evolution-and-fossils",
+        "9-science-cells-and-organisms",
+        "9-science-ecosystems-and-evolution",
+        "10-science-cells-and-organisms",
+        "10-science-ecosystems-and-evolution",
+        "11-science-cells-and-organisms",
+        "11-science-ecosystems-and-evolution",
+        "12-science-cells-and-organisms",
+        "12-science-ecosystems-and-evolution"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how mutations change DNA and how they can affect living organisms.",
+      "art": "science",
+      "thumbnailAsset": "hub-45-mutations.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #45. Original lesson label: Q3 · Lesson 20 · Mutations. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 45,
+      "hubLesson": "Q3 · Lesson 20 · Mutations",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        45
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-46-animal-behavior-and-offspring-success",
+      "title": "Animal Behavior and Offspring Success",
+      "publisher": "bio.libretexts.org",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/10%3A_Animals/10.08%3A_Reproductive_Behavior_of_Animals",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "3-science-life-cycles-and-traits",
+        "6-science-traits-and-reproduction"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover how animals behave when reproducing and caring for their young to help their offspring survive.",
+      "art": "science",
+      "thumbnailAsset": "hub-46-animal-behavior-and-offspring-success.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #46. Original lesson label: Q3 · Lesson 6 · Animal Behavior and Offspring Success. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 46,
+      "hubLesson": "Q3 · Lesson 6 · Animal Behavior and Offspring Success",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        46
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-47-asexual-sexual-reproduction",
+      "title": "Asexual & Sexual Reproduction",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/plant-and-animal-reproduction/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "6-science-traits-and-reproduction",
+        "9-science-cells-and-organisms",
+        "10-science-cells-and-organisms"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover how plants and animals reproduce and create new life.",
+      "art": "science",
+      "thumbnailAsset": "hub-47-asexual-sexual-reproduction.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #47. Original lesson label: Q3 · Lesson 2 · Asexual and Sexual Reproduction. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 47,
+      "hubLesson": "Q3 · Lesson 2 · Asexual and Sexual Reproduction",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        47
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-48-history-of-the-cell",
+      "title": "History of the Cell",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/history-cell-discovering-cell/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "6-science-cells-and-body-systems",
+        "9-science-cells-and-organisms",
+        "10-science-cells-and-organisms",
+        "11-science-cells-and-organisms",
+        "12-science-cells-and-organisms"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how scientists discovered and studied cells",
+      "art": "science",
+      "thumbnailAsset": "hub-48-history-of-the-cell.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #48. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 48,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        48
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-49-cell-theory",
+      "title": "Cell Theory",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/cell-theory/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "6-science-cells-and-body-systems",
+        "9-science-cells-and-organisms",
+        "10-science-cells-and-organisms",
+        "11-science-cells-and-organisms",
+        "12-science-cells-and-organisms"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover the basic rules that explain all living cells",
+      "art": "science",
+      "thumbnailAsset": "hub-49-cell-theory.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #49. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 49,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        49
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-50-climate-food",
+      "title": "Climate & Food",
+      "publisher": "epa.gov",
+      "url": "https://www.epa.gov/climateimpacts/climate-change-impacts-agriculture-and-food-supply",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "6-science-human-impacts",
+        "7-science-ecosystems-and-energy",
+        "9-science-ecosystems-and-evolution",
+        "10-science-ecosystems-and-evolution",
+        "11-science-ecosystems-and-evolution",
+        "12-science-ecosystems-and-evolution"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "How climate change affects farming and food",
+      "art": "science",
+      "thumbnailAsset": "hub-50-climate-food.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #50. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 50,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        50
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-51-properties-density-phet",
+      "title": "Properties: Density (PhET)",
+      "publisher": "phet.colorado.edu",
+      "url": "https://phet.colorado.edu/sims/html/density/latest/density_all.html",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "5-science-matter-and-mixtures",
+        "7-science-matter-and-reactions",
+        "9-science-matter-and-atoms",
+        "10-science-matter-and-atoms"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore density and how it depends on mass and volume using an interactive simulation.",
+      "art": "science",
+      "thumbnailAsset": "hub-51-properties-density-phet.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #51. Original lesson label: Q2 · Lesson 31 · Properties: Density. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 51,
+      "hubLesson": "Q2 · Lesson 31 · Properties: Density",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        51
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-52-chemical-mixtures",
+      "title": "Chemical Mixtures",
+      "publisher": "ducksters.com",
+      "url": "https://www.ducksters.com/science/chemistry/chemical_mixtures.php",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "topicIds": [
+        "5-science-matter-and-mixtures",
+        "7-science-matter-and-reactions",
+        "9-science-matter-and-atoms"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn what chemical mixtures are and how they work",
+      "art": "science",
+      "thumbnailAsset": "hub-52-chemical-mixtures.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #52. Original lesson label: Q2 · Lesson 25 · Type of mixtures. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 52,
+      "hubLesson": "Q2 · Lesson 25 · Type of mixtures",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        52
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-53-what-is-reforestation",
+      "title": "What Is Reforestation?",
+      "publisher": "responsiblewood.org.au",
+      "url": "https://www.responsiblewood.org.au/what-is-reforestation-and-what-are-its-benefits/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "topicIds": [
+        "3-science-ecosystems-and-change",
+        "4-science-engineering-solutions",
+        "5-science-energy-in-ecosystems",
+        "5-science-engineering-solutions",
+        "6-science-human-impacts",
+        "7-science-ecosystems-and-energy",
+        "9-science-ecosystems-and-evolution"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore how planting trees helps the environment",
+      "art": "science",
+      "thumbnailAsset": "hub-53-what-is-reforestation.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #53. Original lesson label: Not specified. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 53,
+      "hubLesson": "Not specified",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        53
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-54-saving-bajas-biodiversity",
+      "title": "Saving Baja’s Biodiversity",
+      "publisher": "nationalgeographic.com",
+      "url": "https://www.nationalgeographic.com/environment/slideshow/paid-content-saving-bajas-iconic-biodiversity",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "5-science-energy-in-ecosystems",
+        "7-science-ecosystems-and-energy",
+        "8-science-evolution-and-fossils",
+        "9-science-cells-and-organisms",
+        "9-science-ecosystems-and-evolution",
+        "10-science-cells-and-organisms",
+        "10-science-ecosystems-and-evolution"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Discover efforts to protect unique ecosystems",
+      "art": "science",
+      "thumbnailAsset": "hub-54-saving-bajas-biodiversity.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #54. Original lesson label: Not specified. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 54,
+      "hubLesson": "Not specified",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        54
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-55-biodiversity",
+      "title": "Biodiversity",
+      "publisher": "education.nationalgeographic.org",
+      "url": "https://education.nationalgeographic.org/resource/biodiversity/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "3-science-life-cycles-and-traits",
+        "3-science-ecosystems-and-change",
+        "5-science-energy-in-ecosystems",
+        "7-science-ecosystems-and-energy"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore life on Earth and ecosystems",
+      "art": "science",
+      "thumbnailAsset": "hub-55-biodiversity.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #55. Original lesson label: Not specified. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 55,
+      "hubLesson": "Not specified",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        55
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-57-how-sound-moves",
+      "title": "How Sound Moves",
+      "publisher": "phys.libretexts.org",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/Understanding_Sound_(Abbot)/03%3A_Traveling_waves/3.01%3A_How_sound_moves",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "1-sound",
+        "4-science-waves-and-information"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn the science of sound waves and how vibrations travel through different materials.",
+      "art": "science",
+      "thumbnailAsset": "hub-57-how-sound-moves.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #57. Original lesson label: Q2 · Lesson 29 · How Sound Moves. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 57,
+      "hubLesson": "Q2 · Lesson 29 · How Sound Moves",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        57
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-58-wave-on-a-string-play",
+      "title": "Wave on a String (Play)",
+      "publisher": "phet.colorado.edu",
+      "url": "https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_all.html",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "topicIds": [
+        "4-science-waves-and-information",
+        "8-science-energy-and-waves",
+        "9-science-waves-and-technology"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore how waves move using an interactive simulation",
+      "art": "science",
+      "thumbnailAsset": "hub-58-wave-on-a-string-play.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #58. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 58,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        58
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-59-build-a-molecule-info",
+      "title": "Build a Molecule (Info)",
+      "publisher": "phet.colorado.edu",
+      "url": "https://phet.colorado.edu/en/simulations/build-a-molecule",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "7-science-matter-and-reactions",
+        "9-science-matter-and-atoms",
+        "10-science-matter-and-atoms"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Overview of the simulation and learning goals",
+      "art": "science",
+      "thumbnailAsset": "hub-59-build-a-molecule-info.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #59. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 59,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        59
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-60-build-a-molecule-play",
+      "title": "Build a Molecule (Play)",
+      "publisher": "phet.colorado.edu",
+      "url": "https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "7-science-matter-and-reactions",
+        "9-science-matter-and-atoms",
+        "10-science-matter-and-atoms"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Open the interactive simulation",
+      "art": "science",
+      "thumbnailAsset": "hub-60-build-a-molecule-play.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #60. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 60,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        60
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-61-magnets-electromagnets-simulation",
+      "title": "Magnets & Electromagnets (Simulation)",
+      "publisher": "phet.colorado.edu",
+      "url": "https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_all.html",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "topicIds": [
+        "3-science-forces-and-magnets",
+        "3-science-engineering-designs",
+        "4-science-energy-and-motion",
+        "4-science-engineering-solutions",
+        "5-science-energy-in-ecosystems",
+        "5-science-engineering-solutions",
+        "6-science-thermal-energy",
+        "7-science-ecosystems-and-energy",
+        "7-science-engineering-systems",
+        "8-science-forces-and-motion",
+        "8-science-energy-and-waves",
+        "8-science-engineering-systems",
+        "9-science-forces-and-energy",
+        "9-science-engineering-design"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Interactive simulation to explore magnetism",
+      "art": "science",
+      "thumbnailAsset": "hub-61-magnets-electromagnets-simulation.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #61. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 61,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        61
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-62-science-5-factors-that-affect-the-strength-of-electromagnets",
+      "title": "Science 5 | Factors that Affect the Strength of Electromagnets",
+      "publisher": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=rR9R1vNobkc",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5"
+      ],
+      "topicIds": [
+        "5-science-engineering-solutions"
+      ],
+      "kind": "Video",
+      "platform": "browser",
+      "access": "Browser · external video",
+      "priceLabel": "Check access",
+      "description": "Opens the video directly",
+      "art": "science",
+      "thumbnailAsset": "hub-62-science-5-factors-that-affect-the-strength-of-electromagnets.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #62. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 62,
+      "hubLesson": "",
+      "gradeEvidence": "Source explicitly names Science 5",
+      "sourcePositions": [
+        62
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ],
+      "videoCreditURL": "https://www.youtube.com/watch?v=rR9R1vNobkc"
+    },
+    {
+      "id": "hub-63-how-lightning-is-created",
+      "title": "How Lightning Is Created",
+      "publisher": "noaa.gov",
+      "url": "https://www.noaa.gov/jetstream/lightning/how-lightning-is-created",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "topicIds": [
+        "3-science-weather-and-climate",
+        "6-science-weather-and-climate",
+        "7-science-resources-and-hazards"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how lightning forms inside storms",
+      "art": "science",
+      "thumbnailAsset": "hub-63-how-lightning-is-created.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #63. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 63,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        63
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-64-lightning-safety-tips",
+      "title": "Lightning Safety Tips",
+      "publisher": "weather.gov",
+      "url": "https://www.weather.gov/safety/lightning-tips",
+      "subjects": [
+        "science",
+        "health"
+      ],
+      "grades": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "topicIds": [
+        "2-health-health-skills",
+        "3-science-weather-and-climate",
+        "3-health-health-skills",
+        "4-health-health-skills",
+        "5-health-health-skills"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Simple steps to stay safe during lightning",
+      "art": "science",
+      "thumbnailAsset": "hub-64-lightning-safety-tips.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #64. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 64,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        64
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-65-maglev-technology",
+      "title": "Maglev Technology",
+      "publisher": "21sci-tech.com",
+      "url": "https://21sci-tech.com/articles/Summer03/maglev2.html",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "5-science-energy-in-ecosystems",
+        "5-science-engineering-solutions",
+        "6-science-thermal-energy",
+        "7-science-ecosystems-and-energy",
+        "8-science-forces-and-motion",
+        "8-science-energy-and-waves",
+        "9-science-forces-and-energy",
+        "9-science-waves-and-technology",
+        "10-science-forces-and-energy",
+        "10-science-waves-and-technology"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "How magnetic levitation trains work",
+      "art": "science",
+      "thumbnailAsset": "hub-65-maglev-technology.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #65. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 65,
+      "hubLesson": "",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        65
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-66-dna-replication-3d",
+      "title": "DNA Replication - 3D",
+      "publisher": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=TNKWgcFPHqw",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "9"
+      ],
+      "topicIds": [
+        "9-science-cells-and-organisms"
+      ],
+      "kind": "Video",
+      "platform": "browser",
+      "access": "Browser · external video",
+      "priceLabel": "Check access",
+      "description": "Watch a 3D animation showing how DNA copies itself inside cells.",
+      "art": "science",
+      "thumbnailAsset": "hub-66-dna-replication-3d.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #66. Original lesson label: Grade 9 · Q3 · Lesson 12 · DNA Replication. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 66,
+      "hubLesson": "Grade 9 · Q3 · Lesson 12 · DNA Replication",
+      "gradeEvidence": "Source explicitly names Grade 9",
+      "sourcePositions": [
+        66
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ],
+      "videoCreditURL": "https://www.youtube.com/watch?v=TNKWgcFPHqw"
+    },
+    {
+      "id": "hub-67-interaction-of-organ-systems",
+      "title": "Interaction of Organ Systems",
+      "publisher": "courses.lumenlearning.com",
+      "url": "https://courses.lumenlearning.com/suny-hvcc-healthpsychology/chapter/interaction-of-organ-systems/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "6-science-cells-and-body-systems"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Explore how different organ systems work together to maintain health.",
+      "art": "science",
+      "thumbnailAsset": "hub-67-interaction-of-organ-systems.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #67. Original lesson label: Q2 · Day 25 · Interaction of Organ System. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 67,
+      "hubLesson": "Q2 · Day 25 · Interaction of Organ System",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        67
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-68-biozone-hub",
+      "title": "Biozone Hub",
+      "publisher": "biozonehub.com",
+      "url": "https://www.biozonehub.com",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "9-science-cells-and-organisms",
+        "9-science-ecosystems-and-evolution",
+        "10-science-cells-and-organisms",
+        "10-science-ecosystems-and-evolution",
+        "11-science-cells-and-organisms",
+        "11-science-ecosystems-and-evolution",
+        "12-science-cells-and-organisms",
+        "12-science-ecosystems-and-evolution"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Biology learning resources (classroom access may be required).",
+      "art": "science",
+      "thumbnailAsset": "hub-68-biozone-hub.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #68. Original lesson label: Not specified. Access code present in supplied source; not republished in this child-facing catalogue. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 68,
+      "hubLesson": "Not specified",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        68
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-69-cell-biology-history",
+      "title": "Cell Biology History",
+      "publisher": "bitesizebio.com",
+      "url": "https://bitesizebio.com/166/history-of-cell-biology/",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "topicIds": [
+        "6-science-cells-and-body-systems",
+        "9-science-cells-and-organisms"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Learn how scientists discovered cells",
+      "art": "science",
+      "thumbnailAsset": "hub-69-cell-biology-history.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #69. Original lesson label: Not specified. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 69,
+      "hubLesson": "Not specified",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        69
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-70-cell-theory",
+      "title": "Cell Theory",
+      "publisher": "bio.libretexts.org",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology_(Boundless)/04:_Cell_Structure/4.03:_Studying_Cells_-_Cell_Theory",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "topicIds": [
+        "6-science-cells-and-body-systems",
+        "9-science-cells-and-organisms",
+        "10-science-cells-and-organisms"
+      ],
+      "kind": "Reading resource",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Understand how cells work",
+      "art": "science",
+      "thumbnailAsset": "hub-70-cell-theory.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #70. Original lesson label: Not specified. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 70,
+      "hubLesson": "Not specified",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        70
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
+    },
+    {
+      "id": "hub-71-molecular-geometry-phet",
+      "title": "Molecular Geometry (PhET)",
+      "publisher": "phet.colorado.edu",
+      "url": "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html",
+      "subjects": [
+        "science"
+      ],
+      "grades": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "topicIds": [
+        "9-science-matter-and-atoms",
+        "10-science-matter-and-atoms",
+        "11-science-matter-and-atoms",
+        "12-science-matter-and-atoms"
+      ],
+      "kind": "Interactive simulation",
+      "platform": "browser",
+      "access": "Browser · external source",
+      "priceLabel": "Check access",
+      "description": "Build molecules and explore VSEPR shapes to understand molecular geometry.",
+      "art": "science",
+      "thumbnailAsset": "hub-71-molecular-geometry-phet.webp",
+      "sourceIds": [],
+      "learningSuggestion": "Explore together, then discuss what you learned.",
+      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
+      "review": {
+        "status": "teacher_verified",
+        "reviewedOn": "2026-10-18",
+        "method": "User attestation that source links were verified by teachers; no independent external visit",
+        "runtimeTested": false,
+        "advertisingStatus": "not_independently_checked",
+        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
+        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #71. Original lesson label: Q2 · Lesson 31 · Molecular Geometry. Ad inventory, paywalls, and live destination were not independently checked."
+      },
+      "teacherVerified": true,
+      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
+      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
+      "hubSection": "Science",
+      "hubOrder": 71,
+      "hubLesson": "Q2 · Lesson 31 · Molecular Geometry",
+      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
+      "sourcePositions": [
+        71
+      ],
+      "featured": false,
+      "devices": [
+        "browser"
+      ]
     }
   ],
-  "seedRevision": 2
+  "seedRevision": 3
 }
