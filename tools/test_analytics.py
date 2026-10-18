@@ -55,6 +55,7 @@ try:
                 page.locator('[data-tab="analytics"]').click()
                 ck(page.locator('#analytics-title').is_visible(),f'Adult analytics visible at {width}px')
                 ck(page.locator('.analytics-card').count()==6,f'Six aggregate metric groups at {width}px')
+                ck(page.locator('.analytics-card[href="https://dash.cloudflare.com/"]').count()==6,f'Six actionable metric links at {width}px')
                 ck(page.locator('.analytics-status').inner_text()=='Setup needed',f'No invented connected state at {width}px')
                 ck(page.locator('.analytics-actions a').first.get_attribute('href')=='https://dash.cloudflare.com/',f'Dashboard button links correctly at {width}px')
                 ck(page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),f'No horizontal overflow at {width}px')

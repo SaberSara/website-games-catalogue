@@ -1,5 +1,5 @@
 {
-  "passed": 33,
+  "passed": 36,
   "checks": [
     "Site builds without analytics token",
     "Tracking is off by default",
@@ -21,16 +21,19 @@
     "Local artifact restored to untracked mode",
     "Adult analytics visible at 390px",
     "Six aggregate metric groups at 390px",
+    "Six actionable metric links at 390px",
     "No invented connected state at 390px",
     "Dashboard button links correctly at 390px",
     "No horizontal overflow at 390px",
     "Adult analytics visible at 768px",
     "Six aggregate metric groups at 768px",
+    "Six actionable metric links at 768px",
     "No invented connected state at 768px",
     "Dashboard button links correctly at 768px",
     "No horizontal overflow at 768px",
     "Adult analytics visible at 1280px",
     "Six aggregate metric groups at 1280px",
+    "Six actionable metric links at 1280px",
     "No invented connected state at 1280px",
     "Dashboard button links correctly at 1280px",
     "No horizontal overflow at 1280px"

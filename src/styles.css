@@ -163,3 +163,7 @@ fieldset.field legend{padding:0 5px;color:var(--ink)}
 .analytics-privacy p{padding:0 0 15px}
 @media(max-width:800px){.analytics-head{flex-direction:column;gap:12px}.analytics-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.analytics-head h2{font-size:25px}}
 @media(max-width:460px){.analytics-grid{grid-template-columns:1fr 1fr;gap:9px}.analytics-card{min-height:180px;padding:13px}.analytics-card strong{font-size:15px}.analytics-card small{font-size:11px}.analytics-head{padding:20px}.analytics-actions>a{width:100%}}
+
+.analytics-card{text-decoration:none;color:inherit;transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.analytics-card:hover{transform:translateY(-3px);box-shadow:0 8px 20px #23401b12}
+@media(prefers-reduced-motion:reduce){.analytics-card,.analytics-card:hover{transform:none;transition:none}}

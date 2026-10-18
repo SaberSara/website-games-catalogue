@@ -356,9 +356,9 @@ function sourcePage() {
 function analyticsPage() {
   const configured = document.querySelector('meta[name="wonderwood-analytics"]')?.content === 'configured';
   const live = configured && location.protocol === 'https:' && location.hostname === 'sabersara.github.io' && location.pathname.startsWith('/website-games-catalogue/');
-  const status = live ? 'Tracking connected' : configured ? 'Preview · tracking off here' : 'Setup needed';
+  const status = live ? 'Beacon enabled' : configured ? 'Preview · tracking off here' : 'Setup needed';
   const message = live
-    ? 'Wonderwood sends anonymous site-traffic data to Cloudflare Web Analytics. View real counts in your private dashboard.'
+    ? 'Wonderwood is configured to send aggregate site traffic to Cloudflare Web Analytics. Confirm actual counts in your private dashboard.'
     : configured ? 'This preview is not tracked. The beacon runs only on the published Wonderwood GitHub Pages URL.'
       : 'Add your free Cloudflare Web Analytics token to GitHub to start counting visits. No tracker runs until then.';
   const metrics = [
@@ -371,7 +371,7 @@ function analyticsPage() {
   ];
   return `<section class="analytics-board" aria-labelledby="analytics-title">
     <div class="analytics-head"><div><span class="eyebrow">Grown-ups · Visitor insights</span><h2 id="analytics-title">📊 Website analytics</h2><p>${message}</p></div><span class="analytics-status ${live?'analytics-connected':''}">${live?'● ':''}${status}</span></div>
-    <div class="analytics-grid">${metrics.map(([emoji,title,info])=>`<div class="analytics-card"><span class="analytics-card-icon" aria-hidden="true">${emoji}</span><strong>${title}</strong><small>${info}</small><span class="analytics-card-foot">In private dashboard ↗</span></div>`).join('')}</div>
+    <div class="analytics-grid">${metrics.map(([emoji,title,info])=>`<a class="analytics-card" href="https://dash.cloudflare.com/" target="_blank" rel="noopener noreferrer" aria-label="${title} — open Cloudflare dashboard"><span class="analytics-card-icon" aria-hidden="true">${emoji}</span><strong>${title}</strong><small>${info}</small><span class="analytics-card-foot">View dashboard ↗</span></a>`).join('')}</div>
     <div class="analytics-actions"><a class="primary" href="https://dash.cloudflare.com/" target="_blank" rel="noopener noreferrer">Open live dashboard ${icon('external')}</a><a class="outline" href="https://github.com/SaberSara/website-games-catalogue/blob/main/docs/ANALYTICS.md" target="_blank" rel="noopener noreferrer">Setup guide ${icon('external')}</a></div>
     <p class="analytics-honesty"><strong>No made-up visitor numbers.</strong> Cloudflare owns the real counts and keeps them in your account. Wonderwood cannot retrieve those private totals directly from this static page. Reports start only after setup.</p>
     <details class="analytics-privacy"><summary>🔒 Privacy for children</summary><p>Site-wide traffic only. No child names, accounts, cookies, persistent analytics IDs, game-click events, grade choices, search terms, or individual learning history are sent by Wonderwood's analytics integration. Cloudflare may measure aggregated visits, referral hosts, approximate countries, device categories and loading performance. The browser's existing favorites and local editor stay on the device. Review the site's privacy disclosures and legal obligations before use with children.</p></details>
