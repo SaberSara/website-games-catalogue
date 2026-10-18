@@ -31,6 +31,8 @@ jobs:
           python-version: '3.12'
 
       - name: Validate catalogue and build website
+        env:
+          CF_WEB_ANALYTICS_TOKEN: ${{ vars.CF_WEB_ANALYTICS_TOKEN }}
         run: |
           python tools/validate.py
           python tools/build.py

@@ -6,6 +6,7 @@
 <meta name="description" content="Wonderwood: playful learning adventures for California Kindergarten through Grade 12. An editable, standards-informed game catalogue.">
 <meta name="referrer" content="no-referrer">
 <meta name="theme-color" content="#fffaf1">
+<meta name="wonderwood-analytics" content="__ANALYTICS_STATUS__">
 <title>Wonderwood · Little games. Big discoveries.</title>
 <link rel="icon" href="assets/owl.webp" type="image/webp">
 <link rel="stylesheet" href="src/styles.css">
@@ -57,16 +58,17 @@
 </div>
 <section id="parent-view" class="wrap" hidden aria-label="Parent and teacher workspace">
   <div class="parent-header"><div><span class="eyebrow">Grown-ups</span><h1>Your learning library</h1><p>California K–12 · Curriculum & game reviews</p></div><button class="outline" data-nav="explore"><span data-icon="arrow-left"></span> Games</button></div>
-  <nav class="adult-tabs" aria-label="Parent and teacher sections"><button class="active" data-tab="curriculum" aria-current="page">Curriculum</button><button data-tab="review">Review queue</button><button data-tab="manage">Manage links</button><button data-tab="sources">Sources</button></nav>
+  <nav class="adult-tabs" aria-label="Parent and teacher sections"><button class="active" data-tab="curriculum" aria-current="page">Curriculum</button><button data-tab="review">Review queue</button><button data-tab="manage">Manage links</button><button data-tab="sources">Sources</button><button data-tab="analytics">📊 Analytics</button></nav>
   <div id="parent-content"></div>
 </section>
 </main>
-<footer class="footer wrap"><p class="footer-motto"><span aria-hidden="true">🍃</span> Curious minds <span aria-hidden="true">♥</span> Kinder hearts <span aria-hidden="true">🌱</span> Brighter tomorrows</p><div class="footer-bottom"><span id="footer-grade">Kindergarten</span><span id="footer-subject">All subjects</span><button class="textbutton" data-nav="parent" data-parent-tab="sources">About</button><span class="build-label">WONDERWOOD · K–12</span></div></footer>
+<footer class="footer wrap"><p class="footer-motto"><span aria-hidden="true">🍃</span> Curious minds <span aria-hidden="true">♥</span> Kinder hearts <span aria-hidden="true">🌱</span> Brighter tomorrows</p><div class="footer-bottom"><span id="footer-grade">Kindergarten</span><span id="footer-subject">All subjects</span><button class="textbutton" data-nav="parent" data-parent-tab="sources">About</button><button class="textbutton" data-nav="parent" data-parent-tab="analytics">Privacy & stats</button><span class="build-label">WONDERWOOD · K–12</span></div></footer>
 <dialog id="details" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <noscript><p class="notice">Please enable JavaScript to browse the catalogue. The source package also includes the curriculum and game links as JSON.</p></noscript>
 <script id="curriculum-data" type="application/json">__CURRICULUM__</script>
 <script id="games-data" type="application/json">__GAMES__</script>
 <script src="src/app.js" defer></script>
+<!-- __ANALYTICS_BEACON__ -->
 </body>
 </html>

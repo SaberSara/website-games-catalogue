@@ -1,6 +1,7 @@
 'use strict';
-/* No runtime dependencies, remote assets, analytics, or child accounts.
-   Data is embedded at build time so the portable version also works on file://. */
+/* No child accounts, advertising or individual learning-behavior tracking.
+   Optional cookieless site-traffic beacon is injected at build time only for the production site;
+   portable/offline builds and unconfigured installations remain untracked. */
 const curriculum = JSON.parse(document.getElementById('curriculum-data').textContent);
 const original = JSON.parse(document.getElementById('games-data').textContent);
 const PUB = 'publisher_claim_reviewed';
@@ -348,13 +349,37 @@ function sourcePage() {
     <div class="source-block"><h3>The curriculum</h3><p class="manage-intro">The supplied map has ${curriculum.topics.length} editorial topic clusters across California Kindergarten through Grade 12, not a complete verbatim standards database or state-approved course. Standards references and off-screen follow-ups are retained from the original research. California Grade 1 is not the same level as UK Year 1. Arts, PE and some support areas need more detailed mapping. Games support practice; they do not establish mastery.</p></div>
     <div class="source-block"><h3>What device icons mean</h3><p class="manage-intro">A globe means the linked resource opens in a browser. Phone and tablet icons mean an app installation, not browser play. The iPhone / iPad badge applies only to that specific app record. App compatibility may include additional supported devices; the official listing has the final requirements. An advertising policy for an app is not automatically evidence for its browser version.</p></div>
     <div class="source-block"><h3>Evidence, not badges of certainty</h3><p class="manage-intro">The child cards never use blanket “safe” or “ad-free” badges for teacher-selected links. Publisher no-ad statements and teacher-verified selections are labeled separately, with their source, date and scope. No-ad does not mean no purchases, analytics, accounts, sponsor messages, or external links. Recheck the exact destination before a child uses it. The local review form records a curator’s check, not an independent audit.</p></div>
-    <div class="source-block"><h3>Privacy & editing</h3><p class="manage-intro">Wonderwood itself loads no advertisements, analytics, remote fonts or third-party embeds. Favorites and editable drafts use this browser’s local storage; no child names or accounts are collected. Export JSON before clearing site data or changing devices. The Parent/Teacher area is not authentication. Edits and approval are local only; there is no GitHub sync or deployment.</p></div>
+    <div class="source-block"><h3>Privacy & editing</h3><p class="manage-intro">Wonderwood loads no advertisements, remote fonts, or third-party game embeds. An optional cookie-free Cloudflare Web Analytics beacon counts aggregate site visits and performance only after the publisher connects it for the live website; it is disabled for local/portable copies. No child names, individual game clicks, grade selections or search terms are sent to analytics. Favorites and editable drafts use this browser’s local storage. Export JSON before clearing site data or changing devices. The Parent/Teacher area is not authentication. Edits and approval are local only; there is no GitHub sync or deployment.</p></div>
     <div class="source-block"><h3>Artwork & accessibility</h3><p class="manage-intro">Woodland artwork comes from the approved design concept. Wonderwood originals use decorative game illustrations. Imported Hub activities display their supplied source thumbnails; these are not endorsements or independently verified screenshots. All core controls are real HTML buttons. There are keyboard focus indicators, native dialogs, reduced-motion support and no autoplay sound. Real screen-reader and touch-device review remains necessary.</p></div>
     <div class="source-block"><h3>Source register</h3>${Object.values(curriculum.sourceRegister).map(s => `<div class="source-item"><strong>${esc(s.title)}</strong>${safeURL(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.url)}</a>` : ''}</div>`).join('')}</div></section>`;
 }
+function analyticsPage() {
+  const configured = document.querySelector('meta[name="wonderwood-analytics"]')?.content === 'configured';
+  const live = configured && location.protocol === 'https:' && location.hostname === 'sabersara.github.io' && location.pathname.startsWith('/website-games-catalogue/');
+  const status = live ? 'Tracking connected' : configured ? 'Preview · tracking off here' : 'Setup needed';
+  const message = live
+    ? 'Wonderwood sends anonymous site-traffic data to Cloudflare Web Analytics. View real counts in your private dashboard.'
+    : configured ? 'This preview is not tracked. The beacon runs only on the published Wonderwood GitHub Pages URL.'
+      : 'Add your free Cloudflare Web Analytics token to GitHub to start counting visits. No tracker runs until then.';
+  const metrics = [
+    ['👀','Visits','How many visits the website receives'],
+    ['📈','Page views','How many pages have been opened'],
+    ['🔗','Traffic sources','Where visits come from'],
+    ['📱','Devices','Mobile, tablet or desktop'],
+    ['🌍','Countries','Broad country-level breakdown'],
+    ['⚡','Page speed','Loading and Core Web Vitals']
+  ];
+  return `<section class="analytics-board" aria-labelledby="analytics-title">
+    <div class="analytics-head"><div><span class="eyebrow">Grown-ups · Visitor insights</span><h2 id="analytics-title">📊 Website analytics</h2><p>${message}</p></div><span class="analytics-status ${live?'analytics-connected':''}">${live?'● ':''}${status}</span></div>
+    <div class="analytics-grid">${metrics.map(([emoji,title,info])=>`<div class="analytics-card"><span class="analytics-card-icon" aria-hidden="true">${emoji}</span><strong>${title}</strong><small>${info}</small><span class="analytics-card-foot">In private dashboard ↗</span></div>`).join('')}</div>
+    <div class="analytics-actions"><a class="primary" href="https://dash.cloudflare.com/" target="_blank" rel="noopener noreferrer">Open live dashboard ${icon('external')}</a><a class="outline" href="https://github.com/SaberSara/website-games-catalogue/blob/main/docs/ANALYTICS.md" target="_blank" rel="noopener noreferrer">Setup guide ${icon('external')}</a></div>
+    <p class="analytics-honesty"><strong>No made-up visitor numbers.</strong> Cloudflare owns the real counts and keeps them in your account. Wonderwood cannot retrieve those private totals directly from this static page. Reports start only after setup.</p>
+    <details class="analytics-privacy"><summary>🔒 Privacy for children</summary><p>Site-wide traffic only. No child names, accounts, cookies, persistent analytics IDs, game-click events, grade choices, search terms, or individual learning history are sent by Wonderwood's analytics integration. Cloudflare may measure aggregated visits, referral hosts, approximate countries, device categories and loading performance. The browser's existing favorites and local editor stay on the device. Review the site's privacy disclosures and legal obligations before use with children.</p></details>
+  </section>`;
+}
 function renderParent() {
   $$('[data-tab]').forEach(b => { const active = b.dataset.tab === state.tab; b.classList.toggle('active', active); if (active) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current'); });
-  $('#parent-content').innerHTML = state.tab === 'curriculum' ? parentMap() : state.tab === 'review' ? reviewList() : state.tab === 'manage' ? manage() : sourcePage();
+  $('#parent-content').innerHTML = state.tab === 'curriculum' ? parentMap() : state.tab === 'review' ? reviewList() : state.tab === 'manage' ? manage() : state.tab === 'analytics' ? analyticsPage() : sourcePage();
 }
 function downloadJSON(data, name) {
   const blob = new Blob([JSON.stringify(data, null, 2) + '\n'], {type:'application/json'});

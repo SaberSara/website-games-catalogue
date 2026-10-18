@@ -20,7 +20,7 @@ The resulting catalogue has **222 entries**, with **188 shown** in child browsin
 
 Open **`wonderwood-play.html`** in a modern browser. This portable file includes the interface, artwork, curriculum and starter links. It needs no server to browse; external games need internet access. A file previewer may show HTML source instead of running it—open the downloaded file in a browser.
 
-The catalogue makes no remote requests before a user follows an external destination. It has no analytics, advertisements, child accounts or backend. This does **not** describe the policies of third-party games.
+The catalogue has no advertisements, child accounts or backend. **Visitor analytics are optional**: once a Cloudflare Web Analytics site token is configured for GitHub Pages, a cookie-free traffic beacon reports aggregate website visits and loading performance. Local/portable previews remain untracked. No child actions, grade choices, search terms or individual game clicks are sent to analytics. See [analytics setup and privacy](docs/ANALYTICS.md). This does **not** describe the policies of third-party games.
 
 ## What changed from V3
 
@@ -105,3 +105,7 @@ The capture script defaults to `/usr/bin/chromium`; edit it or use the environme
 Verify each exact third-party destination on supported devices, complete educator review of the curriculum and grade fit, test real-origin persistence and external handoffs, perform a proper accessibility review, and decide who can publish catalogue changes. Do not treat the local editor as authenticated administration or the popup as a parental-control/security gate.
 
 GitHub integration status and manual deployment details: `docs/INTEGRATION.md`.
+
+## Visitors and analytics
+
+Open **Parent / Teacher → 📊 Analytics** for a privacy-focused traffic overview and a link to your Cloudflare dashboard. Configure the optional GitHub Actions variable `CF_WEB_ANALYTICS_TOKEN` to begin collecting site-wide counts after deployment. Without the site token, tracking stays disabled; no placeholder visitor numbers are displayed. See [analytics instructions](docs/ANALYTICS.md).

@@ -146,3 +146,20 @@ fieldset.field legend{padding:0 5px;color:var(--ink)}
 .popup-review-teacher{background:#eaf2ff;color:#24517c}
 .popup-review-teacher small{color:#4f6484}
 .review-heading{margin:22px 0 12px;font-size:19px}
+
+/* Adult-only traffic insights — no child-facing counters or invented metrics. */
+.analytics-board{max-width:1050px;margin:0 auto 60px}
+.analytics-head{background:#eaf6ed;border:1px solid #c8e4d4;border-radius:24px;padding:26px;display:flex;justify-content:space-between;gap:22px;align-items:flex-start}
+.analytics-head h2{font-size:29px;margin:0 0 9px}.analytics-head p{color:var(--muted);font-size:14px;max-width:660px;line-height:1.6}
+.analytics-status{white-space:nowrap;background:#fff4d4;color:#7a5415;border:1px solid #e7d29c;padding:7px 12px;border-radius:20px;font-size:12px;font-weight:900}
+.analytics-status.analytics-connected{background:#d8f4d9;color:#17692b;border-color:#aedcb7}
+.analytics-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:18px 0 22px}
+.analytics-card{border-radius:19px;border:1px solid #e4e4dd;background:#fff;min-height:170px;padding:21px;box-shadow:0 3px 12px #23401b09;display:flex;flex-direction:column;align-items:flex-start;gap:5px}
+.analytics-card-icon{font-size:28px;line-height:1.2}.analytics-card strong{font-size:18px;color:var(--ink);margin-top:6px}.analytics-card small{font-size:12px;color:var(--muted);line-height:1.4}
+.analytics-card-foot{font-size:11px;color:#366f54;font-weight:800;margin-top:auto;padding-top:14px}
+.analytics-actions{display:flex;gap:11px;flex-wrap:wrap;margin:23px 0 17px}.analytics-actions .primary{background:#187442;box-shadow:0 3px 0 #0e4e31}.analytics-actions a .icon{width:17px;height:17px}
+.analytics-honesty,.analytics-privacy{font-size:13px;line-height:1.7;color:var(--muted);max-width:870px}
+.analytics-privacy{background:#f7f5ed;border-radius:15px;padding:8px 16px;margin-top:18px}.analytics-privacy>summary{color:#315e47;font-weight:800}
+.analytics-privacy p{padding:0 0 15px}
+@media(max-width:800px){.analytics-head{flex-direction:column;gap:12px}.analytics-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.analytics-head h2{font-size:25px}}
+@media(max-width:460px){.analytics-grid{grid-template-columns:1fr 1fr;gap:9px}.analytics-card{min-height:180px;padding:13px}.analytics-card strong{font-size:15px}.analytics-card small{font-size:11px}.analytics-head{padding:20px}.analytics-actions>a{width:100%}}
