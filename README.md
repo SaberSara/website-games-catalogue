@@ -43,7 +43,7 @@ The catalogue has no advertisements, child accounts or backend. **Visitor analyt
 
 **433 topic shelves** = the previous 98 Kindergarten/Grade 1 clusters + 335 new starter shelves for Grades 2–12. The new shelves are expressly marked **exact-code review pending**. They are not a full California standards audit, complete course, prescribed pacing sequence or state endorsement. High-school mathematics/science shelves use shared course topics rather than inventing a compulsory grade sequence.
 
-**222 resource records** = 118 records with publisher no-ad claims and 34 candidates withheld from child browsing pending adult review. Resources span all 13 grades and cover 263 of the 433 topic shelves with at least one visible item. A topic association is editorial, not a guarantee of California-standards mastery. Some grade/subject/topic combinations remain empty—especially health, movement, and younger history. Records include collections, app variants, simulations and creative projects, not 152 distinct scored games.
+**220 resource records** = 118 records with publisher no-ad claims and 34 candidates withheld from child browsing pending adult review. Resources span all 13 grades and cover an updated subset of the 433 topic shelves with at least one visible item. A topic association is editorial, not a guarantee of California-standards mastery. Some grade/subject/topic combinations remain empty—especially health, movement, and younger history. Records include collections, app variants, simulations and creative projects, not 152 distinct scored games.
 
 The publisher claim for Khan Academy concerns **third-party advertising**; Khan Academy may show labeled sponsor/supporter messages. This distinction is shown in the adult evidence notes. Code.org courses may require teacher setup or accounts; PhET simulations are explorations rather than quizzes. Starfall offers some member-only activities. Read `docs/RESOURCE-COVERAGE.md`.
 
@@ -109,3 +109,7 @@ GitHub integration status and manual deployment details: `docs/INTEGRATION.md`.
 ## Visitors and analytics
 
 Open **Parent / Teacher → 📊 Analytics** for a privacy-focused traffic overview and a link to your Cloudflare dashboard. The public Cloudflare site token is configured in the GitHub Pages deployment workflow (an optional Actions variable `CF_WEB_ANALYTICS_TOKEN` can override it). The beacon reports aggregate visits and performance **only on the deployed Wonderwood site**, not offline previews. Visitor totals remain private to Cloudflare; no placeholder numbers are shown. See [analytics instructions and opt-out](docs/ANALYTICS.md).
+
+## Resource and grade corrections — 18 October 2026
+
+Waves: Intro is now available only for **Grades 8–9**. Color Vision, both Density entries, States of Matter: Basics and Natural Selection are assigned only to supported grades **8 and above**. The Sun and NASA Kids Science were withdrawn in every grade, including from imported and saved drafts. See [the curator's correction record](docs/CURATION-CORRECTIONS-2026-10-18.md) for details. Curriculum topic shelves and unrelated games are unchanged.

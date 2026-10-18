@@ -5,13 +5,21 @@ import json,collections
 ROOT=Path(__file__).resolve().parents[1]
 c=json.loads((ROOT/'data/curriculum.json').read_text())
 d=json.loads((ROOT/'data/games.json').read_text())
-assert d['seedRevision']==3
+assert d['seedRevision']==4
 approved=[x for x in d['games'] if x['review']['status']=='publisher_claim_reviewed']
 pending=[x for x in d['games'] if x['review']['status']=='needs_review']
 teacher=[x for x in d['games'] if x['review']['status']=='teacher_verified']
 visible=approved+teacher
 grades=[g['id'] for g in c['grades']]
-assert len(d['games'])==222 and len(approved)==118 and len(pending)==34 and len(teacher)==70
+assert len(d['games'])==220 and len(approved)==118 and len(pending)==34 and len(teacher)==68
+assert not any(g['id'] in {'hub-41-the-sun','hub-10-nasa-kids-science'} for g in d['games'])
+restricted={'phet-waves-intro':{'8','9'},'phet-color-vision':set(map(str,range(8,13))),
+'phet-density':set(map(str,range(8,13))),'hub-51-properties-density-phet':set(map(str,range(8,13))),
+'phet-states-of-matter-basics':set(map(str,range(8,13))),'phet-natural-selection':set(map(str,range(8,13)))}
+for game in d['games']:
+ if game['id'] in restricted:
+  assert set(game['grades'])<=restricted[game['id']],game['id']
+  if game['id']=='phet-waves-intro':assert game['grades']==['8','9']
 assert all(any(gr in x['grades'] for x in approved) for gr in grades)
 assert all(x['topicIds'] for x in approved),'Every published record must have a real curricular link'
 assert all(x['review']['runtimeTested'] is False for x in d['games']), 'No fabricated hands-on test claims'

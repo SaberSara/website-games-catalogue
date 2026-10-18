@@ -67,31 +67,76 @@ function validData(v) {
     ids.add(g.id); return true;
   });
 }
-// Seed revision 2 expands 28 V3 catalogue records into curated K–12 entries.
-// Preserve prior user edits and intentional removals from the old seed set.
-// Append ONLY IDs first introduced in this revision; stamp the draft so that
-// later user removal of a newly added game remains intentional.
-const SEED_REVISION = 3;
+// Revision 4: apply the owner's science-grade restrictions to new and
+// previously saved local catalogues. Do not resurrect intentionally removed
+// games from earlier releases; preserve all unrelated local edits.
+const SEED_REVISION = 4;
 const V3_BASELINE_IDS = new Set(["starfall-abc", "starfall-read", "starfall-an", "starfall-at", "starfall-en", "starfall-vowels", "khan-kids", "tym-numbers-ios", "tym-eating-ios", "tym-read-web", "tym-numbers-web", "tym-eating-web", "tym-reading-fun", "mlc-frames", "mlc-pieces", "mlc-shapes", "mlc-clock", "pbs-scribbles", "pbs-animal-home", "pbs-city", "pbs-pink", "scratchjr", "tuxpaint", "phet-equality-explorer-basics", "phet-area-builder", "phet-number-line-integers", "phet-graphing-lines", "phet-build-an-atom"]);
 const V2_BASELINE_IDS = new Set([...V3_BASELINE_IDS].filter(id => !id.startsWith('phet-')));
 // Revision 3 imports teacher-reviewed Hub links without resurrecting existing K–12
 // resources the local curator deliberately removed in revision 2.
 const REV2_BASELINE_IDS = new Set(original.games.filter(g => !g.id.startsWith('hub-')).map(g => g.id));
+
+// Revision-3 baseline includes the withdrawn games to prevent unintended reimport.
+const REV3_BASELINE_IDS = new Set([...original.games.map(g => g.id), 'hub-41-the-sun', 'hub-10-nasa-kids-science']);
+const GRADE_8_PLUS = new Set(['8','9','10','11','12']);
+const GAME_GRADE_POLICY = {
+  'phet-waves-intro': new Set(['8','9']),
+  'phet-color-vision': GRADE_8_PLUS,
+  'phet-density': GRADE_8_PLUS,
+  'hub-51-properties-density-phet': GRADE_8_PLUS,
+  'phet-states-of-matter-basics': GRADE_8_PLUS,
+  'phet-natural-selection': GRADE_8_PLUS
+};
+const REMOVED_GAME_IDS = new Set(['hub-41-the-sun','hub-10-nasa-kids-science']);
+const REMOVED_DESTINATIONS = new Set([
+  'https://education.nationalgeographic.org/resource/sun-101/',
+  'https://science.nasa.gov/kids/'
+]);
+const removedGame = g => REMOVED_GAME_IDS.has(g.id) ||
+  /^(the sun|nasa kids science)$/i.test((g.title || '').trim()) || REMOVED_DESTINATIONS.has(g.url);
+const TOPIC_GRADE = Object.fromEntries(curriculum.topics.map(t => [t.id,t.grade]));
+function applyGradeCorrections(draft) {
+  if (!draft || !Array.isArray(draft.games)) return draft;
+  let changed = draft.seedRevision !== SEED_REVISION;
+  const games = [];
+  for (const g of draft.games) {
+    if (removedGame(g)) { changed = true; continue; }
+    const allowed = GAME_GRADE_POLICY[g.id];
+    if (!allowed) { games.push(g); continue; }
+    const grades = g.grades.filter(gr => allowed.has(gr));
+    if (!grades.length) { changed = true; continue; }
+    const topicIds = g.topicIds.filter(tid => grades.includes(TOPIC_GRADE[tid]));
+    if (grades.length !== g.grades.length || topicIds.length !== g.topicIds.length) {
+      changed = true;
+      games.push({...g, grades, topicIds});
+    } else games.push(g);
+  }
+  return changed ? {...draft, seedRevision:SEED_REVISION, games} : draft;
+}
 function adoptNewSeeds(draft, oldIds) {
   const seen = new Set(draft.games.map(g=>g.id));
   const additions = original.games.filter(g=>!oldIds.has(g.id) && !seen.has(g.id));
   return {...draft, seedRevision:SEED_REVISION, games:[...draft.games, ...additions]};
 }
+function upgradeDraft(saved) {
+  const ids = saved.seedRevision >= 3 ? REV3_BASELINE_IDS : saved.seedRevision >= 2 ? REV2_BASELINE_IDS : V3_BASELINE_IDS;
+  return applyGradeCorrections(saved.seedRevision >= SEED_REVISION ? saved : adoptNewSeeds(saved, ids));
+}
 const savedDraft = store.get(DRAFT_KEY, null);
 if (validData(savedDraft)) {
-  dataset = savedDraft.seedRevision >= SEED_REVISION ? savedDraft : adoptNewSeeds(savedDraft, savedDraft.seedRevision >= 2 ? REV2_BASELINE_IDS : V3_BASELINE_IDS);
+  dataset = upgradeDraft(savedDraft);
   if (dataset !== savedDraft) store.set(DRAFT_KEY, dataset);
 } else {
   const legacy = store.get('wonderwood-catalogue-v2', null);
   if (validData(legacy)) {
-    dataset = adoptNewSeeds(legacy, V2_BASELINE_IDS);
+    dataset = applyGradeCorrections(adoptNewSeeds(legacy, V2_BASELINE_IDS));
     store.set(DRAFT_KEY, dataset);
   }
+}
+if (favorites.some(id => REMOVED_GAME_IDS.has(id))) {
+  favorites = favorites.filter(id => !REMOVED_GAME_IDS.has(id));
+  store.set(FAVORITES_KEY, favorites);
 }
 
 const icons = {
@@ -476,7 +521,12 @@ document.addEventListener('change', async e => {
       if(file.size>3_000_000)throw Error('The file is too large. Use a catalogue smaller than 3 MB.');
       const v=JSON.parse(await file.text());
       if(!validData(v))throw Error('Invalid catalogue. Check HTTPS links, unique IDs, supported grades/subjects, topic matches and review evidence.');
-      if(confirm('Replace this browser’s local catalogue draft with the imported file?')) { dataset=structuredClone(v); state.editId=null; saveDraft('Catalogue imported into this browser.'); renderParent(); }
+      const corrected = applyGradeCorrections(structuredClone(v));
+      if(!validData(corrected))throw Error('This catalogue cannot be used after applying the current grade rules.');
+      if(confirm('Replace this browser’s local catalogue draft with the imported file? Outdated grade assignments and withdrawn links will be removed.')) {
+        dataset=corrected; state.editId=null;
+        saveDraft('Catalogue imported with current grade restrictions.'); renderParent();
+      }
     } catch(err) { notify(err.message || 'Could not import the file. Your catalogue was not changed.'); }
     finally { if($('#import-file'))$('#import-file').value=''; }
   }
@@ -495,7 +545,12 @@ document.addEventListener('submit',e=>{
       priceLabel:data.priceLabel.trim(),access:data.access.trim(),description:data.description.trim(),sourceIds:existing?.sourceIds||[],featured:existing?.featured||false,
       art:existing?.art||'letters',alignmentStatus:'Editorial practice mapping; updated record needs review.',learningSuggestion:existing?.learningSuggestion||'',
       review:{status:'needs_review',reviewedOn:null,method:'Locally edited draft',runtimeTested:false,adEvidenceSourceId:null,evidenceScope:'',notes:data.notes}};
-    const next={...dataset,games:existing?dataset.games.map(x=>x.id===id?g:x):[...dataset.games,g]};
+    if (removedGame(g)) {notify('This link was removed from Wonderwood.');return;}
+    if (GAME_GRADE_POLICY[g.id] && g.grades.some(grade => !GAME_GRADE_POLICY[g.id].has(grade))) {
+      notify(g.id === 'phet-waves-intro' ? 'Waves: Intro is only available for Grades 8–9.' : 'This activity is only available for Grade 8 and above.');
+      return;
+    }
+    const next=applyGradeCorrections({...dataset,games:existing?dataset.games.map(x=>x.id===id?g:x):[...dataset.games,g]});
     if(!validData(next)){notify('Please check all fields and topic mappings. The draft has not changed.');return;}
     dataset=next; state.editId=null; saveDraft('Saved to the review queue. Review this record before adding it to the child catalogue.'); renderParent();
   }

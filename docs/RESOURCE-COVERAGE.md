@@ -1,43 +1,32 @@
-# K–12 activity-link coverage — 15 October 2026
+# K–12 activity-link coverage — 18 October 2026
 
-This is the current link catalogue, not a claim that every California standard or topic has a matching game. Only records with scoped publisher-policy evidence are displayed to children; further candidates remain grown-up-only.
+This is the live Wonderwood catalogue after the grade and link corrections, not a guarantee of California-standards mastery. Teacher verification of a link is distinct from an independent advertising review.
 
-- **152 catalogue records:** 118 visible publisher-policy-backed entries, 34 pending adult review.
-- **13 grade levels** have visible activities from Kindergarten through Grade 12.
-- **225 of 433 editorial topics** have at least one visible record tagged to that topic. This is **editorial matching**, not an educator-approved standards audit.
-- **0 third-party destinations were hands-on tested** for advertising, login redirects, payments, device controls, safety or accessibility.
-- Publisher statements are not universal guarantees. Khan Academy's website prohibits third-party ads but permits labeled sponsor messages; Starfall has member-only items; some Code.org projects require a class/account.
+- **220 catalogue records**, including **186 visible** (68 teacher-reviewed) and **34 hidden candidates**.
+- **260 of 433 editorial topic shelves** have at least one visible matching resource; tags are editorial.
+- **0 independent hands-on third-party destination tests** have been carried out by this assistant.
+- **The Sun** and **NASA Kids Science** are withdrawn; the other named science-resource grade assignments follow the owner's updated policy.
 
-## Visible resources by grade
+## Visible activity cards by grade
 
-Counts are **distinct catalogue cards for that grade**; one card can cover multiple topics and subjects. Grade 9–12 math/science suggestions reflect pathways and electives, not required grade-specific classes.
+Cards can belong to multiple subjects or grades; entries below are not necessarily unique games.
 
 | Grade | Visible cards | Reading/ELA | Math | Science | History | Art/Music | Health | PE | Coding |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|---|---|---|---|---|---|---|---|---|---|
 | Kindergarten | 14 | 6 | 6 | 0 | 0 | 0 | 2 | 0 | 2 |
-| Grade 1 | 15 | 6 | 6 | 2 | 0 | 0 | 1 | 0 | 2 |
-| Grade 2 | 18 | 2 | 11 | 2 | 0 | 2 | 1 | 0 | 4 |
-| Grade 3 | 27 | 1 | 17 | 4 | 0 | 3 | 0 | 0 | 5 |
-| Grade 4 | 31 | 1 | 15 | 10 | 0 | 3 | 0 | 0 | 5 |
-| Grade 5 | 29 | 1 | 15 | 8 | 0 | 3 | 0 | 0 | 5 |
-| Grade 6 | 31 | 1 | 18 | 6 | 1 | 4 | 0 | 0 | 4 |
-| Grade 7 | 33 | 1 | 18 | 8 | 1 | 4 | 0 | 0 | 4 |
-| Grade 8 | 38 | 1 | 13 | 18 | 1 | 4 | 0 | 0 | 4 |
-| Grade 9 | 53 | 2 | 14 | 32 | 0 | 3 | 0 | 0 | 4 |
-| Grade 10 | 49 | 2 | 12 | 29 | 1 | 3 | 0 | 0 | 4 |
-| Grade 11 | 43 | 1 | 11 | 26 | 1 | 3 | 0 | 0 | 3 |
-| Grade 12 | 43 | 1 | 11 | 26 | 1 | 3 | 0 | 0 | 3 |
+| Grade 1 | 15 | 6 | 6 | 1 | 1 | 0 | 1 | 0 | 2 |
+| Grade 2 | 26 | 3 | 12 | 8 | 1 | 2 | 2 | 0 | 4 |
+| Grade 3 | 48 | 3 | 18 | 23 | 1 | 3 | 2 | 0 | 5 |
+| Grade 4 | 57 | 5 | 16 | 33 | 3 | 3 | 2 | 0 | 5 |
+| Grade 5 | 65 | 8 | 16 | 40 | 4 | 3 | 2 | 0 | 5 |
+| Grade 6 | 70 | 10 | 19 | 40 | 5 | 4 | 1 | 0 | 5 |
+| Grade 7 | 74 | 10 | 18 | 41 | 6 | 4 | 4 | 0 | 6 |
+| Grade 8 | 78 | 9 | 13 | 50 | 6 | 4 | 4 | 0 | 6 |
+| Grade 9 | 92 | 15 | 14 | 58 | 4 | 3 | 5 | 0 | 8 |
+| Grade 10 | 76 | 10 | 12 | 47 | 3 | 3 | 5 | 0 | 7 |
+| Grade 11 | 56 | 7 | 11 | 32 | 1 | 3 | 3 | 0 | 6 |
+| Grade 12 | 56 | 7 | 11 | 32 | 1 | 3 | 3 | 0 | 6 |
 
-## What these numbers do **not** mean
+## Scope and maintenance
 
-- A blank PE or health shelf **must not** be filled with unrelated on-screen quizzes. Suitable teacher-led movement, nutrition and wellbeing games are still being reviewed.
-- An empty history shelf does not mean history is missing from the curriculum. iCivics and Mission US options exist in the queue but require publisher-policy and age-content checks. Mission US links currently reach the official selection page, not individual missions.
-- PhET simulation links are for guided exploration, not automatically an independent game or mastery test.
-- A link's publisher no-ad statement is different from a documented adult play-test of that specific game on that specific device. Every record still says `runtimeTested: false`.
-- `thumbnailAsset` selects original Wonderwood **themed illustrations**, never a purported screenshot from the external game.
-
-## Where to edit
-
-Edit `data/games.json`, not generated HTML. Each record has `grades`, `subjects`, `topicIds`, `priceLabel`, `platform`, `devices`, review evidence and an exact official URL. Rebuild with `python tools/build.py`, then run `python tools/validate.py`, `python tools/test_coverage.py`, `python tools/test_migration.py` and optionally `python tools/test_ui.py`.
-
-For provider policy and restrictions see `docs/CURATION.md`. For full machine-readable coverage see `docs/coverage-test-report.json`.
+Keep the child-facing catalogue honest: some entries are simulations, articles, research materials or videos, not scored mini-games. Resources without publisher evidence for advertising may have third-party advertising or other terms. The original Learning Hub manifest documents its **historical** selections, including links now removed. Edit `data/games.json` and rebuild using `python tools/build.py`. See `docs/CURATION-CORRECTIONS-2026-10-18.md` for the current grade policy.

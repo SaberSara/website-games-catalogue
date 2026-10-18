@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-18",
+  "requestedBy": "catalogue owner",
+  "changes": [
+    {
+      "id": "phet-states-of-matter-basics",
+      "title": "States of Matter: Basics",
+      "before": [
+        "2",
+        "5",
+        "7",
+        "9",
+        "10"
+      ],
+      "after": [
+        "9",
+        "10"
+      ],
+      "removedTopicIds": [
+        "2-science-materials-and-changes",
+        "5-science-matter-and-mixtures",
+        "7-science-matter-and-reactions"
+      ]
+    },
+    {
+      "id": "phet-color-vision",
+      "title": "Color Vision",
+      "before": [
+        "1",
+        "4",
+        "8",
+        "9"
+      ],
+      "after": [
+        "8",
+        "9"
+      ],
+      "removedTopicIds": [
+        "1-light",
+        "4-science-waves-and-information"
+      ]
+    },
+    {
+      "id": "phet-waves-intro",
+      "title": "Waves: Intro",
+      "before": [
+        "1",
+        "4",
+        "8",
+        "9"
+      ],
+      "after": [
+        "8",
+        "9"
+      ],
+      "removedTopicIds": [
+        "1-sound",
+        "4-science-waves-and-information"
+      ]
+    },
+    {
+      "id": "phet-natural-selection",
+      "title": "Natural Selection",
+      "before": [
+        "3",
+        "6",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "after": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "removedTopicIds": [
+        "3-science-life-cycles-and-traits",
+        "3-science-ecosystems-and-change",
+        "6-science-traits-and-reproduction"
+      ]
+    },
+    {
+      "id": "phet-density",
+      "title": "Density",
+      "before": [
+        "2",
+        "5",
+        "7",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "after": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "removedTopicIds": [
+        "2-science-materials-and-changes",
+        "5-science-matter-and-mixtures",
+        "7-science-matter-and-reactions"
+      ]
+    },
+    {
+      "id": "hub-10-nasa-kids-science",
+      "title": "NASA Kids Science",
+      "removed": true
+    },
+    {
+      "id": "hub-41-the-sun",
+      "title": "The Sun",
+      "removed": true
+    },
+    {
+      "id": "hub-51-properties-density-phet",
+      "title": "Properties: Density (PhET)",
+      "before": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "after": [
+        "8",
+        "9",
+        "10"
+      ],
+      "removedTopicIds": [
+        "5-science-matter-and-mixtures",
+        "7-science-matter-and-reactions"
+      ]
+    }
+  ],
+  "notes": "Two withdrawn links and illustrations are removed from live catalogue, including locally saved drafts; six game grade mappings are restricted as requested. Original source manifest remains archival."
+}

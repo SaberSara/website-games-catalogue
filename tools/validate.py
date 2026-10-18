@@ -50,6 +50,18 @@ def validate():
         if g.get('thumbnailAsset'):
             assert re.fullmatch(r'[a-z0-9-]+\.webp',g['thumbnailAsset']),f'{gid}: invalid thumbnail path'
             assert (ROOT/'assets'/g['thumbnailAsset']).is_file(),f'{gid}: missing thumbnail'
+        assert gid not in {'hub-41-the-sun','hub-10-nasa-kids-science'},f'{gid}: withdrawn resource'
+        assert g['url'] not in {'https://science.nasa.gov/kids/','https://education.nationalgeographic.org/resource/sun-101/'},f'{gid}: withdrawn destination'
+        assert g['title'].strip().lower() not in {'the sun','nasa kids science'},f'{gid}: withdrawn title'
+        grade_policy={
+            'phet-waves-intro':{'8','9'},
+            'phet-color-vision':{str(i) for i in range(8,13)},
+            'phet-density':{str(i) for i in range(8,13)},
+            'hub-51-properties-density-phet':{str(i) for i in range(8,13)},
+            'phet-states-of-matter-basics':{str(i) for i in range(8,13)},
+            'phet-natural-selection':{str(i) for i in range(8,13)}
+        }
+        if gid in grade_policy:assert set(g['grades'])<=grade_policy[gid],f'{gid}: invalid grade assignment'
         assert 'ahmadischool' not in g['url'].lower(),f'{gid}: excluded link'
         assert 'ahmadi academy' not in g['title'].lower(),f'{gid}: excluded academy'
     return {'topics':len(topics),'games':len(ids),'publisherClaimRecords':sum(g['review']['status']=='publisher_claim_reviewed' for g in d['games']),'teacherVerifiedRecords':sum(g['review']['status']=='teacher_verified' for g in d['games'])}

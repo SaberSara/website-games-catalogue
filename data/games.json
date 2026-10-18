@@ -2836,16 +2836,10 @@
         "science"
       ],
       "grades": [
-        "2",
-        "5",
-        "7",
         "9",
         "10"
       ],
       "topicIds": [
-        "2-science-materials-and-changes",
-        "5-science-matter-and-mixtures",
-        "7-science-matter-and-reactions",
         "9-science-matter-and-atoms",
         "10-science-matter-and-atoms"
       ],
@@ -2884,14 +2878,10 @@
         "science"
       ],
       "grades": [
-        "1",
-        "4",
         "8",
         "9"
       ],
       "topicIds": [
-        "1-light",
-        "4-science-waves-and-information",
         "8-science-energy-and-waves",
         "9-science-waves-and-technology"
       ],
@@ -2930,14 +2920,10 @@
         "science"
       ],
       "grades": [
-        "1",
-        "4",
         "8",
         "9"
       ],
       "topicIds": [
-        "1-sound",
-        "4-science-waves-and-information",
         "8-science-energy-and-waves",
         "9-science-waves-and-technology"
       ],
@@ -3185,8 +3171,6 @@
         "science"
       ],
       "grades": [
-        "3",
-        "6",
         "8",
         "9",
         "10",
@@ -3194,9 +3178,6 @@
         "12"
       ],
       "topicIds": [
-        "3-science-life-cycles-and-traits",
-        "3-science-ecosystems-and-change",
-        "6-science-traits-and-reproduction",
         "8-science-evolution-and-fossils",
         "9-science-ecosystems-and-evolution",
         "10-science-ecosystems-and-evolution",
@@ -3453,18 +3434,12 @@
         "science"
       ],
       "grades": [
-        "2",
-        "5",
-        "7",
         "9",
         "10",
         "11",
         "12"
       ],
       "topicIds": [
-        "2-science-materials-and-changes",
-        "5-science-matter-and-mixtures",
-        "7-science-matter-and-reactions",
         "9-science-matter-and-atoms",
         "10-science-matter-and-atoms",
         "11-science-matter-and-atoms",
@@ -7453,59 +7428,6 @@
       ]
     },
     {
-      "id": "hub-10-nasa-kids-science",
-      "title": "NASA Kids Science",
-      "publisher": "science.nasa.gov",
-      "url": "https://science.nasa.gov/kids/",
-      "subjects": [
-        "science"
-      ],
-      "grades": [
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "topicIds": [
-        "5-science-earth-systems",
-        "5-science-space-and-gravity"
-      ],
-      "kind": "Reading resource",
-      "platform": "browser",
-      "access": "Browser · external source",
-      "priceLabel": "Check access",
-      "description": "Learn about space, planets, and science through NASA’s kid-friendly content.",
-      "art": "science",
-      "thumbnailAsset": "hub-10-nasa-kids-science.webp",
-      "sourceIds": [],
-      "learningSuggestion": "Explore together, then discuss what you learned.",
-      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
-      "review": {
-        "status": "teacher_verified",
-        "reviewedOn": "2026-10-18",
-        "method": "User attestation that source links were verified by teachers; no independent external visit",
-        "runtimeTested": false,
-        "advertisingStatus": "not_independently_checked",
-        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
-        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: English; source card #10. Original lesson label: Q3 · Lesson 25. Ad inventory, paywalls, and live destination were not independently checked."
-      },
-      "teacherVerified": true,
-      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
-      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
-      "hubSection": "English",
-      "hubOrder": 10,
-      "hubLesson": "Q3 · Lesson 25",
-      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
-      "sourcePositions": [
-        10
-      ],
-      "featured": false,
-      "devices": [
-        "browser"
-      ]
-    },
-    {
       "id": "hub-11-national-geographic-education",
       "title": "National Geographic Education",
       "publisher": "education.nationalgeographic.org",
@@ -9220,61 +9142,6 @@
       ]
     },
     {
-      "id": "hub-41-the-sun",
-      "title": "The Sun",
-      "publisher": "education.nationalgeographic.org",
-      "url": "https://education.nationalgeographic.org/resource/sun-101/",
-      "subjects": [
-        "science"
-      ],
-      "grades": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "topicIds": [
-        "1-sky",
-        "5-science-earth-systems",
-        "5-science-space-and-gravity"
-      ],
-      "kind": "Reading resource",
-      "platform": "browser",
-      "access": "Browser · external source",
-      "priceLabel": "Check access",
-      "description": "Learn how the Sun powers weather, seasons, and life on Earth.",
-      "art": "science",
-      "thumbnailAsset": "hub-41-the-sun.webp",
-      "sourceIds": [],
-      "learningSuggestion": "Explore together, then discuss what you learned.",
-      "alignmentStatus": "Editorial placement based on source card; California standards mastery is not independently verified",
-      "review": {
-        "status": "teacher_verified",
-        "reviewedOn": "2026-10-18",
-        "method": "User attestation that source links were verified by teachers; no independent external visit",
-        "runtimeTested": false,
-        "advertisingStatus": "not_independently_checked",
-        "evidenceScope": "Teacher verification of supplied selection; no publisher no-ad claim implied",
-        "notes": "Teacher verification reported by the person supplying the Learning Hub. Source section: Science; source card #41. Original lesson label: Q3 · Lesson 2 · The Sun. Ad inventory, paywalls, and live destination were not independently checked."
-      },
-      "teacherVerified": true,
-      "teacherVerifiedSource": "Teacher-verified Learning Hub, supplied by project owner",
-      "hubSource": "https://aropl-kids-learning-hub.vercel.app/",
-      "hubSection": "Science",
-      "hubOrder": 41,
-      "hubLesson": "Q3 · Lesson 2 · The Sun",
-      "gradeEvidence": "Editorial age/topic suggestion; exact grade not stated on source card",
-      "sourcePositions": [
-        41
-      ],
-      "featured": false,
-      "devices": [
-        "browser"
-      ]
-    },
-    {
       "id": "hub-42-incredible-animal-instincts",
       "title": "Incredible Animal Instincts",
       "publisher": "ifaw.org",
@@ -9797,16 +9664,11 @@
         "science"
       ],
       "grades": [
-        "5",
-        "6",
-        "7",
         "8",
         "9",
         "10"
       ],
       "topicIds": [
-        "5-science-matter-and-mixtures",
-        "7-science-matter-and-reactions",
         "9-science-matter-and-atoms",
         "10-science-matter-and-atoms"
       ],
@@ -10900,5 +10762,5 @@
       ]
     }
   ],
-  "seedRevision": 3
+  "seedRevision": 4
 }

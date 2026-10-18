@@ -74,7 +74,7 @@ with sync_playwright() as pw:
  p.evaluate("state.grade='9';state.subject='all';state.type='all';renderChild();window.scrollTo(0,0)");p.wait_for_timeout(150);p.screenshot(path=str(O/'grade9.png'),full_page=True)
  ck('History' in p.locator('#subjects').inner_text(),'Older grades use age-appropriate subject labels')
  ck(p.evaluate("approved().some(g=>g.review.status==='teacher_verified')"),'Teacher-verified Hub resources appear in child catalogue')
- ck(p.evaluate("dataset.games.filter(g=>g.review.status==='teacher_verified').length")==70,'70 imported teacher selections')
+ ck(p.evaluate("dataset.games.filter(g=>g.review.status==='teacher_verified').length")==68,'68 retained teacher selections')
  ck(p.evaluate("!dataset.games.some(g=>/ahmadischool|ahmadi academy/i.test(g.url+' '+g.title))"),'Excluded academy is not imported')
  click(p,'#view-all') if p.locator('#view-all').is_visible() else None
  ck(p.evaluate("approved().some(g=>g.id==='hub-01-school-uniforms-research'&&g.grades.includes('9'))"),'Grade 9 assessment imported')
@@ -126,10 +126,10 @@ with sync_playwright() as pw:
  # Actual JSON import input, without persisting it outside this session.
  payload=json.dumps(p.evaluate('original')).encode()
  p.locator('#import-file').set_input_files({'name':'games.json','mimeType':'application/json','buffer':payload});p.wait_for_timeout(150)
- ck(p.evaluate('dataset.games.length')==222,'Import restores 222-resource supplied dataset')
+ ck(p.evaluate('dataset.games.length')==220,'Import restores 220-resource supplied dataset')
  # Export payload handling; do not claim an actual user download was tested.
- export_ok=p.evaluate("""async()=>{let result;const create=URL.createObjectURL,revoke=URL.revokeObjectURL,clk=HTMLAnchorElement.prototype.click;URL.createObjectURL=b=>{result=b;return 'blob:test'};URL.revokeObjectURL=()=>{};HTMLAnchorElement.prototype.click=function(){};try{downloadJSON(dataset,'games.json');return JSON.parse(await result.text()).games.length===222}finally{URL.createObjectURL=create;URL.revokeObjectURL=revoke;HTMLAnchorElement.prototype.click=clk}}""")
- ck(export_ok,'Export produces valid 222-record JSON payload')
+ export_ok=p.evaluate("""async()=>{let result;const create=URL.createObjectURL,revoke=URL.revokeObjectURL,clk=HTMLAnchorElement.prototype.click;URL.createObjectURL=b=>{result=b;return 'blob:test'};URL.revokeObjectURL=()=>{};HTMLAnchorElement.prototype.click=function(){};try{downloadJSON(dataset,'games.json');return JSON.parse(await result.text()).games.length===220}finally{URL.createObjectURL=create;URL.revokeObjectURL=revoke;HTMLAnchorElement.prototype.click=clk}}""")
+ ck(export_ok,'Export produces valid 220-record JSON payload')
  # Imported text is rendered as text, not executed markup.
  p.evaluate("dataset.games[0].title='<img src=x onerror=alert(1)>';state.grade='K';switchView('explore',false)")
  ck(p.locator('.card-title img').count()==0,'Imported title is HTML-escaped');p.evaluate('dataset=structuredClone(original)');home(p)

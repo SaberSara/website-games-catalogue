@@ -1,163 +1,180 @@
 {
-  "records": 222,
+  "records": 220,
   "approved": 118,
   "pending": 34,
-  "teacherVerified": 70,
-  "visible": 188,
+  "teacherVerified": 68,
+  "visible": 186,
   "grades": 13,
-  "topicsWithVisibleResource": 263,
+  "topicsWithVisibleResource": 260,
   "topicCount": 433,
   "perGrade": {
-    "K": {
-      "visible": 14,
+    "1": {
+      "visible": 15,
       "subjectActivityCounts": {
         "ela": 6,
         "math": 6,
-        "health": 2,
+        "science": 1,
+        "hss": 1,
+        "arts": 0,
+        "health": 1,
+        "pe": 0,
         "cs": 2
       }
     },
-    "1": {
-      "visible": 18,
-      "subjectActivityCounts": {
-        "ela": 6,
-        "math": 6,
-        "health": 1,
-        "science": 4,
-        "cs": 2,
-        "hss": 1
-      }
-    },
     "2": {
-      "visible": 30,
+      "visible": 26,
       "subjectActivityCounts": {
         "ela": 3,
         "math": 12,
-        "health": 2,
-        "science": 12,
-        "cs": 4,
+        "science": 8,
+        "hss": 1,
         "arts": 2,
-        "hss": 1
+        "health": 2,
+        "pe": 0,
+        "cs": 4
       }
     },
     "3": {
-      "visible": 51,
+      "visible": 48,
       "subjectActivityCounts": {
-        "math": 18,
-        "science": 26,
-        "cs": 5,
-        "arts": 3,
         "ela": 3,
+        "math": 18,
+        "science": 23,
+        "hss": 1,
+        "arts": 3,
         "health": 2,
-        "hss": 1
+        "pe": 0,
+        "cs": 5
       }
     },
     "4": {
-      "visible": 61,
+      "visible": 57,
       "subjectActivityCounts": {
-        "math": 16,
-        "science": 37,
-        "cs": 5,
-        "arts": 3,
         "ela": 5,
+        "math": 16,
+        "science": 33,
+        "hss": 3,
+        "arts": 3,
         "health": 2,
-        "hss": 3
+        "pe": 0,
+        "cs": 5
       }
     },
     "5": {
-      "visible": 70,
+      "visible": 65,
       "subjectActivityCounts": {
-        "math": 16,
-        "science": 45,
-        "cs": 5,
-        "arts": 3,
         "ela": 8,
+        "math": 16,
+        "science": 40,
+        "hss": 4,
+        "arts": 3,
         "health": 2,
-        "hss": 4
+        "pe": 0,
+        "cs": 5
       }
     },
     "6": {
-      "visible": 74,
+      "visible": 70,
       "subjectActivityCounts": {
-        "math": 19,
-        "science": 44,
-        "cs": 5,
-        "arts": 4,
         "ela": 10,
+        "math": 19,
+        "science": 40,
         "hss": 5,
-        "health": 1
+        "arts": 4,
+        "health": 1,
+        "pe": 0,
+        "cs": 5
       }
     },
     "7": {
-      "visible": 77,
+      "visible": 74,
       "subjectActivityCounts": {
-        "math": 18,
-        "science": 44,
-        "cs": 6,
-        "arts": 4,
         "ela": 10,
+        "math": 18,
+        "science": 41,
         "hss": 6,
-        "health": 4
+        "arts": 4,
+        "health": 4,
+        "pe": 0,
+        "cs": 6
       }
     },
     "8": {
       "visible": 78,
       "subjectActivityCounts": {
+        "ela": 9,
         "math": 13,
         "science": 50,
-        "cs": 6,
-        "arts": 4,
-        "ela": 9,
         "hss": 6,
-        "health": 4
+        "arts": 4,
+        "health": 4,
+        "pe": 0,
+        "cs": 6
       }
     },
     "9": {
       "visible": 92,
       "subjectActivityCounts": {
+        "ela": 15,
         "math": 14,
         "science": 58,
-        "cs": 8,
+        "hss": 4,
         "arts": 3,
-        "ela": 15,
         "health": 5,
-        "hss": 4
+        "pe": 0,
+        "cs": 8
       }
     },
     "10": {
       "visible": 76,
       "subjectActivityCounts": {
+        "ela": 10,
         "math": 12,
         "science": 47,
-        "cs": 7,
-        "arts": 3,
-        "ela": 10,
         "hss": 3,
-        "health": 5
+        "arts": 3,
+        "health": 5,
+        "pe": 0,
+        "cs": 7
       }
     },
     "11": {
       "visible": 56,
       "subjectActivityCounts": {
+        "ela": 7,
         "math": 11,
         "science": 32,
-        "cs": 6,
-        "arts": 3,
-        "ela": 7,
         "hss": 1,
-        "health": 3
+        "arts": 3,
+        "health": 3,
+        "pe": 0,
+        "cs": 6
       }
     },
     "12": {
       "visible": 56,
       "subjectActivityCounts": {
+        "ela": 7,
         "math": 11,
         "science": 32,
-        "cs": 6,
-        "arts": 3,
-        "ela": 7,
         "hss": 1,
-        "health": 3
+        "arts": 3,
+        "health": 3,
+        "pe": 0,
+        "cs": 6
+      }
+    },
+    "K": {
+      "visible": 14,
+      "subjectActivityCounts": {
+        "ela": 6,
+        "math": 6,
+        "science": 0,
+        "hss": 0,
+        "arts": 0,
+        "health": 2,
+        "pe": 0,
+        "cs": 2
       }
     }
   }

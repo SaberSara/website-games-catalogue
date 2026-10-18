@@ -149,6 +149,15 @@ def main(zip_path):
             url=urljoin(HUB_URL,raw)
             media='Interactive simulation' if '/solar-system-explorer' in raw or 'phet.colorado.edu' in url else 'Mini-game' if '/math-smash' in raw else 'Reading resource'
             if any(x in url for x in ['pdf','ssph-journal','pewresearch','ipcc','oecd','scholar','oup','pmc','hbs.edu','leadx','eric.ed.gov']):media='Research resource'
+        # Curatorial removals: keep source positions for archival provenance,
+        # but never reimport links withdrawn by the catalogue owner.
+        if title.strip().casefold() in {'the sun','nasa kids science'} or url in {
+            'https://science.nasa.gov/kids/',
+            'https://education.nationalgeographic.org/resource/sun-101/'
+        }:
+            manifest.append({'order':order+1,'sourceSection':section,'title':title,'url':url,
+                             'omittedFromCatalogue':'Withdrawn by site owner 2026-10-18'})
+            continue
         # These are original source cards, not authoritative publisher reviews.
         if 'ahmadi' in (title+' '+url).lower():
             raise ValueError('Excluded academy link appeared in import cards')
@@ -223,7 +232,7 @@ def main(zip_path):
       for m in manifest:
         if m['title']=='Solar System Explorer':m['sourcePositions']=[39,56]
       source['games']+=imported
-      source['seedRevision']=3
+      source['seedRevision']=4
       source['reviewedOn']=DATE
       games_path.write_text(json.dumps(source,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
       (ROOT/'docs/HUB-IMPORT-MANIFEST.json').write_text(json.dumps({
