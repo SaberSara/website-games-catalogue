@@ -1,6 +1,6 @@
 {
   "version": "3",
-  "passed": 24,
+  "passed": 28,
   "failed": 0,
   "scope": "In-memory mocked storage logic only; not real persistence",
   "checks": [
@@ -65,7 +65,7 @@
       "result": "passed"
     },
     {
-      "check": "Revision 2 drafts migrate to revision 3",
+      "check": "Revision 2 drafts migrate to revision 4",
       "result": "passed"
     },
     {
@@ -82,6 +82,22 @@
     },
     {
       "check": "Intentional deletion of a Hub seed remains deleted",
+      "result": "passed"
+    },
+    {
+      "check": "Previously saved withdrawn links removed",
+      "result": "passed"
+    },
+    {
+      "check": "Previously saved grade assignment corrected",
+      "result": "passed"
+    },
+    {
+      "check": "Withdrawn favorites removed",
+      "result": "passed"
+    },
+    {
+      "check": "Previous draft upgraded to revision 4",
       "result": "passed"
     },
     {
