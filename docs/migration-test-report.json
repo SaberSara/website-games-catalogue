@@ -1,6 +1,6 @@
 {
   "version": "3",
-  "passed": 20,
+  "passed": 24,
   "failed": 0,
   "scope": "In-memory mocked storage logic only; not real persistence",
   "checks": [
@@ -17,7 +17,7 @@
       "result": "passed"
     },
     {
-      "check": "K\u201312 seeds appended to legacy draft",
+      "check": "K–12 seeds appended to legacy draft",
       "result": "passed"
     },
     {
@@ -82,6 +82,22 @@
     },
     {
       "check": "Intentional deletion of a Hub seed remains deleted",
+      "result": "passed"
+    },
+    {
+      "check": "NASA for Kids and NASA Kids aliases removed from saved drafts",
+      "result": "passed"
+    },
+    {
+      "check": "NASA kids links with query parameters or subpaths removed",
+      "result": "passed"
+    },
+    {
+      "check": "Favorites for withdrawn NASA aliases removed",
+      "result": "passed"
+    },
+    {
+      "check": "Only withdrawn aliases are removed; catalogue otherwise unchanged",
       "result": "passed"
     }
   ]

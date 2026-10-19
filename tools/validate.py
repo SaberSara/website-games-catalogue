@@ -52,7 +52,11 @@ def validate():
             assert (ROOT/'assets'/g['thumbnailAsset']).is_file(),f'{gid}: missing thumbnail'
         assert gid not in {'hub-41-the-sun','hub-10-nasa-kids-science'},f'{gid}: withdrawn resource'
         assert g['url'] not in {'https://science.nasa.gov/kids/','https://education.nationalgeographic.org/resource/sun-101/'},f'{gid}: withdrawn destination'
-        assert g['title'].strip().lower() not in {'the sun','nasa kids science'},f'{gid}: withdrawn title'
+        from urllib.parse import urlsplit
+        parts=urlsplit(g['url'])
+        assert not (parts.hostname in {'science.nasa.gov','www.nasa.gov','nasa.gov'}
+                    and (parts.path.rstrip('/').lower() == '/kids' or parts.path.lower().startswith('/kids/'))), f'{gid}: withdrawn NASA Kids URL'
+        assert not re.match(r'^(the sun|nasa(?:\s+for)?\s+kids\b)',g['title'].strip(),re.I),f'{gid}: withdrawn title'
         grade_policy={
             'phet-waves-intro':{'8','9'},
             'phet-color-vision':{str(i) for i in range(8,13)},

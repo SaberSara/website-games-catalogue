@@ -93,8 +93,19 @@ const REMOVED_DESTINATIONS = new Set([
   'https://education.nationalgeographic.org/resource/sun-101/',
   'https://science.nasa.gov/kids/'
 ]);
+// Also withdraw NASA for Kids aliases found in older drafts or imports.
+function isWithdrawnNasaKidsURL(raw) {
+  try {
+    const u = new URL(raw);
+    const host = u.hostname.toLowerCase();
+    const path = u.pathname.toLowerCase().replace(/\/+$/, '');
+    return ['science.nasa.gov','www.nasa.gov','nasa.gov'].includes(host) &&
+      (path === '/kids' || path.startsWith('/kids/'));
+  } catch { return false; }
+}
 const removedGame = g => REMOVED_GAME_IDS.has(g.id) ||
-  /^(the sun|nasa kids science)$/i.test((g.title || '').trim()) || REMOVED_DESTINATIONS.has(g.url);
+  /^(the sun|nasa(?:\s+for)?\s+kids\b)/i.test((g.title || '').trim()) ||
+  REMOVED_DESTINATIONS.has(g.url) || isWithdrawnNasaKidsURL(g.url);
 const TOPIC_GRADE = Object.fromEntries(curriculum.topics.map(t => [t.id,t.grade]));
 function applyGradeCorrections(draft) {
   if (!draft || !Array.isArray(draft.games)) return draft;
@@ -134,8 +145,13 @@ if (validData(savedDraft)) {
     store.set(DRAFT_KEY, dataset);
   }
 }
-if (favorites.some(id => REMOVED_GAME_IDS.has(id))) {
-  favorites = favorites.filter(id => !REMOVED_GAME_IDS.has(id));
+// Withdraw favorites attached to legacy NASA Kids aliases as well.
+const withdrawnFavoriteIds = new Set([
+  ...REMOVED_GAME_IDS,
+  ...(validData(savedDraft) ? savedDraft.games.filter(removedGame).map(g => g.id) : [])
+]);
+if (favorites.some(id => withdrawnFavoriteIds.has(id))) {
+  favorites = favorites.filter(id => !withdrawnFavoriteIds.has(id));
   store.set(FAVORITES_KEY, favorites);
 }
 

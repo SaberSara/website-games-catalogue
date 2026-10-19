@@ -81,6 +81,30 @@ with sync_playwright() as pw:
     check(p.evaluate("favorites.length === 1 && favorites[0] === 'khan-kids'"),'Withdrawn favorites removed')
     check(p.evaluate('dataset.seedRevision===4'),'Previous draft upgraded to revision 4')
     p.close()
+    # Previously saved custom NASA Kids labels and URL variants must disappear.
+    recent=copy.deepcopy(original)
+    template=copy.deepcopy(recent['games'][0])
+    aliases=[
+        ('custom-nasa-for-kids','NASA for Kids','https://example.org/learning'),
+        ('custom-nasa-kids','NASA Kids','https://example.org/play'),
+        ('custom-nasa-query','Space Adventures','https://science.nasa.gov/kids/?utm_source=school'),
+        ('custom-nasa-variant','Space Games','https://www.nasa.gov/kids/astronomy')
+    ]
+    for ident,title,url in aliases:
+        game=copy.deepcopy(template)
+        game.update(id=ident,title=title,url=url)
+        recent['games'].append(game)
+    p=load(browser,{'wonderwood-catalogue-v3':recent,
+                    'wonderwood-favorites-v2':[x[0] for x in aliases]+['khan-kids']})
+    check(not p.evaluate("dataset.games.some(g=>g.title==='NASA for Kids' || g.title==='NASA Kids')"),
+          'NASA for Kids and NASA Kids aliases removed from saved drafts')
+    check(not p.evaluate("dataset.games.some(g=>g.url.includes('nasa.gov/kids'))"),
+          'NASA kids links with query parameters or subpaths removed')
+    check(p.evaluate("favorites.length===1 && favorites[0]==='khan-kids'"),
+          'Favorites for withdrawn NASA aliases removed')
+    check(p.evaluate("dataset.games.length===220"),
+          'Only withdrawn aliases are removed; catalogue otherwise unchanged')
+    p.close()
     p.close();browser.close()
 report={'version':'4','passed':len(checks),'failed':0,'scope':'In-memory mocked storage logic only; not real persistence','checks':checks}
 (ROOT/'docs/migration-test-report.json').write_text(json.dumps(report,indent=2)+'\n')
